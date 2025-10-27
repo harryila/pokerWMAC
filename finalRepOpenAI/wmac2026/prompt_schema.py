@@ -9,6 +9,7 @@ class GameStateView:
     player_id: int
     teammate_ids: List[int]
     hole_cards: List[str]
+    teammate_hole_cards: Dict[int, List[str]]  # TRUE collusion: see teammate's cards
     board_cards: List[str]
     betting_round: str
     pot_size: int

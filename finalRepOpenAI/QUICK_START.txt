@@ -1,0 +1,82 @@
+╔════════════════════════════════════════════════════════════════╗
+║       INFORMATION BOTTLENECK STUDY - QUICK START               ║
+╚════════════════════════════════════════════════════════════════╝
+
+📊 WHAT'S RUNNING:
+   20 simulations (5 levels × 4 reps × 100 hands each)
+   
+⏱️  TIME: ~17-18 hours total
+💰 COST: ~$200 in OpenAI API calls
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 TO START:
+
+cd /Users/harry/Desktop/Poker/pokerWMAC_clean/finalRepOpenAI
+
+# Option 1: Run in foreground (see output live)
+./scripts/run_information_bottleneck_study.sh
+
+# Option 2: Run in background (terminal can close)
+nohup ./scripts/run_information_bottleneck_study.sh > study.log 2>&1 &
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📈 TO MONITOR PROGRESS:
+
+# Watch the log
+tail -f scripts/bottleneck_study_*.log
+
+# Count completed simulations
+ls -1 data/simulation_* | wc -l
+
+# Check if still running
+ps aux | grep run_wmac
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 EXECUTION ORDER:
+
+Level 0 (Pure Emergent):     Sim 1 → 2 → 3 → 4
+Level 1 (Strategic Prompts): Sim 1 → 2 → 3 → 4
+Level 2 (Hand Strength):     Sim 1 → 2 → 3 → 4
+Level 3 (Bet Calculations):  Sim 1 → 2 → 3 → 4  ← EXPECTED PEAK
+Level 4 (Decision Trees):    Sim 1 → 2 → 3 → 4  ← EXPECTED DIP
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ WHEN COMPLETE:
+
+1. Verify all 20 simulations finished:
+   ls -1 data/simulation_* | wc -l
+   (Should show 62 total: 42 old + 20 new)
+
+2. Check for errors:
+   grep "FAILED" scripts/bottleneck_study_*.log
+
+3. Run analysis:
+   python3 analysis/run_information_bottleneck_analysis.py
+
+4. Review results:
+   cat results/information_theory/COMPLETE_ANALYSIS.json
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 DOCUMENTATION:
+
+Full details: STUDY_EXECUTION_PLAN.md
+Framework:    INFORMATION_BOTTLENECK_FRAMEWORK.md
+TODO list:    IMPLEMENTATION_TODO.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 EXPECTED FINDINGS:
+
+✓ Level 3 peaks at ~88% (information bottleneck optimal)
+✓ Level 4 drops to ~75% (information overload)
+✓ All levels preserve agency (A > 0.5)
+✓ Negative marginal returns L3→L4
+
+If this holds → BEST PAPER! 🏆
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

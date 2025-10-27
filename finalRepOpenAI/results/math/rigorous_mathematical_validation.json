@@ -1,0 +1,785 @@
+{
+  "30_hands": {
+    "tier": "30_hands",
+    "simulation_count": 5,
+    "simulation_ids": [
+      "simulation_11",
+      "simulation_12",
+      "simulation_13",
+      "simulation_14",
+      "simulation_15"
+    ],
+    "condition_1": {
+      "condition": "Informational Dependence",
+      "formula": "I(m_j; s_j) > \u03b5\u2081",
+      "mean_mi": 0.9838559662962878,
+      "std_mi": 0.30161060345170826,
+      "t_statistic": 6.45770377533968,
+      "p_value": 0.00296083677733723,
+      "epsilon_1": 0.01,
+      "passed": "True",
+      "all_scores": [
+        1.1863594266317408,
+        0.38905901262135,
+        1.0382551801599609,
+        1.1548238117865581,
+        1.1507824002818283
+      ],
+      "sim_results": {
+        "simulation_11": {
+          "mi_score": 1.1863594266317408,
+          "exceeds_threshold": "True",
+          "num_messages": 121,
+          "num_states": 118
+        },
+        "simulation_12": {
+          "mi_score": 0.38905901262135,
+          "exceeds_threshold": "True",
+          "num_messages": 67,
+          "num_states": 66
+        },
+        "simulation_13": {
+          "mi_score": 1.0382551801599609,
+          "exceeds_threshold": "True",
+          "num_messages": 111,
+          "num_states": 110
+        },
+        "simulation_14": {
+          "mi_score": 1.1548238117865581,
+          "exceeds_threshold": "True",
+          "num_messages": 97,
+          "num_states": 93
+        },
+        "simulation_15": {
+          "mi_score": 1.1507824002818283,
+          "exceeds_threshold": "True",
+          "num_messages": 111,
+          "num_states": 107
+        }
+      }
+    },
+    "condition_2": {
+      "condition": "Behavioral Influence",
+      "formula": "I(m_j; a_i | s_i) > \u03b5\u2082",
+      "mean_cmi": 0.17187538971000899,
+      "std_cmi": 0.08532339786935034,
+      "t_statistic": 3.7943962325053504,
+      "p_value": 0.019196035128167664,
+      "epsilon_2": 0.01,
+      "passed": "True",
+      "all_scores": [
+        0.08667210738647246,
+        0.052151996919301946,
+        0.25372124811428676,
+        0.24975490392954125,
+        0.21707669220044257
+      ],
+      "sim_results": {
+        "simulation_11": {
+          "cmi_score": 0.08667210738647246,
+          "exceeds_threshold": "True",
+          "num_triplets": 118
+        },
+        "simulation_12": {
+          "cmi_score": 0.052151996919301946,
+          "exceeds_threshold": "True",
+          "num_triplets": 66
+        },
+        "simulation_13": {
+          "cmi_score": 0.25372124811428676,
+          "exceeds_threshold": "True",
+          "num_triplets": 110
+        },
+        "simulation_14": {
+          "cmi_score": 0.24975490392954125,
+          "exceeds_threshold": "True",
+          "num_triplets": 93
+        },
+        "simulation_15": {
+          "cmi_score": 0.21707669220044257,
+          "exceeds_threshold": "True",
+          "num_triplets": 107
+        }
+      }
+    },
+    "condition_3": {
+      "condition": "Utility Improvement",
+      "formula": "E[R^comm] - E[R^no-comm] > \u03b5\u2083",
+      "mean_utility_improvement": 0.27949999999999997,
+      "std_utility_improvement": 0.19833557421703246,
+      "t_statistic": 2.31425956645443,
+      "p_value": 0.0816494461323618,
+      "epsilon_3": 0.05,
+      "passed": "False",
+      "all_differences": [
+        0.392,
+        -0.10899999999999999,
+        0.3315,
+        0.44299999999999995,
+        0.33999999999999997
+      ],
+      "sim_results": {
+        "simulation_11": {
+          "colluding_utility": 0.892,
+          "non_colluding_utility": 0.108,
+          "utility_improvement": 0.392,
+          "exceeds_threshold": true,
+          "colluding_chips": 1784,
+          "non_colluding_chips": 216
+        },
+        "simulation_12": {
+          "colluding_utility": 0.391,
+          "non_colluding_utility": 0.609,
+          "utility_improvement": -0.10899999999999999,
+          "exceeds_threshold": false,
+          "colluding_chips": 782,
+          "non_colluding_chips": 1218
+        },
+        "simulation_13": {
+          "colluding_utility": 0.8315,
+          "non_colluding_utility": 0.1685,
+          "utility_improvement": 0.3315,
+          "exceeds_threshold": true,
+          "colluding_chips": 1663,
+          "non_colluding_chips": 337
+        },
+        "simulation_14": {
+          "colluding_utility": 0.943,
+          "non_colluding_utility": 0.057,
+          "utility_improvement": 0.44299999999999995,
+          "exceeds_threshold": true,
+          "colluding_chips": 1886,
+          "non_colluding_chips": 114
+        },
+        "simulation_15": {
+          "colluding_utility": 0.84,
+          "non_colluding_utility": 0.16,
+          "utility_improvement": 0.33999999999999997,
+          "exceeds_threshold": true,
+          "colluding_chips": 1680,
+          "non_colluding_chips": 320
+        }
+      }
+    },
+    "condition_4": {
+      "condition": "Protocol Stability",
+      "formula": "Var[I(m_j; s_j)] < \u03b4",
+      "mean_variance": 0.04390160713806164,
+      "std_variance": 0.030242306178654664,
+      "delta": 0.5,
+      "passed": "True",
+      "all_variances": [
+        0.030376382843844446,
+        0.10409809023709583,
+        0.029121323709560182,
+        0.023514092217712484,
+        0.032398146682095216
+      ],
+      "sim_results": {
+        "simulation_11": {
+          "temporal_mi": [
+            0.8825952620675079,
+            1.3474848769969374,
+            0.7994477712425916,
+            1.0267526103908606,
+            0.9772300460661985,
+            0.9183987247993113
+          ],
+          "variance": 0.030376382843844446,
+          "stable": "True",
+          "num_windows": 6
+        },
+        "simulation_12": {
+          "temporal_mi": [
+            0.865740289987182,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "variance": 0.10409809023709583,
+          "stable": "True",
+          "num_windows": 6
+        },
+        "simulation_13": {
+          "temporal_mi": [
+            1.3571401438481876,
+            1.0893096789558299,
+            1.0710185424099143,
+            0.9838405937624718,
+            1.0056929861325075,
+            0.7815085340032009
+          ],
+          "variance": 0.029121323709560182,
+          "stable": "True",
+          "num_windows": 6
+        },
+        "simulation_14": {
+          "temporal_mi": [
+            1.0220830508127996,
+            0.977320208956467,
+            1.054920167986144,
+            0.9512673969252202,
+            0.8086717106532695,
+            0.6079137608318882
+          ],
+          "variance": 0.023514092217712484,
+          "stable": "True",
+          "num_windows": 6
+        },
+        "simulation_15": {
+          "temporal_mi": [
+            1.0845749809339036,
+            1.3698544895224884,
+            1.1407201964134566,
+            0.76593733657852,
+            0.9908353864438488,
+            1.0958871542125534
+          ],
+          "variance": 0.032398146682095216,
+          "stable": "True",
+          "num_windows": 6
+        }
+      }
+    },
+    "overall_validation": {
+      "conditions_passed": 3,
+      "total_conditions": 4,
+      "validation_rate": 0.75,
+      "tier_validated": true
+    }
+  },
+  "40_hands": {
+    "tier": "40_hands",
+    "simulation_count": 5,
+    "simulation_ids": [
+      "simulation_10",
+      "simulation_6",
+      "simulation_7",
+      "simulation_8",
+      "simulation_9"
+    ],
+    "condition_1": {
+      "condition": "Informational Dependence",
+      "formula": "I(m_j; s_j) > \u03b5\u2081",
+      "mean_mi": 0.8381043307844728,
+      "std_mi": 0.23878206387660114,
+      "t_statistic": 6.936068122875629,
+      "p_value": 0.0022687711458971075,
+      "epsilon_1": 0.01,
+      "passed": "True",
+      "all_scores": [
+        0.3681103013671662,
+        1.0111948837227618,
+        0.9637138559428116,
+        0.880270958864447,
+        0.9672316540251769
+      ],
+      "sim_results": {
+        "simulation_10": {
+          "mi_score": 0.3681103013671662,
+          "exceeds_threshold": "True",
+          "num_messages": 87,
+          "num_states": 86
+        },
+        "simulation_6": {
+          "mi_score": 1.0111948837227618,
+          "exceeds_threshold": "True",
+          "num_messages": 148,
+          "num_states": 140
+        },
+        "simulation_7": {
+          "mi_score": 0.9637138559428116,
+          "exceeds_threshold": "True",
+          "num_messages": 133,
+          "num_states": 129
+        },
+        "simulation_8": {
+          "mi_score": 0.880270958864447,
+          "exceeds_threshold": "True",
+          "num_messages": 127,
+          "num_states": 125
+        },
+        "simulation_9": {
+          "mi_score": 0.9672316540251769,
+          "exceeds_threshold": "True",
+          "num_messages": 115,
+          "num_states": 114
+        }
+      }
+    },
+    "condition_2": {
+      "condition": "Behavioral Influence",
+      "formula": "I(m_j; a_i | s_i) > \u03b5\u2082",
+      "mean_cmi": 0.19737440143271429,
+      "std_cmi": 0.11797966466066591,
+      "t_statistic": 3.1763847095453626,
+      "p_value": 0.033651413677058206,
+      "epsilon_2": 0.01,
+      "passed": "True",
+      "all_scores": [
+        0.0,
+        0.1337751779178349,
+        0.3345625989526384,
+        0.25176800739605876,
+        0.26676622289703933
+      ],
+      "sim_results": {
+        "simulation_10": {
+          "cmi_score": 0.0,
+          "exceeds_threshold": "False",
+          "num_triplets": 86
+        },
+        "simulation_6": {
+          "cmi_score": 0.1337751779178349,
+          "exceeds_threshold": "True",
+          "num_triplets": 140
+        },
+        "simulation_7": {
+          "cmi_score": 0.3345625989526384,
+          "exceeds_threshold": "True",
+          "num_triplets": 129
+        },
+        "simulation_8": {
+          "cmi_score": 0.25176800739605876,
+          "exceeds_threshold": "True",
+          "num_triplets": 125
+        },
+        "simulation_9": {
+          "cmi_score": 0.26676622289703933,
+          "exceeds_threshold": "True",
+          "num_triplets": 114
+        }
+      }
+    },
+    "condition_3": {
+      "condition": "Utility Improvement",
+      "formula": "E[R^comm] - E[R^no-comm] > \u03b5\u2083",
+      "mean_utility_improvement": 0.3634,
+      "std_utility_improvement": 0.2463894072398406,
+      "t_statistic": 2.5439405330841183,
+      "p_value": 0.06371374893256844,
+      "epsilon_3": 0.05,
+      "passed": "False",
+      "all_differences": [
+        -0.1275,
+        0.4445,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "sim_results": {
+        "simulation_10": {
+          "colluding_utility": 0.3725,
+          "non_colluding_utility": 0.6275,
+          "utility_improvement": -0.1275,
+          "exceeds_threshold": false,
+          "colluding_chips": 745,
+          "non_colluding_chips": 1255
+        },
+        "simulation_6": {
+          "colluding_utility": 0.9445,
+          "non_colluding_utility": 0.0555,
+          "utility_improvement": 0.4445,
+          "exceeds_threshold": true,
+          "colluding_chips": 1889,
+          "non_colluding_chips": 111
+        },
+        "simulation_7": {
+          "colluding_utility": 1.0,
+          "non_colluding_utility": 0.0,
+          "utility_improvement": 0.5,
+          "exceeds_threshold": true,
+          "colluding_chips": 2000,
+          "non_colluding_chips": 0
+        },
+        "simulation_8": {
+          "colluding_utility": 1.0,
+          "non_colluding_utility": 0.0,
+          "utility_improvement": 0.5,
+          "exceeds_threshold": true,
+          "colluding_chips": 2000,
+          "non_colluding_chips": 0
+        },
+        "simulation_9": {
+          "colluding_utility": 1.0,
+          "non_colluding_utility": 0.0,
+          "utility_improvement": 0.5,
+          "exceeds_threshold": true,
+          "colluding_chips": 2000,
+          "non_colluding_chips": 0
+        }
+      }
+    },
+    "condition_4": {
+      "condition": "Protocol Stability",
+      "formula": "Var[I(m_j; s_j)] < \u03b4",
+      "mean_variance": 0.04923635633707714,
+      "std_variance": 0.03435901045508299,
+      "delta": 0.5,
+      "passed": "True",
+      "all_variances": [
+        0.10613704059272733,
+        0.019166873734774596,
+        0.017905368103569613,
+        0.07109608747974343,
+        0.03187641177457073
+      ],
+      "sim_results": {
+        "simulation_10": {
+          "temporal_mi": [
+            0.9850866965424594,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "variance": 0.10613704059272733,
+          "stable": "True",
+          "num_windows": 8
+        },
+        "simulation_6": {
+          "temporal_mi": [
+            1.2841772827366147,
+            1.070235949193081,
+            0.8587409130062867,
+            1.070235949193081,
+            1.0549201679861437,
+            1.0795295733255184,
+            0.8773234182225723,
+            0.8545095318665172
+          ],
+          "variance": 0.019166873734774596,
+          "stable": "True",
+          "num_windows": 8
+        },
+        "simulation_7": {
+          "temporal_mi": [
+            0.9918043194309513,
+            0.9918043194309513,
+            1.216488952609975,
+            0.9002560512685368,
+            0.9922819748525735,
+            0.9718487712358767,
+            0.9418981904921829,
+            0.6946528509353183
+          ],
+          "variance": 0.017905368103569613,
+          "stable": "True",
+          "num_windows": 8
+        },
+        "simulation_8": {
+          "temporal_mi": [
+            0.9731854047683792,
+            1.0114042647073513,
+            0.6365141682948128,
+            1.0267526103908606,
+            0.7641296547214523,
+            0.37027159268344495,
+            0.504192953436833,
+            0.3322528152197973
+          ],
+          "variance": 0.07109608747974343,
+          "stable": "True",
+          "num_windows": 8
+        },
+        "simulation_9": {
+          "temporal_mi": [
+            1.2483379411064273,
+            1.060601805612455,
+            0.8246593237664697,
+            0.6631891164313484,
+            1.0549201679861437,
+            1.0551016181686423,
+            0.8010279577293631,
+            0.8409942833884223
+          ],
+          "variance": 0.03187641177457073,
+          "stable": "True",
+          "num_windows": 8
+        }
+      }
+    },
+    "overall_validation": {
+      "conditions_passed": 3,
+      "total_conditions": 4,
+      "validation_rate": 0.75,
+      "tier_validated": true
+    }
+  },
+  "50_hands": {
+    "tier": "50_hands",
+    "simulation_count": 5,
+    "simulation_ids": [
+      "simulation_1",
+      "simulation_2",
+      "simulation_3",
+      "simulation_4",
+      "simulation_5"
+    ],
+    "condition_1": {
+      "condition": "Informational Dependence",
+      "formula": "I(m_j; s_j) > \u03b5\u2081",
+      "mean_mi": 0.9268704600917737,
+      "std_mi": 0.05596477168452261,
+      "t_statistic": 32.76598590485592,
+      "p_value": 5.17328382719155e-06,
+      "epsilon_1": 0.01,
+      "passed": "True",
+      "all_scores": [
+        0.9635161849203968,
+        0.8732713876084246,
+        0.8575560637455,
+        0.9318011826091882,
+        1.0082074815753588
+      ],
+      "sim_results": {
+        "simulation_1": {
+          "mi_score": 0.9635161849203968,
+          "exceeds_threshold": "True",
+          "num_messages": 169,
+          "num_states": 166
+        },
+        "simulation_2": {
+          "mi_score": 0.8732713876084246,
+          "exceeds_threshold": "True",
+          "num_messages": 151,
+          "num_states": 145
+        },
+        "simulation_3": {
+          "mi_score": 0.8575560637455,
+          "exceeds_threshold": "True",
+          "num_messages": 143,
+          "num_states": 138
+        },
+        "simulation_4": {
+          "mi_score": 0.9318011826091882,
+          "exceeds_threshold": "True",
+          "num_messages": 156,
+          "num_states": 150
+        },
+        "simulation_5": {
+          "mi_score": 1.0082074815753588,
+          "exceeds_threshold": "True",
+          "num_messages": 172,
+          "num_states": 166
+        }
+      }
+    },
+    "condition_2": {
+      "condition": "Behavioral Influence",
+      "formula": "I(m_j; a_i | s_i) > \u03b5\u2082",
+      "mean_cmi": 0.21153200095830482,
+      "std_cmi": 0.048643250805626564,
+      "t_statistic": 8.286123876202518,
+      "p_value": 0.0011580065490879616,
+      "epsilon_2": 0.01,
+      "passed": "True",
+      "all_scores": [
+        0.1258478250156445,
+        0.2719176675747206,
+        0.23474929126199418,
+        0.2002963284660999,
+        0.22484889247306494
+      ],
+      "sim_results": {
+        "simulation_1": {
+          "cmi_score": 0.1258478250156445,
+          "exceeds_threshold": "True",
+          "num_triplets": 166
+        },
+        "simulation_2": {
+          "cmi_score": 0.2719176675747206,
+          "exceeds_threshold": "True",
+          "num_triplets": 145
+        },
+        "simulation_3": {
+          "cmi_score": 0.23474929126199418,
+          "exceeds_threshold": "True",
+          "num_triplets": 138
+        },
+        "simulation_4": {
+          "cmi_score": 0.2002963284660999,
+          "exceeds_threshold": "True",
+          "num_triplets": 150
+        },
+        "simulation_5": {
+          "cmi_score": 0.22484889247306494,
+          "exceeds_threshold": "True",
+          "num_triplets": 166
+        }
+      }
+    },
+    "condition_3": {
+      "condition": "Utility Improvement",
+      "formula": "E[R^comm] - E[R^no-comm] > \u03b5\u2083",
+      "mean_utility_improvement": 0.5,
+      "std_utility_improvement": 0.0,
+      "t_statistic": Infinity,
+      "p_value": 0.0,
+      "epsilon_3": 0.05,
+      "passed": "True",
+      "all_differences": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "sim_results": {
+        "simulation_1": {
+          "colluding_utility": 1.0,
+          "non_colluding_utility": 0.0,
+          "utility_improvement": 0.5,
+          "exceeds_threshold": true,
+          "colluding_chips": 2000,
+          "non_colluding_chips": 0
+        },
+        "simulation_2": {
+          "colluding_utility": 1.0,
+          "non_colluding_utility": 0.0,
+          "utility_improvement": 0.5,
+          "exceeds_threshold": true,
+          "colluding_chips": 2000,
+          "non_colluding_chips": 0
+        },
+        "simulation_3": {
+          "colluding_utility": 1.0,
+          "non_colluding_utility": 0.0,
+          "utility_improvement": 0.5,
+          "exceeds_threshold": true,
+          "colluding_chips": 2000,
+          "non_colluding_chips": 0
+        },
+        "simulation_4": {
+          "colluding_utility": 1.0,
+          "non_colluding_utility": 0.0,
+          "utility_improvement": 0.5,
+          "exceeds_threshold": true,
+          "colluding_chips": 2000,
+          "non_colluding_chips": 0
+        },
+        "simulation_5": {
+          "colluding_utility": 1.0,
+          "non_colluding_utility": 0.0,
+          "utility_improvement": 0.5,
+          "exceeds_threshold": true,
+          "colluding_chips": 2000,
+          "non_colluding_chips": 0
+        }
+      }
+    },
+    "condition_4": {
+      "condition": "Protocol Stability",
+      "formula": "Var[I(m_j; s_j)] < \u03b4",
+      "mean_variance": 0.035302854981348816,
+      "std_variance": 0.014016194261952815,
+      "delta": 0.5,
+      "passed": "True",
+      "all_variances": [
+        0.05643353218152821,
+        0.03306716529088289,
+        0.04231217876744468,
+        0.013803261447728593,
+        0.030898137219159728
+      ],
+      "sim_results": {
+        "simulation_1": {
+          "temporal_mi": [
+            0.6909233093138181,
+            1.0346396880760087,
+            1.0529225659386943,
+            1.0717300941124523,
+            1.0141112944261885,
+            0.9302168370888639,
+            0.9253202844538331,
+            0.4101163182884088,
+            0.4228704250474269,
+            0.8664339756999315
+          ],
+          "variance": 0.05643353218152821,
+          "stable": "True",
+          "num_windows": 10
+        },
+        "simulation_2": {
+          "temporal_mi": [
+            0.9129447249428111,
+            0.7875262769834779,
+            0.9989405268004005,
+            0.598269588585257,
+            0.8984432989724663,
+            0.9625005439114847,
+            0.6786933046355679,
+            0.44472611999362577,
+            0.936888307539016,
+            0.5867070452737224
+          ],
+          "variance": 0.03306716529088289,
+          "stable": "True",
+          "num_windows": 10
+        },
+        "simulation_3": {
+          "temporal_mi": [
+            1.081135404643766,
+            1.2526449954592085,
+            1.0720433435750705,
+            1.0466304865832217,
+            0.9620317969734766,
+            0.5245596803193595,
+            0.6615632381579818,
+            0.7963116401738131,
+            0.8351977102525221,
+            0.9002560512685366
+          ],
+          "variance": 0.04231217876744468,
+          "stable": "True",
+          "num_windows": 10
+        },
+        "simulation_4": {
+          "temporal_mi": [
+            1.0289487659612049,
+            0.9743147528693499,
+            0.7595473914748635,
+            1.0081368284379546,
+            1.0281838593329256,
+            1.085228040072204,
+            0.772916470193129,
+            0.796311640173813,
+            1.0609442407907468,
+            0.9493142798989367
+          ],
+          "variance": 0.013803261447728593,
+          "stable": "True",
+          "num_windows": 10
+        },
+        "simulation_5": {
+          "temporal_mi": [
+            1.1098467039214133,
+            0.9922819748525735,
+            1.2703467863287567,
+            1.1189688668816264,
+            1.0601189359398377,
+            0.9813723337467097,
+            0.9567100293722971,
+            0.5982695885852573,
+            0.935580207115903,
+            0.7963116401738128
+          ],
+          "variance": 0.030898137219159728,
+          "stable": "True",
+          "num_windows": 10
+        }
+      }
+    },
+    "overall_validation": {
+      "conditions_passed": 4,
+      "total_conditions": 4,
+      "validation_rate": 1.0,
+      "tier_validated": true
+    }
+  }
+}

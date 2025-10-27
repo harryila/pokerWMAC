@@ -1,0 +1,8 @@
+# Protocol Analysis Report
+==================================================
+
+## Message-Action Coupling Analysis
+
+## Protocol Evolution
+**Message Diversity**: {}
+**Semantic Consistency**: {}

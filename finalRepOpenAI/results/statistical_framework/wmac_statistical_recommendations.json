@@ -1,0 +1,15 @@
+{
+  "simulations_per_phase": 44,
+  "hands_per_simulation": 150,
+  "total_simulations": 88,
+  "expected_power": 0.8,
+  "significance_level": 0.05,
+  "effect_size_cohens_d": 0.6,
+  "empirical_mean_advantage": 800,
+  "empirical_std_advantage": 500,
+  "reliability_metrics": {
+    "info_dependence_rate": 0.85,
+    "behavioral_influence_rate": 0.8,
+    "protocol_stability_rate": 0.9
+  }
+}

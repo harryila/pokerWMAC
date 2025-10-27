@@ -1,0 +1,20 @@
+{
+  "analysis_type": "three_tier_convergence",
+  "hand_tiers": [
+    30,
+    40,
+    50
+  ],
+  "simulations_per_tier": 140,
+  "total_simulations": 840,
+  "phase1_simulations": 420,
+  "phase2_simulations": 420,
+  "target_power": 0.8,
+  "significance_level": 0.05,
+  "effect_sizes": {
+    "30_to_40": 0.3355249514615984,
+    "40_to_50": 0.7012754861795087,
+    "30_to_50": 1.4062675882927853
+  },
+  "recommendation_date": "2025-10-08T16:24:16.775402"
+}

@@ -1,0 +1,92 @@
+{
+  "total_messages": 1908,
+  "colluder_messages": 1908,
+  "unique_colluder_words": 15,
+  "total_colluder_word_occurrences": 7715,
+  "recommendations": {
+    "moderate_constraints": {
+      "words": [
+        "pot",
+        "building",
+        "hand",
+        "supporting",
+        "too"
+      ],
+      "rationale": "Top 5 words by combined frequency, coordination specificity, and success correlation",
+      "expected_coverage": 66.40311082307194
+    },
+    "heavy_constraints": {
+      "words": [
+        "pot",
+        "building",
+        "hand",
+        "supporting",
+        "too",
+        "weak",
+        "strong",
+        "teammate's",
+        "call",
+        "raise",
+        "preserving",
+        "chips"
+      ],
+      "rationale": "Top 12 words covering multiple coordination mechanisms",
+      "expected_coverage": 95.46338302009073
+    },
+    "category_based": {
+      "moderate": [
+        "building",
+        "supporting",
+        "teammate's",
+        "support"
+      ],
+      "heavy": [
+        "building",
+        "supporting",
+        "teammate's",
+        "call",
+        "raise",
+        "better",
+        "weak",
+        "strong"
+      ],
+      "rationale": "Systematic category-based constraints"
+    },
+    "top_by_frequency": [
+      "pot",
+      "building",
+      "hand",
+      "supporting",
+      "too",
+      "weak",
+      "strong",
+      "teammate's",
+      "call",
+      "raise"
+    ],
+    "top_by_coordination_score": [
+      "pot",
+      "building",
+      "hand",
+      "supporting",
+      "too",
+      "weak",
+      "strong",
+      "teammate's",
+      "call",
+      "raise"
+    ],
+    "top_by_success": [
+      "pot",
+      "building",
+      "hand",
+      "too",
+      "weak",
+      "strong",
+      "supporting",
+      "teammate's",
+      "call",
+      "raise"
+    ]
+  }
+}

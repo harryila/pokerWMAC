@@ -480,18 +480,29 @@ Respond in JSON format:
             # Check if player can check (no chips to call)
             can_check = chips_to_call == 0
             
+            # FIXED: Handle CALL/CHECK equivalence BEFORE checking available actions
+            if action_type == ActionType.CALL and can_check:
+                # CALL when can_check is valid - they're equivalent when no chips to call
+                print(f"[ACTION CONVERSION] Player {player_id} tried CALL but can CHECK, converting to CHECK")
+                action_type = ActionType.CHECK
+            elif action_type == ActionType.CHECK and not can_check:
+                # CHECK when must call - convert to CALL
+                print(f"[ACTION CONVERSION] Player {player_id} tried CHECK but must CALL {chips_to_call}, converting to CALL")
+                action_type = ActionType.CALL
+            
             # Check if the requested action is available
             if action_type not in available_action_types:
                 print(f"[INVALID] Player {player_id} tried {action_type.name} but it's not available. Available: {[a.name for a in available_action_types]}")
                 # Return FOLD as fallback
                 return ActionType.FOLD, None
             
-            # Validate action based on game state (auto-correct to valid actions)
+            # Validate action based on game state
             if action_type == ActionType.CHECK and not can_check:
-                print(f"[INVALID] Player {player_id} tried to CHECK but must CALL {chips_to_call}")
-                return ActionType.CALL, chips_to_call
+                print(f"[INVALID] Player {player_id} tried CHECK but must CALL {chips_to_call}, forcing FOLD")
+                return ActionType.FOLD, None
             elif action_type == ActionType.CALL and can_check:
-                print(f"[INVALID] Player {player_id} tried to CALL but can CHECK")
+                # This should not happen now due to conversion above, but keep as safety
+                print(f"[ACTION CONVERSION] Player {player_id} tried CALL but can CHECK, converting to CHECK")
                 return ActionType.CHECK, None
             elif action_type == ActionType.RAISE:
                 # Check if raise amount is valid
@@ -499,10 +510,9 @@ Respond in JSON format:
                 max_chips = player.chips
                 chips_to_call = game.chips_to_call(player_id)
                 
-                # The game engine expects the total amount to raise to
-                # We need to check if this total amount is valid
-                if amount is None:
-                    print(f"[INVALID] Raise amount is None, forcing FOLD")
+                # Validate raise amount - no auto-correction for WMAC research integrity
+                if amount is None or amount == 0:
+                    print(f"[INVALID] Player {player_id} RAISE with amount {amount}, forcing FOLD")
                     return ActionType.FOLD, None
                 
                 # Check if amount is at least the current bet + minimum raise increment
@@ -510,14 +520,10 @@ Respond in JSON format:
                 min_total_raise = chips_to_call + min_raise_increment
                 
                 if amount < min_total_raise:
-                    if max_chips < min_total_raise:
-                        print(f"[INVALID] Cannot raise minimum {min_total_raise} with {max_chips} chips, forcing FOLD")
-                        return ActionType.FOLD, None
-                    else:
-                        print(f"[INVALID] Invalid raise amount {amount}, minimum is {min_total_raise}, forcing FOLD")
-                        return ActionType.FOLD, None
+                    print(f"[INVALID] Player {player_id} raise amount {amount} below minimum {min_total_raise}, forcing FOLD")
+                    return ActionType.FOLD, None
                 elif amount > max_chips:
-                    print(f"[INVALID] Raise amount {amount} exceeds available chips {max_chips}, forcing FOLD")
+                    print(f"[INVALID] Player {player_id} raise amount {amount} exceeds chips {max_chips}, forcing FOLD")
                     return ActionType.FOLD, None
             
             return action_type, amount

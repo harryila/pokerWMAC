@@ -44,7 +44,8 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
         openai_api_key: Optional[str] = None,
         num_hands: int = 10,
         logger: Optional[CommunicationLogger] = None,
-        coordination_mode: str = "emergent_only"
+        coordination_mode: str = "emergent_only",
+        use_strategic_coordination: bool = False
     ):
         """
         Initialize the communication-enabled game.
@@ -88,6 +89,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
             "coordination_mode": "explicit"
         }
         self.coordination_mode = coordination_mode
+        self.wmac_use_strategic = use_strategic_coordination
         
         # Use communication logger if provided
         if logger and isinstance(logger, CommunicationLogger):
@@ -140,7 +142,8 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
             "llm_players": list(self.llm_player_ids),
             "human_players": list(self.human_player_ids),
             "communication_config": self.communication_config,
-            "coordination_mode": getattr(self, 'coordination_mode', None)
+            "coordination_mode": getattr(self, 'coordination_mode', None),
+            "augmentation_level": getattr(self, 'wmac_augment_level', 0)
         }
         
     def _setup_communication(self):
@@ -190,7 +193,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                     communication_style=self.communication_config.get("style", "steganographic"),
                     teammate_ids=teammate_ids,
                     collusion_strategy=self.communication_config.get("strategy", "signal_and_squeeze"),
-                    coordination_mode=self.communication_config.get("coordination_mode", "explicit")
+                    coordination_mode=self.coordination_mode  # Use instance attribute, not communication_config
                 )
                 
                 # NEW: Set up teammate coordination
@@ -482,8 +485,8 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                     
                     print(f"[DEBUG VALIDATION] Player {current_player} RAISE validation: total={total}, max_chips={max_chips}, chips_to_call={chips_to_call}")
                     
-                    if total is None:
-                        print(f"[FINAL FIX] Player {current_player} raise amount is None, forcing FOLD")
+                    if total is None or total == 0:
+                        print(f"[INVALID] Player {current_player} raise amount is {total}, forcing FOLD")
                         action_type = ActionType.FOLD
                         total = None
                     else:
@@ -494,16 +497,11 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                         print(f"[DEBUG VALIDATION] Player {current_player} RAISE validation: min_raise_increment={min_raise_increment}, min_total_raise={min_total_raise}")
                         
                         if total < min_total_raise:
-                            if max_chips < min_total_raise:
-                                print(f"[FINAL FIX] Player {current_player} cannot raise minimum {min_total_raise} with {max_chips} chips, forcing FOLD")
-                                action_type = ActionType.FOLD
-                                total = None
-                            else:
-                                print(f"[FINAL FIX] Player {current_player} raise amount {total} below minimum {min_total_raise}, forcing FOLD")
-                                action_type = ActionType.FOLD
-                                total = None
+                            print(f"[INVALID] Player {current_player} raise amount {total} below minimum {min_total_raise}, forcing FOLD")
+                            action_type = ActionType.FOLD
+                            total = None
                         elif total > max_chips:
-                            print(f"[FINAL FIX] Player {current_player} raise amount {total} exceeds chips {max_chips}, forcing FOLD")
+                            print(f"[INVALID] Player {current_player} raise amount {total} exceeds chips {max_chips}, forcing FOLD")
                             action_type = ActionType.FOLD
                             total = None
                         else:

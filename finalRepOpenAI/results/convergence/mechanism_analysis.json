@@ -1,0 +1,2079 @@
+{
+  "correlation_evolution": {
+    "30_hands": {
+      "tier": "30_hands",
+      "early_correlation_strength": 0.678491605056882,
+      "mid_correlation_strength": 0.8135154901516523,
+      "late_correlation_strength": 0,
+      "num_simulations": 5,
+      "evolution": {
+        "early": [
+          {
+            "correlations": {
+              "coordination->fold": {
+                "observed": 10,
+                "expected": 14.444444444444445,
+                "pmi": -0.5305147166987798
+              },
+              "coordination->call": {
+                "observed": 33,
+                "expected": 20.22222222222222,
+                "pmi": 0.7065244806020695
+              },
+              "coordination->raise": {
+                "observed": 32,
+                "expected": 26.0,
+                "pmi": 0.29956028185890793
+              },
+              "signal_strength->fold": {
+                "observed": 20,
+                "expected": 15.555555555555555,
+                "pmi": 0.36257007938470837
+              },
+              "signal_strength->call": {
+                "observed": 9,
+                "expected": 21.77777777777778,
+                "pmi": -1.2748598412305836
+              },
+              "signal_strength->raise": {
+                "observed": 22,
+                "expected": 28.0,
+                "pmi": -0.34792330342030686
+              }
+            },
+            "message_distribution": {
+              "coordination": 26,
+              "signal_strength": 28
+            },
+            "action_distribution": {
+              "fold": 30,
+              "call": 42,
+              "raise": 54
+            },
+            "total_pairs": 54
+          },
+          {
+            "correlations": {
+              "coordination->call": {
+                "observed": 20,
+                "expected": 4.864864864864865,
+                "pmi": 2.039528364186637
+              },
+              "coordination->raise": {
+                "observed": 16,
+                "expected": 3.891891891891892,
+                "pmi": 2.039528364186637
+              },
+              "coordination->fold": {
+                "observed": 0,
+                "expected": 6.8108108108108105,
+                "pmi": 0
+              },
+              "strategy->call": {
+                "observed": 0,
+                "expected": 15.135135135135135,
+                "pmi": 0
+              },
+              "strategy->raise": {
+                "observed": 0,
+                "expected": 12.108108108108109,
+                "pmi": 0
+              },
+              "strategy->fold": {
+                "observed": 28,
+                "expected": 21.18918918918919,
+                "pmi": 0.40209844357134567
+              }
+            },
+            "message_distribution": {
+              "coordination": 9,
+              "strategy": 28
+            },
+            "action_distribution": {
+              "call": 20,
+              "raise": 16,
+              "fold": 28
+            },
+            "total_pairs": 37
+          },
+          {
+            "correlations": {
+              "coordination->raise": {
+                "observed": 20,
+                "expected": 35.389830508474574,
+                "pmi": -0.8233348523206809
+              },
+              "coordination->fold": {
+                "observed": 8,
+                "expected": 9.76271186440678,
+                "pmi": -0.28728195208047114
+              },
+              "coordination->call": {
+                "observed": 40,
+                "expected": 19.11864406779661,
+                "pmi": 1.06501979185041
+              },
+              "signal_strength->raise": {
+                "observed": 67,
+                "expected": 51.610169491525426,
+                "pmi": 0.376505727025919
+              },
+              "signal_strength->fold": {
+                "observed": 16,
+                "expected": 14.23728813559322,
+                "pmi": 0.16839753169571864
+              },
+              "signal_strength->call": {
+                "observed": 7,
+                "expected": 27.88135593220339,
+                "pmi": -1.9938738972031587
+              }
+            },
+            "message_distribution": {
+              "coordination": 24,
+              "signal_strength": 35
+            },
+            "action_distribution": {
+              "raise": 87,
+              "fold": 24,
+              "call": 47
+            },
+            "total_pairs": 59
+          },
+          {
+            "correlations": {
+              "coordination->call": {
+                "observed": 36,
+                "expected": 19.918032786885245,
+                "pmi": 0.8539217405120555
+              },
+              "coordination->fold": {
+                "observed": 12,
+                "expected": 12.39344262295082,
+                "pmi": -0.046542585937030194
+              },
+              "coordination->raise": {
+                "observed": 20,
+                "expected": 35.40983606557377,
+                "pmi": -0.8241501646005824
+              },
+              "signal_strength->call": {
+                "observed": 9,
+                "expected": 25.081967213114755,
+                "pmi": -1.4786535985748155
+              },
+              "signal_strength->fold": {
+                "observed": 16,
+                "expected": 15.60655737704918,
+                "pmi": 0.035919574254942944
+              },
+              "signal_strength->raise": {
+                "observed": 60,
+                "expected": 44.59016393442623,
+                "pmi": 0.42823699703370316
+              }
+            },
+            "message_distribution": {
+              "coordination": 27,
+              "signal_strength": 34
+            },
+            "action_distribution": {
+              "call": 45,
+              "fold": 28,
+              "raise": 80
+            },
+            "total_pairs": 61
+          },
+          {
+            "correlations": {
+              "coordination->raise": {
+                "observed": 48,
+                "expected": 43.607142857142854,
+                "pmi": 0.13846993779135708
+              },
+              "coordination->call": {
+                "observed": 46,
+                "expected": 35.017857142857146,
+                "pmi": 0.39354305792246796
+              },
+              "coordination->fold": {
+                "observed": 8,
+                "expected": 13.875,
+                "pmi": -0.794415866350106
+              },
+              "signal_strength->raise": {
+                "observed": 18,
+                "expected": 22.392857142857142,
+                "pmi": -0.3150417093021225
+              },
+              "signal_strength->call": {
+                "observed": 7,
+                "expected": 17.982142857142858,
+                "pmi": -1.3611381238915765
+              },
+              "signal_strength->fold": {
+                "observed": 13,
+                "expected": 7.125,
+                "pmi": 0.8675497039763505
+              }
+            },
+            "message_distribution": {
+              "coordination": 37,
+              "signal_strength": 19
+            },
+            "action_distribution": {
+              "raise": 66,
+              "call": 53,
+              "fold": 21
+            },
+            "total_pairs": 56
+          }
+        ],
+        "mid": [
+          {
+            "correlations": {
+              "signal_strength->fold": {
+                "observed": 14,
+                "expected": 15.044776119402986,
+                "pmi": -0.10383581098454006
+              },
+              "signal_strength->call": {
+                "observed": 6,
+                "expected": 35.1044776119403,
+                "pmi": -2.548620653657436
+              },
+              "signal_strength->raise": {
+                "observed": 130,
+                "expected": 93.13432835820896,
+                "pmi": 0.48112668973661615
+              },
+              "coordination->fold": {
+                "observed": 7,
+                "expected": 5.955223880597015,
+                "pmi": 0.2331991762930306
+              },
+              "coordination->call": {
+                "observed": 43,
+                "expected": 13.895522388059701,
+                "pmi": 1.6297165876010766
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 36.865671641791046,
+                "pmi": 0
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 48,
+              "coordination": 19
+            },
+            "action_distribution": {
+              "fold": 21,
+              "call": 49,
+              "raise": 130
+            },
+            "total_pairs": 67
+          },
+          {
+            "correlations": {
+              "strategy->fold": {
+                "observed": 30,
+                "expected": 30.0,
+                "pmi": 0.0
+              }
+            },
+            "message_distribution": {
+              "strategy": 30
+            },
+            "action_distribution": {
+              "fold": 30
+            },
+            "total_pairs": 30
+          },
+          {
+            "correlations": {
+              "signal_strength->raise": {
+                "observed": 66,
+                "expected": 44.42307692307692,
+                "pmi": 0.5711567011961257
+              },
+              "signal_strength->call": {
+                "observed": 4,
+                "expected": 30.28846153846154,
+                "pmi": -2.920696395133549
+              },
+              "signal_strength->fold": {
+                "observed": 17,
+                "expected": 14.134615384615385,
+                "pmi": 0.26630211966770473
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 21.576923076923077,
+                "pmi": 0
+              },
+              "coordination->call": {
+                "observed": 41,
+                "expected": 14.711538461538462,
+                "pmi": 1.4786757851791617
+              },
+              "coordination->fold": {
+                "observed": 4,
+                "expected": 6.865384615384615,
+                "pmi": -0.7793405458880074
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 35,
+              "coordination": 17
+            },
+            "action_distribution": {
+              "raise": 66,
+              "call": 45,
+              "fold": 21
+            },
+            "total_pairs": 52
+          },
+          {
+            "correlations": {
+              "coordination->fold": {
+                "observed": 4,
+                "expected": 4.472222222222222,
+                "pmi": -0.16099187667230458
+              },
+              "coordination->call": {
+                "observed": 7,
+                "expected": 2.138888888888889,
+                "pmi": 1.7104933828050153
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 2.7222222222222223,
+                "pmi": 0
+              },
+              "signal_strength->fold": {
+                "observed": 19,
+                "expected": 18.52777777777778,
+                "pmi": 0.03630956370131279
+              },
+              "signal_strength->call": {
+                "observed": 4,
+                "expected": 8.86111111111111,
+                "pmi": -1.147487612322557
+              },
+              "signal_strength->raise": {
+                "observed": 14,
+                "expected": 11.277777777777779,
+                "pmi": 0.31194400631474
+              }
+            },
+            "message_distribution": {
+              "coordination": 7,
+              "signal_strength": 29
+            },
+            "action_distribution": {
+              "fold": 23,
+              "call": 11,
+              "raise": 14
+            },
+            "total_pairs": 36
+          },
+          {
+            "correlations": {
+              "signal_strength->raise": {
+                "observed": 94,
+                "expected": 78.61818181818182,
+                "pmi": 0.2577977574676467
+              },
+              "signal_strength->fold": {
+                "observed": 18,
+                "expected": 21.745454545454546,
+                "pmi": -0.27271695923113304
+              },
+              "signal_strength->call": {
+                "observed": 6,
+                "expected": 12.545454545454545,
+                "pmi": -1.0641303374197155
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 15.381818181818181,
+                "pmi": 0
+              },
+              "coordination->fold": {
+                "observed": 8,
+                "expected": 4.254545454545455,
+                "pmi": 0.9109949939412549
+              },
+              "coordination->call": {
+                "observed": 9,
+                "expected": 2.4545454545454546,
+                "pmi": 1.874469117916141
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 46,
+              "coordination": 9
+            },
+            "action_distribution": {
+              "raise": 94,
+              "fold": 26,
+              "call": 15
+            },
+            "total_pairs": 55
+          }
+        ],
+        "late": []
+      }
+    },
+    "40_hands": {
+      "tier": "40_hands",
+      "early_correlation_strength": 0.6725929229178408,
+      "mid_correlation_strength": 0.76402107351723,
+      "late_correlation_strength": 0.7389170908168953,
+      "num_simulations": 5,
+      "evolution": {
+        "early": [
+          {
+            "correlations": {
+              "coordination->call": {
+                "observed": 20,
+                "expected": 4.864864864864865,
+                "pmi": 2.039528364186637
+              },
+              "coordination->raise": {
+                "observed": 16,
+                "expected": 3.891891891891892,
+                "pmi": 2.039528364186637
+              },
+              "coordination->fold": {
+                "observed": 0,
+                "expected": 6.8108108108108105,
+                "pmi": 0
+              },
+              "strategy->call": {
+                "observed": 0,
+                "expected": 15.135135135135135,
+                "pmi": 0
+              },
+              "strategy->raise": {
+                "observed": 0,
+                "expected": 12.108108108108109,
+                "pmi": 0
+              },
+              "strategy->fold": {
+                "observed": 28,
+                "expected": 21.18918918918919,
+                "pmi": 0.40209844357134567
+              }
+            },
+            "message_distribution": {
+              "coordination": 9,
+              "strategy": 28
+            },
+            "action_distribution": {
+              "call": 20,
+              "raise": 16,
+              "fold": 28
+            },
+            "total_pairs": 37
+          },
+          {
+            "correlations": {
+              "coordination->fold": {
+                "observed": 11,
+                "expected": 11.910714285714286,
+                "pmi": -0.11475641048968371
+              },
+              "coordination->call": {
+                "observed": 29,
+                "expected": 15.607142857142858,
+                "pmi": 0.8938464476845779
+              },
+              "coordination->raise": {
+                "observed": 18,
+                "expected": 28.339285714285715,
+                "pmi": -0.6548064893352655
+              },
+              "signal_strength->fold": {
+                "observed": 18,
+                "expected": 17.089285714285715,
+                "pmi": 0.07490480901389084
+              },
+              "signal_strength->call": {
+                "observed": 9,
+                "expected": 22.392857142857142,
+                "pmi": -1.3150417093021225
+              },
+              "signal_strength->raise": {
+                "observed": 51,
+                "expected": 40.660714285714285,
+                "pmi": 0.32686168789247716
+              }
+            },
+            "message_distribution": {
+              "coordination": 23,
+              "signal_strength": 33
+            },
+            "action_distribution": {
+              "fold": 29,
+              "call": 38,
+              "raise": 69
+            },
+            "total_pairs": 56
+          },
+          {
+            "correlations": {
+              "coordination->raise": {
+                "observed": 48,
+                "expected": 33.09090909090909,
+                "pmi": 0.5365994791597571
+              },
+              "coordination->fold": {
+                "observed": 16,
+                "expected": 22.272727272727273,
+                "pmi": -0.4772063203652734
+              },
+              "coordination->call": {
+                "observed": 20,
+                "expected": 21.636363636363637,
+                "pmi": -0.11345804978328401
+              },
+              "signal_strength->raise": {
+                "observed": 4,
+                "expected": 18.90909090909091,
+                "pmi": -2.241008099503795
+              },
+              "signal_strength->fold": {
+                "observed": 19,
+                "expected": 12.727272727272727,
+                "pmi": 0.5780761151359163
+              },
+              "signal_strength->call": {
+                "observed": 14,
+                "expected": 12.363636363636363,
+                "pmi": 0.17932369944456192
+              }
+            },
+            "message_distribution": {
+              "coordination": 35,
+              "signal_strength": 20
+            },
+            "action_distribution": {
+              "raise": 52,
+              "fold": 35,
+              "call": 34
+            },
+            "total_pairs": 55
+          },
+          {
+            "correlations": {
+              "coordination->raise": {
+                "observed": 34,
+                "expected": 32.74074074074074,
+                "pmi": 0.0544477840223765
+              },
+              "coordination->fold": {
+                "observed": 8,
+                "expected": 12.518518518518519,
+                "pmi": -0.6459919341187159
+              },
+              "coordination->call": {
+                "observed": 31,
+                "expected": 18.296296296296298,
+                "pmi": 0.760716580965666
+              },
+              "signal_strength->raise": {
+                "observed": 34,
+                "expected": 35.25925925925926,
+                "pmi": -0.05246741989413554
+              },
+              "signal_strength->fold": {
+                "observed": 18,
+                "expected": 13.481481481481481,
+                "pmi": 0.4170178634070848
+              },
+              "signal_strength->call": {
+                "observed": 7,
+                "expected": 19.703703703703702,
+                "pmi": -1.4930400112801168
+              }
+            },
+            "message_distribution": {
+              "coordination": 26,
+              "signal_strength": 28
+            },
+            "action_distribution": {
+              "raise": 68,
+              "fold": 26,
+              "call": 38
+            },
+            "total_pairs": 54
+          },
+          {
+            "correlations": {
+              "coordination->fold": {
+                "observed": 5,
+                "expected": 6.545454545454546,
+                "pmi": -0.3885652879176529
+              },
+              "coordination->call": {
+                "observed": 25,
+                "expected": 9.818181818181818,
+                "pmi": 1.3484003062485534
+              },
+              "coordination->raise": {
+                "observed": 17,
+                "expected": 30.436363636363637,
+                "pmi": -0.8402612577753447
+              },
+              "signal_strength->fold": {
+                "observed": 15,
+                "expected": 13.454545454545455,
+                "pmi": 0.15686884861686606
+              },
+              "signal_strength->call": {
+                "observed": 5,
+                "expected": 20.181818181818183,
+                "pmi": -2.0130561528254467
+              },
+              "signal_strength->raise": {
+                "observed": 76,
+                "expected": 62.56363636363636,
+                "pmi": 0.28067505023126404
+              }
+            },
+            "message_distribution": {
+              "coordination": 18,
+              "signal_strength": 37
+            },
+            "action_distribution": {
+              "fold": 20,
+              "call": 30,
+              "raise": 93
+            },
+            "total_pairs": 55
+          }
+        ],
+        "mid": [
+          {
+            "correlations": {
+              "strategy->fold": {
+                "observed": 30,
+                "expected": 30.0,
+                "pmi": 0.0
+              }
+            },
+            "message_distribution": {
+              "strategy": 30
+            },
+            "action_distribution": {
+              "fold": 30
+            },
+            "total_pairs": 30
+          },
+          {
+            "correlations": {
+              "signal_strength->fold": {
+                "observed": 17,
+                "expected": 17.55,
+                "pmi": -0.04593628416685901
+              },
+              "signal_strength->raise": {
+                "observed": 70,
+                "expected": 45.5,
+                "pmi": 0.6214883767462702
+              },
+              "signal_strength->call": {
+                "observed": 8,
+                "expected": 38.35,
+                "pmi": -2.261154672615571
+              },
+              "coordination->fold": {
+                "observed": 10,
+                "expected": 9.45,
+                "pmi": 0.08161376555365227
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 24.5,
+                "pmi": 0
+              },
+              "coordination->call": {
+                "observed": 51,
+                "expected": 20.65,
+                "pmi": 1.3043554654394125
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 39,
+              "coordination": 21
+            },
+            "action_distribution": {
+              "fold": 27,
+              "raise": 70,
+              "call": 59
+            },
+            "total_pairs": 60
+          },
+          {
+            "correlations": {
+              "signal_strength->fold": {
+                "observed": 18,
+                "expected": 17.4468085106383,
+                "pmi": 0.045033753614503735
+              },
+              "signal_strength->call": {
+                "observed": 2,
+                "expected": 6.9787234042553195,
+                "pmi": -1.8029631529404464
+              },
+              "signal_strength->raise": {
+                "observed": 83,
+                "expected": 72.40425531914893,
+                "pmi": 0.19703684705955385
+              },
+              "coordination->fold": {
+                "observed": 2,
+                "expected": 2.5531914893617023,
+                "pmi": -0.35230174393088115
+              },
+              "coordination->call": {
+                "observed": 6,
+                "expected": 1.0212765957446808,
+                "pmi": 2.5545888516776376
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 10.595744680851064,
+                "pmi": 0
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 41,
+              "coordination": 6
+            },
+            "action_distribution": {
+              "fold": 20,
+              "call": 8,
+              "raise": 83
+            },
+            "total_pairs": 47
+          },
+          {
+            "correlations": {
+              "signal_strength->fold": {
+                "observed": 19,
+                "expected": 17.391304347826086,
+                "pmi": 0.1276332797258737
+              },
+              "signal_strength->raise": {
+                "observed": 43,
+                "expected": 29.91304347826087,
+                "pmi": 0.5235619560570128
+              },
+              "signal_strength->call": {
+                "observed": 6,
+                "expected": 22.26086956521739,
+                "pmi": -1.8914755432218309
+              },
+              "coordination->fold": {
+                "observed": 6,
+                "expected": 7.608695652173913,
+                "pmi": -0.34268665505415974
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 13.08695652173913,
+                "pmi": 0
+              },
+              "coordination->call": {
+                "observed": 26,
+                "expected": 9.73913043478261,
+                "pmi": 1.4166467521405006
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 32,
+              "coordination": 14
+            },
+            "action_distribution": {
+              "fold": 25,
+              "raise": 43,
+              "call": 32
+            },
+            "total_pairs": 46
+          },
+          {
+            "correlations": {
+              "coordination->fold": {
+                "observed": 4,
+                "expected": 6.953488372093023,
+                "pmi": -0.7977369194960069
+              },
+              "coordination->call": {
+                "observed": 28,
+                "expected": 9.674418604651162,
+                "pmi": 1.5331799586186101
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 10.581395348837209,
+                "pmi": 0
+              },
+              "signal_strength->fold": {
+                "observed": 19,
+                "expected": 16.046511627906977,
+                "pmi": 0.243739716480152
+              },
+              "signal_strength->call": {
+                "observed": 4,
+                "expected": 22.325581395348838,
+                "pmi": -2.4806258409064204
+              },
+              "signal_strength->raise": {
+                "observed": 35,
+                "expected": 24.41860465116279,
+                "pmi": 0.5193741590935794
+              }
+            },
+            "message_distribution": {
+              "coordination": 13,
+              "signal_strength": 30
+            },
+            "action_distribution": {
+              "fold": 23,
+              "call": 32,
+              "raise": 35
+            },
+            "total_pairs": 43
+          }
+        ],
+        "late": [
+          {
+            "correlations": {
+              "strategy->fold": {
+                "observed": 20,
+                "expected": 20.0,
+                "pmi": 0.0
+              }
+            },
+            "message_distribution": {
+              "strategy": 20
+            },
+            "action_distribution": {
+              "fold": 20
+            },
+            "total_pairs": 20
+          },
+          {
+            "correlations": {
+              "coordination->fold": {
+                "observed": 8,
+                "expected": 5.625,
+                "pmi": 0.5081469036703253
+              },
+              "coordination->call": {
+                "observed": 9,
+                "expected": 4.21875,
+                "pmi": 1.0931094043914815
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 7.03125,
+                "pmi": 0
+              },
+              "signal_strength->fold": {
+                "observed": 12,
+                "expected": 14.375,
+                "pmi": -0.2605275502232191
+              },
+              "signal_strength->call": {
+                "observed": 6,
+                "expected": 10.78125,
+                "pmi": -0.8454900509443752
+              },
+              "signal_strength->raise": {
+                "observed": 25,
+                "expected": 17.96875,
+                "pmi": 0.4764380439429871
+              }
+            },
+            "message_distribution": {
+              "coordination": 9,
+              "signal_strength": 23
+            },
+            "action_distribution": {
+              "fold": 20,
+              "call": 15,
+              "raise": 25
+            },
+            "total_pairs": 32
+          },
+          {
+            "correlations": {
+              "coordination->call": {
+                "observed": 27,
+                "expected": 11.225806451612904,
+                "pmi": 1.2661403167016152
+              },
+              "coordination->fold": {
+                "observed": 3,
+                "expected": 4.645161290322581,
+                "pmi": -0.6307661903342812
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 10.838709677419354,
+                "pmi": 0
+              },
+              "signal_strength->call": {
+                "observed": 2,
+                "expected": 17.774193548387096,
+                "pmi": -3.151712198184282
+              },
+              "signal_strength->fold": {
+                "observed": 9,
+                "expected": 7.354838709677419,
+                "pmi": 0.29123129766444605
+              },
+              "signal_strength->raise": {
+                "observed": 28,
+                "expected": 17.161290322580644,
+                "pmi": 0.7062687969432899
+              }
+            },
+            "message_distribution": {
+              "coordination": 12,
+              "signal_strength": 19
+            },
+            "action_distribution": {
+              "call": 29,
+              "fold": 12,
+              "raise": 28
+            },
+            "total_pairs": 31
+          },
+          {
+            "correlations": {
+              "signal_strength->fold": {
+                "observed": 14,
+                "expected": 13.222222222222221,
+                "pmi": 0.08246216019197297
+              },
+              "signal_strength->raise": {
+                "observed": 21,
+                "expected": 16.333333333333332,
+                "pmi": 0.36257007938470837
+              },
+              "signal_strength->call": {
+                "observed": 3,
+                "expected": 7.0,
+                "pmi": -1.222392421336448
+              },
+              "coordination->fold": {
+                "observed": 3,
+                "expected": 3.7777777777777777,
+                "pmi": -0.33257533908687076
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 4.666666666666667,
+                "pmi": 0
+              },
+              "coordination->call": {
+                "observed": 6,
+                "expected": 2.0,
+                "pmi": 1.584962500721156
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 21,
+              "coordination": 6
+            },
+            "action_distribution": {
+              "fold": 17,
+              "raise": 21,
+              "call": 9
+            },
+            "total_pairs": 27
+          },
+          {
+            "correlations": {
+              "signal_strength->fold": {
+                "observed": 9,
+                "expected": 8.235294117647058,
+                "pmi": 0.12810482574768547
+              },
+              "signal_strength->raise": {
+                "observed": 5,
+                "expected": 4.117647058823529,
+                "pmi": 0.2801079191927355
+              },
+              "signal_strength->call": {
+                "observed": 1,
+                "expected": 3.2941176470588234,
+                "pmi": -1.7198920808072646
+              },
+              "coordination->fold": {
+                "observed": 1,
+                "expected": 1.7647058823529411,
+                "pmi": -0.8194277543581792
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 0.8823529411764706,
+                "pmi": 0
+              },
+              "coordination->call": {
+                "observed": 3,
+                "expected": 0.7058823529411765,
+                "pmi": 2.0874628412503395
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 14,
+              "coordination": 3
+            },
+            "action_distribution": {
+              "fold": 10,
+              "raise": 5,
+              "call": 4
+            },
+            "total_pairs": 17
+          }
+        ]
+      }
+    },
+    "50_hands": {
+      "tier": "50_hands",
+      "early_correlation_strength": 0.5315217250399054,
+      "mid_correlation_strength": 0.7593542272183338,
+      "late_correlation_strength": 0.8386505376691624,
+      "num_simulations": 5,
+      "evolution": {
+        "early": [
+          {
+            "correlations": {
+              "coordination->fold": {
+                "observed": 9,
+                "expected": 13.095238095238095,
+                "pmi": -0.5410453841909494
+              },
+              "coordination->call": {
+                "observed": 59,
+                "expected": 35.61904761904762,
+                "pmi": 0.7280660122529647
+              },
+              "coordination->raise": {
+                "observed": 34,
+                "expected": 44.0,
+                "pmi": -0.3719687773869579
+              },
+              "signal_strength->fold": {
+                "observed": 16,
+                "expected": 11.904761904761905,
+                "pmi": 0.4265331381166731
+              },
+              "signal_strength->call": {
+                "observed": 9,
+                "expected": 32.38095238095238,
+                "pmi": -1.847148511916629
+              },
+              "signal_strength->raise": {
+                "observed": 50,
+                "expected": 40.0,
+                "pmi": 0.32192809488736235
+              }
+            },
+            "message_distribution": {
+              "coordination": 33,
+              "signal_strength": 30
+            },
+            "action_distribution": {
+              "fold": 25,
+              "call": 68,
+              "raise": 84
+            },
+            "total_pairs": 63
+          },
+          {
+            "correlations": {
+              "coordination->raise": {
+                "observed": 33,
+                "expected": 48.91044776119403,
+                "pmi": -0.567676647726534
+              },
+              "coordination->call": {
+                "observed": 47,
+                "expected": 23.37313432835821,
+                "pmi": 1.0078095448443691
+              },
+              "coordination->fold": {
+                "observed": 9,
+                "expected": 9.955223880597014,
+                "pmi": -0.14552875928450013
+              },
+              "signal_strength->raise": {
+                "observed": 80,
+                "expected": 64.08955223880596,
+                "pmi": 0.3199108094863617
+              },
+              "signal_strength->call": {
+                "observed": 7,
+                "expected": 30.62686567164179,
+                "pmi": -2.1293709030916776
+              },
+              "signal_strength->fold": {
+                "observed": 14,
+                "expected": 13.044776119402986,
+                "pmi": 0.10195464301477816
+              }
+            },
+            "message_distribution": {
+              "coordination": 29,
+              "signal_strength": 38
+            },
+            "action_distribution": {
+              "raise": 113,
+              "call": 54,
+              "fold": 23
+            },
+            "total_pairs": 67
+          },
+          {
+            "correlations": {
+              "coordination->raise": {
+                "observed": 46,
+                "expected": 39.74576271186441,
+                "pmi": 0.21083279801611524
+              },
+              "coordination->fold": {
+                "observed": 6,
+                "expected": 14.23728813559322,
+                "pmi": -1.2466399675831252
+              },
+              "coordination->call": {
+                "observed": 64,
+                "expected": 41.52542372881356,
+                "pmi": 0.6240770154719084
+              },
+              "signal_strength->raise": {
+                "observed": 21,
+                "expected": 27.25423728813559,
+                "pmi": -0.376091219038327
+              },
+              "signal_strength->fold": {
+                "observed": 18,
+                "expected": 9.76271186440678,
+                "pmi": 0.8826430493618411
+              },
+              "signal_strength->call": {
+                "observed": 6,
+                "expected": 28.47457627118644,
+                "pmi": -2.2466399675831252
+              }
+            },
+            "message_distribution": {
+              "coordination": 35,
+              "signal_strength": 24
+            },
+            "action_distribution": {
+              "raise": 67,
+              "fold": 24,
+              "call": 70
+            },
+            "total_pairs": 59
+          },
+          {
+            "correlations": {
+              "coordination->call": {
+                "observed": 45,
+                "expected": 20.072727272727274,
+                "pmi": 1.1646883530761654
+              },
+              "coordination->raise": {
+                "observed": 32,
+                "expected": 31.363636363636363,
+                "pmi": 0.028979066971765794
+              },
+              "coordination->fold": {
+                "observed": 3,
+                "expected": 9.2,
+                "pmi": -1.6166713604484944
+              },
+              "signal_strength->call": {
+                "observed": 3,
+                "expected": 27.927272727272726,
+                "pmi": -3.2186402864753405
+              },
+              "signal_strength->raise": {
+                "observed": 43,
+                "expected": 43.63636363636363,
+                "pmi": -0.021194222269123257
+              },
+              "signal_strength->fold": {
+                "observed": 19,
+                "expected": 12.8,
+                "pmi": 0.5698556083309478
+              }
+            },
+            "message_distribution": {
+              "coordination": 23,
+              "signal_strength": 32
+            },
+            "action_distribution": {
+              "call": 48,
+              "raise": 75,
+              "fold": 22
+            },
+            "total_pairs": 55
+          },
+          {
+            "correlations": {
+              "coordination->fold": {
+                "observed": 9,
+                "expected": 16.796875,
+                "pmi": -0.9001959430345102
+              },
+              "coordination->call": {
+                "observed": 68,
+                "expected": 51.0625,
+                "pmi": 0.413270573104656
+              },
+              "coordination->raise": {
+                "observed": 59,
+                "expected": 51.0625,
+                "pmi": 0.20845078121615773
+              },
+              "signal_strength->fold": {
+                "observed": 16,
+                "expected": 8.203125,
+                "pmi": 0.963826387446515
+              },
+              "signal_strength->call": {
+                "observed": 8,
+                "expected": 24.9375,
+                "pmi": -1.640244936222346
+              },
+              "signal_strength->raise": {
+                "observed": 17,
+                "expected": 24.9375,
+                "pmi": -0.5527820949720065
+              }
+            },
+            "message_distribution": {
+              "coordination": 43,
+              "signal_strength": 21
+            },
+            "action_distribution": {
+              "fold": 25,
+              "call": 76,
+              "raise": 76
+            },
+            "total_pairs": 64
+          }
+        ],
+        "mid": [
+          {
+            "correlations": {
+              "coordination->call": {
+                "observed": 61,
+                "expected": 25.03448275862069,
+                "pmi": 1.2848925946947078
+              },
+              "coordination->fold": {
+                "observed": 5,
+                "expected": 7.206896551724138,
+                "pmi": -0.5274500420659484
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 27.310344827586206,
+                "pmi": 0
+              },
+              "signal_strength->call": {
+                "observed": 5,
+                "expected": 40.96551724137931,
+                "pmi": -3.0344100307858315
+              },
+              "signal_strength->fold": {
+                "observed": 14,
+                "expected": 11.793103448275861,
+                "pmi": 0.24748340229927837
+              },
+              "signal_strength->raise": {
+                "observed": 72,
+                "expected": 44.689655172413794,
+                "pmi": 0.6880559936852598
+              }
+            },
+            "message_distribution": {
+              "coordination": 22,
+              "signal_strength": 36
+            },
+            "action_distribution": {
+              "call": 66,
+              "fold": 19,
+              "raise": 72
+            },
+            "total_pairs": 58
+          },
+          {
+            "correlations": {
+              "signal_strength->fold": {
+                "observed": 12,
+                "expected": 8.4,
+                "pmi": 0.5145731728297582
+              },
+              "signal_strength->call": {
+                "observed": 2,
+                "expected": 28.8,
+                "pmi": -3.84799690655495
+              },
+              "signal_strength->raise": {
+                "observed": 36,
+                "expected": 21.6,
+                "pmi": 0.736965594166206
+              },
+              "coordination->fold": {
+                "observed": 2,
+                "expected": 5.6,
+                "pmi": -1.4854268271702418
+              },
+              "coordination->call": {
+                "observed": 46,
+                "expected": 19.2,
+                "pmi": 1.2605275502232192
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 14.4,
+                "pmi": 0
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 24,
+              "coordination": 16
+            },
+            "action_distribution": {
+              "fold": 14,
+              "call": 48,
+              "raise": 36
+            },
+            "total_pairs": 40
+          },
+          {
+            "correlations": {
+              "signal_strength->raise": {
+                "observed": 39,
+                "expected": 27.733333333333334,
+                "pmi": 0.4918530963296747
+              },
+              "signal_strength->fold": {
+                "observed": 17,
+                "expected": 15.644444444444444,
+                "pmi": 0.1198843189427169
+              },
+              "signal_strength->call": {
+                "observed": 4,
+                "expected": 22.755555555555556,
+                "pmi": -2.5081469036703252
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 11.266666666666667,
+                "pmi": 0
+              },
+              "coordination->fold": {
+                "observed": 5,
+                "expected": 6.355555555555555,
+                "pmi": -0.34609014556135226
+              },
+              "coordination->call": {
+                "observed": 28,
+                "expected": 9.244444444444444,
+                "pmi": 1.5987683002461868
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 32,
+              "coordination": 13
+            },
+            "action_distribution": {
+              "raise": 39,
+              "fold": 22,
+              "call": 32
+            },
+            "total_pairs": 45
+          },
+          {
+            "correlations": {
+              "signal_strength->fold": {
+                "observed": 15,
+                "expected": 11.826086956521738,
+                "pmi": 0.34298971041519216
+              },
+              "signal_strength->call": {
+                "observed": 2,
+                "expected": 29.91304347826087,
+                "pmi": -3.9027027986450853
+              },
+              "signal_strength->raise": {
+                "observed": 43,
+                "expected": 29.91304347826087,
+                "pmi": 0.5235619560570128
+              },
+              "coordination->fold": {
+                "observed": 2,
+                "expected": 5.173913043478261,
+                "pmi": -1.3712558072509307
+              },
+              "coordination->call": {
+                "observed": 41,
+                "expected": 13.08695652173913,
+                "pmi": 1.6474942839153945
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 13.08695652173913,
+                "pmi": 0
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 32,
+              "coordination": 14
+            },
+            "action_distribution": {
+              "fold": 17,
+              "call": 43,
+              "raise": 43
+            },
+            "total_pairs": 46
+          },
+          {
+            "correlations": {
+              "coordination->call": {
+                "observed": 46,
+                "expected": 20.403225806451612,
+                "pmi": 1.1728365968622159
+              },
+              "coordination->fold": {
+                "observed": 10,
+                "expected": 9.274193548387096,
+                "pmi": 0.10870625944249998
+              },
+              "coordination->raise": {
+                "observed": 1,
+                "expected": 31.532258064516128,
+                "pmi": -4.97875658180784
+              },
+              "signal_strength->call": {
+                "observed": 9,
+                "expected": 34.596774193548384,
+                "pmi": -1.9426406205577202
+              },
+              "signal_strength->fold": {
+                "observed": 15,
+                "expected": 15.725806451612904,
+                "pmi": -0.06817150264157938
+              },
+              "signal_strength->raise": {
+                "observed": 84,
+                "expected": 53.46774193548387,
+                "pmi": 0.6517205781656854
+              }
+            },
+            "message_distribution": {
+              "coordination": 23,
+              "signal_strength": 39
+            },
+            "action_distribution": {
+              "call": 55,
+              "fold": 25,
+              "raise": 85
+            },
+            "total_pairs": 62
+          }
+        ],
+        "late": [
+          {
+            "correlations": {
+              "coordination->call": {
+                "observed": 47,
+                "expected": 17.0,
+                "pmi": 1.4671260104272978
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 13.8125,
+                "pmi": 0
+              },
+              "coordination->fold": {
+                "observed": 1,
+                "expected": 6.020833333333333,
+                "pmi": -2.5899631817795226
+              },
+              "signal_strength->call": {
+                "observed": 1,
+                "expected": 31.0,
+                "pmi": -4.954196310386875
+              },
+              "signal_strength->raise": {
+                "observed": 39,
+                "expected": 25.1875,
+                "pmi": 0.6307661903342809
+              },
+              "signal_strength->fold": {
+                "observed": 16,
+                "expected": 10.979166666666666,
+                "pmi": 0.5433033490839415
+              }
+            },
+            "message_distribution": {
+              "coordination": 17,
+              "signal_strength": 31
+            },
+            "action_distribution": {
+              "call": 48,
+              "raise": 39,
+              "fold": 17
+            },
+            "total_pairs": 48
+          },
+          {
+            "correlations": {
+              "signal_strength->raise": {
+                "observed": 27,
+                "expected": 19.022727272727273,
+                "pmi": 0.5052353082504218
+              },
+              "signal_strength->call": {
+                "observed": 3,
+                "expected": 21.84090909090909,
+                "pmi": -2.863998501415297
+              },
+              "signal_strength->fold": {
+                "observed": 16,
+                "expected": 13.386363636363637,
+                "pmi": 0.2573077948068365
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 7.9772727272727275,
+                "pmi": 0
+              },
+              "coordination->call": {
+                "observed": 28,
+                "expected": 9.159090909090908,
+                "pmi": 1.6121505121669342
+              },
+              "coordination->fold": {
+                "observed": 3,
+                "expected": 5.613636363636363,
+                "pmi": -0.9039731122262241
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 31,
+              "coordination": 13
+            },
+            "action_distribution": {
+              "raise": 27,
+              "call": 31,
+              "fold": 19
+            },
+            "total_pairs": 44
+          },
+          {
+            "correlations": {
+              "coordination->call": {
+                "observed": 27,
+                "expected": 8.615384615384615,
+                "pmi": 1.6479722982469567
+              },
+              "coordination->fold": {
+                "observed": 1,
+                "expected": 5.846153846153846,
+                "pmi": -2.5474877953024935
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 6.461538461538462,
+                "pmi": 0
+              },
+              "signal_strength->call": {
+                "observed": 1,
+                "expected": 19.384615384615383,
+                "pmi": -4.276840205358824
+              },
+              "signal_strength->fold": {
+                "observed": 18,
+                "expected": 13.153846153846153,
+                "pmi": 0.4525122046975067
+              },
+              "signal_strength->raise": {
+                "observed": 21,
+                "expected": 14.538461538461538,
+                "pmi": 0.5305147166987798
+              }
+            },
+            "message_distribution": {
+              "coordination": 12,
+              "signal_strength": 27
+            },
+            "action_distribution": {
+              "call": 28,
+              "fold": 19,
+              "raise": 21
+            },
+            "total_pairs": 39
+          },
+          {
+            "correlations": {
+              "signal_strength->fold": {
+                "observed": 18,
+                "expected": 15.054545454545455,
+                "pmi": 0.2577977574676467
+              },
+              "signal_strength->call": {
+                "observed": 4,
+                "expected": 34.69090909090909,
+                "pmi": -3.116485742480852
+              },
+              "signal_strength->raise": {
+                "observed": 54,
+                "expected": 35.345454545454544,
+                "pmi": 0.6114347120823473
+              },
+              "coordination->fold": {
+                "observed": 5,
+                "expected": 7.945454545454545,
+                "pmi": -0.6682016610885765
+              },
+              "coordination->call": {
+                "observed": 49,
+                "expected": 18.30909090909091,
+                "pmi": 1.4202215896330832
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 18.654545454545456,
+                "pmi": 0
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 36,
+              "coordination": 19
+            },
+            "action_distribution": {
+              "fold": 23,
+              "call": 53,
+              "raise": 54
+            },
+            "total_pairs": 55
+          },
+          {
+            "correlations": {
+              "signal_strength->fold": {
+                "observed": 17,
+                "expected": 11.73913043478261,
+                "pmi": 0.5342092002565212
+              },
+              "signal_strength->call": {
+                "observed": 1,
+                "expected": 30.652173913043477,
+                "pmi": -4.937917491229143
+              },
+              "signal_strength->raise": {
+                "observed": 37,
+                "expected": 24.130434782608695,
+                "pmi": 0.6166713604484945
+              },
+              "coordination->fold": {
+                "observed": 1,
+                "expected": 6.260869565217392,
+                "pmi": -2.6463630453852995
+              },
+              "coordination->call": {
+                "observed": 46,
+                "expected": 16.347826086956523,
+                "pmi": 1.492535060436388
+              },
+              "coordination->raise": {
+                "observed": 0,
+                "expected": 12.869565217391305,
+                "pmi": 0
+              }
+            },
+            "message_distribution": {
+              "signal_strength": 30,
+              "coordination": 16
+            },
+            "action_distribution": {
+              "fold": 18,
+              "call": 47,
+              "raise": 37
+            },
+            "total_pairs": 46
+          }
+        ]
+      }
+    }
+  },
+  "convergence_triggers": {
+    "30_hands": {
+      "tier": "30_hands",
+      "num_triggers_found": 0,
+      "triggers": [],
+      "avg_jump_size": 0
+    },
+    "40_hands": {
+      "tier": "40_hands",
+      "num_triggers_found": 0,
+      "triggers": [],
+      "avg_jump_size": 0
+    },
+    "50_hands": {
+      "tier": "50_hands",
+      "num_triggers_found": 0,
+      "triggers": [],
+      "avg_jump_size": 0
+    }
+  },
+  "protocol_sophistication": {
+    "30_hands": {
+      "tier": "30_hands",
+      "num_simulations": 5,
+      "metrics": [
+        {
+          "simulation": "simulation_11",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 4.962962962962963,
+            "entropy": 2.456448375831249,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 11,
+            "avg_length": 4.641791044776119,
+            "entropy": 1.5685465704983752,
+            "unique_messages": 4
+          },
+          "late": {
+            "vocab_size": 0,
+            "avg_length": 0,
+            "entropy": 0,
+            "unique_messages": 0
+          }
+        },
+        {
+          "simulation": "simulation_12",
+          "early": {
+            "vocab_size": 11,
+            "avg_length": 4.837837837837838,
+            "entropy": 1.0414647631411194,
+            "unique_messages": 3
+          },
+          "mid": {
+            "vocab_size": 5,
+            "avg_length": 5.0,
+            "entropy": -0.0,
+            "unique_messages": 1
+          },
+          "late": {
+            "vocab_size": 0,
+            "avg_length": 0,
+            "entropy": 0,
+            "unique_messages": 0
+          }
+        },
+        {
+          "simulation": "simulation_13",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 4.898305084745763,
+            "entropy": 2.2332098193102983,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 9,
+            "avg_length": 4.673076923076923,
+            "entropy": 1.5844322829781463,
+            "unique_messages": 3
+          },
+          "late": {
+            "vocab_size": 0,
+            "avg_length": 0,
+            "entropy": 0,
+            "unique_messages": 0
+          }
+        },
+        {
+          "simulation": "simulation_14",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 4.754098360655738,
+            "entropy": 2.4589227747535367,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 9,
+            "avg_length": 5.138888888888889,
+            "entropy": 1.4593308859227299,
+            "unique_messages": 3
+          },
+          "late": {
+            "vocab_size": 0,
+            "avg_length": 0,
+            "entropy": 0,
+            "unique_messages": 0
+          }
+        },
+        {
+          "simulation": "simulation_15",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 4.982142857142857,
+            "entropy": 2.4430563693419645,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 9,
+            "avg_length": 5.0,
+            "entropy": 1.4505612979509261,
+            "unique_messages": 3
+          },
+          "late": {
+            "vocab_size": 0,
+            "avg_length": 0,
+            "entropy": 0,
+            "unique_messages": 0
+          }
+        }
+      ]
+    },
+    "40_hands": {
+      "tier": "40_hands",
+      "num_simulations": 5,
+      "metrics": [
+        {
+          "simulation": "simulation_10",
+          "early": {
+            "vocab_size": 11,
+            "avg_length": 4.837837837837838,
+            "entropy": 1.0414647631411194,
+            "unique_messages": 3
+          },
+          "mid": {
+            "vocab_size": 5,
+            "avg_length": 5.0,
+            "entropy": -0.0,
+            "unique_messages": 1
+          },
+          "late": {
+            "vocab_size": 5,
+            "avg_length": 5.0,
+            "entropy": -0.0,
+            "unique_messages": 1
+          }
+        },
+        {
+          "simulation": "simulation_6",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 4.857142857142857,
+            "entropy": 2.303446881445302,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 9,
+            "avg_length": 4.583333333333333,
+            "entropy": 1.5763400991146805,
+            "unique_messages": 3
+          },
+          "late": {
+            "vocab_size": 9,
+            "avg_length": 4.8125,
+            "entropy": 1.5749180366673452,
+            "unique_messages": 3
+          }
+        },
+        {
+          "simulation": "simulation_7",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 5.218181818181818,
+            "entropy": 1.9500750046873687,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 9,
+            "avg_length": 5.127659574468085,
+            "entropy": 1.4139431065797678,
+            "unique_messages": 3
+          },
+          "late": {
+            "vocab_size": 9,
+            "avg_length": 4.516129032258065,
+            "entropy": 1.5745783758543492,
+            "unique_messages": 3
+          }
+        },
+        {
+          "simulation": "simulation_8",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 5.0,
+            "entropy": 2.497066385979436,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 9,
+            "avg_length": 4.804347826086956,
+            "entropy": 1.5644465647511698,
+            "unique_messages": 3
+          },
+          "late": {
+            "vocab_size": 9,
+            "avg_length": 5.074074074074074,
+            "entropy": 1.4784345996621122,
+            "unique_messages": 3
+          }
+        },
+        {
+          "simulation": "simulation_9",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 4.945454545454545,
+            "entropy": 2.278580930724571,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 9,
+            "avg_length": 4.837209302325581,
+            "entropy": 1.5455650594399446,
+            "unique_messages": 3
+          },
+          "late": {
+            "vocab_size": 9,
+            "avg_length": 5.176470588235294,
+            "entropy": 1.4466479595102752,
+            "unique_messages": 3
+          }
+        }
+      ]
+    },
+    "50_hands": {
+      "tier": "50_hands",
+      "num_simulations": 5,
+      "metrics": [
+        {
+          "simulation": "simulation_1",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 4.857142857142857,
+            "entropy": 2.487801787126418,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 9,
+            "avg_length": 4.482758620689655,
+            "entropy": 1.5559471998026146,
+            "unique_messages": 3
+          },
+          "late": {
+            "vocab_size": 9,
+            "avg_length": 4.625,
+            "entropy": 1.5830827666506657,
+            "unique_messages": 3
+          }
+        },
+        {
+          "simulation": "simulation_2",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 4.82089552238806,
+            "entropy": 2.407194378286826,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 9,
+            "avg_length": 4.5,
+            "entropy": 1.5709505944546684,
+            "unique_messages": 3
+          },
+          "late": {
+            "vocab_size": 9,
+            "avg_length": 4.7727272727272725,
+            "entropy": 1.5796799079563433,
+            "unique_messages": 3
+          }
+        },
+        {
+          "simulation": "simulation_3",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 4.830508474576271,
+            "entropy": 2.4203259868998273,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 9,
+            "avg_length": 4.8,
+            "entropy": 1.576387683635947,
+            "unique_messages": 3
+          },
+          "late": {
+            "vocab_size": 9,
+            "avg_length": 4.846153846153846,
+            "entropy": 1.5262349099495227,
+            "unique_messages": 3
+          }
+        },
+        {
+          "simulation": "simulation_4",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 4.9818181818181815,
+            "entropy": 2.333244578213746,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 9,
+            "avg_length": 4.717391304347826,
+            "entropy": 1.5802316050963605,
+            "unique_messages": 3
+          },
+          "late": {
+            "vocab_size": 9,
+            "avg_length": 4.636363636363637,
+            "entropy": 1.5844883897546347,
+            "unique_messages": 3
+          }
+        },
+        {
+          "simulation": "simulation_5",
+          "early": {
+            "vocab_size": 15,
+            "avg_length": 4.875,
+            "entropy": 2.2062656707430093,
+            "unique_messages": 6
+          },
+          "mid": {
+            "vocab_size": 13,
+            "avg_length": 4.548387096774194,
+            "entropy": 1.6517776884279063,
+            "unique_messages": 4
+          },
+          "late": {
+            "vocab_size": 9,
+            "avg_length": 4.673913043478261,
+            "entropy": 1.5758970726420136,
+            "unique_messages": 3
+          }
+        }
+      ]
+    }
+  }
+}

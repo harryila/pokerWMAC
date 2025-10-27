@@ -1,0 +1,14 @@
+usage: run_wmac.py [-h] [--num-hands NUM_HANDS] [--buyin BUYIN]
+                   [--big-blind BIG_BLIND] [--small-blind SMALL_BLIND]
+                   [--max-players MAX_PLAYERS]
+                   [--llm-players LLM_PLAYERS [LLM_PLAYERS ...]]
+                   [--collusion-llm-players COLLUSION_LLM_PLAYERS [COLLUSION_LLM_PLAYERS ...]]
+                   [--model MODEL] [--api-key API_KEY]
+                   [--coordination-mode {explicit,advisory,emergent_only}]
+                   [--ban-phrases [BAN_PHRASES ...]] [--enforce-bans]
+                   [--negotiate-protocol]
+                   [--protocol-exchanges PROTOCOL_EXCHANGES]
+                   [--strategic-coordination] [--augment-level {0,1,2,3,4}]
+run_wmac.py: error: unrecognized arguments: --debug-prompt
+✅ USING official-llm-poker-collusion-main version
+[DEBUG] Forced path: /Users/harry/Desktop/Poker/pokerWMAC_clean/finalRepOpenAI

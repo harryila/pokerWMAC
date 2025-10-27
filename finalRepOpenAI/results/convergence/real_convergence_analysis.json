@@ -1,0 +1,126 @@
+{
+  "analysis_timestamp": "2025-10-11T17:58:59.840254",
+  "total_simulations": 20,
+  "real_performance": {
+    "50": {
+      "count": 5,
+      "mean_team_advantage": 100.0,
+      "std_team_advantage": 0.0,
+      "min_team_advantage": 100.0,
+      "max_team_advantage": 100.0,
+      "dominance_rate": 1.0,
+      "complete_dominance_count": 5
+    },
+    "40": {
+      "count": 5,
+      "mean_team_advantage": 86.34,
+      "std_team_advantage": 24.63894072398406,
+      "min_team_advantage": 37.25,
+      "max_team_advantage": 100.0,
+      "dominance_rate": 0.6,
+      "complete_dominance_count": 3
+    },
+    "30": {
+      "count": 5,
+      "mean_team_advantage": 77.95,
+      "std_team_advantage": 19.833557421703247,
+      "min_team_advantage": 39.1,
+      "max_team_advantage": 94.3,
+      "dominance_rate": 0.0,
+      "complete_dominance_count": 0
+    },
+    "20": {
+      "count": 5,
+      "mean_team_advantage": 74.55,
+      "std_team_advantage": 16.733469454957632,
+      "min_team_advantage": 41.65,
+      "max_team_advantage": 86.9,
+      "dominance_rate": 0.0,
+      "complete_dominance_count": 0
+    }
+  },
+  "communication_analysis": {
+    "correlations": {
+      "team_advantage": 1.0,
+      "total_messages": 0.7513450193358726,
+      "signal_messages": 0.9372748112529182,
+      "coordination_messages": 0.9221134855187988,
+      "messages_per_hand": 0.39530619955724333,
+      "signal_rate": 0.8145974740143984,
+      "coordination_rate": 0.8984791246378384
+    },
+    "by_hands": {
+      "20": {
+        "team_advantage_mean": 74.55,
+        "team_advantage_std": 18.71,
+        "team_advantage_count": 5.0,
+        "total_messages_mean": 79.2,
+        "total_messages_std": 14.55,
+        "signal_messages_mean": 63.6,
+        "signal_messages_std": 21.51,
+        "coordination_messages_mean": 74.4,
+        "coordination_messages_std": 24.36
+      },
+      "30": {
+        "team_advantage_mean": 77.95,
+        "team_advantage_std": 22.17,
+        "team_advantage_count": 5.0,
+        "total_messages_mean": 101.4,
+        "total_messages_std": 21.04,
+        "signal_messages_mean": 72.8,
+        "signal_messages_std": 36.64,
+        "coordination_messages_mean": 89.8,
+        "coordination_messages_std": 45.97
+      },
+      "40": {
+        "team_advantage_mean": 86.34,
+        "team_advantage_std": 27.55,
+        "team_advantage_count": 5.0,
+        "total_messages_mean": 122.0,
+        "total_messages_std": 22.89,
+        "signal_messages_mean": 83.8,
+        "signal_messages_std": 42.51,
+        "coordination_messages_mean": 106.4,
+        "coordination_messages_std": 55.73
+      },
+      "50": {
+        "team_advantage_mean": 100.0,
+        "team_advantage_std": 0.0,
+        "team_advantage_count": 5.0,
+        "total_messages_mean": 158.2,
+        "total_messages_std": 12.19,
+        "signal_messages_mean": 118.0,
+        "signal_messages_std": 10.65,
+        "coordination_messages_mean": 158.2,
+        "coordination_messages_std": 12.19
+      }
+    }
+  },
+  "key_findings": {
+    "convergence_evidence": {
+      "progression": "74.5% \u2192 100.0%",
+      "improvement": 25.450000000000003,
+      "first_hands": 20,
+      "last_hands": 50
+    },
+    "dominance_achievement": {
+      "50": {
+        "dominance_rate": 1.0,
+        "complete_dominance_count": 5
+      },
+      "40": {
+        "dominance_rate": 0.6,
+        "complete_dominance_count": 3
+      },
+      "30": {
+        "dominance_rate": 0.0,
+        "complete_dominance_count": 0
+      },
+      "20": {
+        "dominance_rate": 0.0,
+        "complete_dominance_count": 0
+      }
+    },
+    "communication_effectiveness": {}
+  }
+}

@@ -98,28 +98,34 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
                 print(f"[COORDINATION DEBUG] Emergent-only or no teammate; using original collusion logic for player {player_id}")
             
             # FALLBACK: Original collusion logic
-            from llm_prompts import build_communication_game_prompt
-            
-            # Analyze team position
-            team_analysis = self._analyze_team_position(game, player_id)
-            
             # Get recent chat history
             recent_messages = game.get_chat_history(player_id, hand_id=game.num_hands)[-10:]
             
-            # Format game state for prompt
-            hole_cards = self._format_hole_cards(game, player_id)
-            board_cards = self._format_board_cards(game)
-            betting_history = self._format_betting_history(game)
+            # Analyze team position (needed for coordination prompt later)
+            team_analysis = self._analyze_team_position(game, player_id)
             
-            # Build unified prompt for action + communication
-            prompt = build_communication_game_prompt(
-                hole_cards=hole_cards,
-                board_cards=board_cards,
-                betting_history=betting_history,
-                chat_history=recent_messages,
-                teammate_ids=self.teammate_ids,
-                communication_style=self.communication_style
-            )
+            # Use the monkey-patched prompt builder if available (includes strategic coordination)
+            if hasattr(self, '_build_unified_prompt') and callable(self._build_unified_prompt):
+                print(f"[PROMPT DEBUG] Using monkey-patched _build_unified_prompt for player {player_id}")
+                prompt = self._build_unified_prompt(game, player_id, recent_messages, {})
+            else:
+                # Legacy fallback
+                from llm_prompts import build_communication_game_prompt
+                
+                # Format game state for prompt
+                hole_cards = self._format_hole_cards(game, player_id)
+                board_cards = self._format_board_cards(game)
+                betting_history = self._format_betting_history(game)
+                
+                # Build unified prompt for action + communication
+                prompt = build_communication_game_prompt(
+                    hole_cards=hole_cards,
+                    board_cards=board_cards,
+                    betting_history=betting_history,
+                    chat_history=recent_messages,
+                    teammate_ids=self.teammate_ids,
+                    communication_style=self.communication_style
+                )
             # Append explicit available actions to reduce invalid choices
             try:
                 available_moves = game.get_available_moves()
@@ -205,6 +211,7 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
                 action = response.get("action", "fold").lower()
                 amount = response.get("amount", 0)
                 reasoning = response.get("reasoning", "")
+                
                 # Log parsed dict
                 self._log_prompt(
                     phase=getattr(game, 'hand_phase', None).name if hasattr(getattr(game, 'hand_phase', None), 'name') else 'UNKNOWN',

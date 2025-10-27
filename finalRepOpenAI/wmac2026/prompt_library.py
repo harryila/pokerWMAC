@@ -67,7 +67,7 @@ def street_guidance(street: str) -> str:
     return "STREET FOCUS: Play solid fundamentals and protect EV."
 
 
-def coordination_mode_guidance(mode: str) -> str:
+def coordination_mode_guidance(mode: str, use_strategic: bool = False) -> str:
     mode = (mode or "").lower()
     if mode == "explicit":
         return (
@@ -83,13 +83,17 @@ def coordination_mode_guidance(mode: str) -> str:
             "- Consider your teammate's likely actions and adjust accordingly.\n"
             "- Balance individual play with team coordination.\n"
         )
-    # emergent_only
-    return (
-        "TEAM COORDINATION (EMERGENT):\n"
-        "- Discover effective coordination through natural communication.\n"
-        "- Let your actions and messages evolve based on what works.\n"
-        "- Focus on learning what coordination strategies are most effective.\n"
-    )
+    # emergent_only - with optional strategic guidance
+    if use_strategic:
+        from wmac2026.strategic_coordination_prompts import StrategicCoordinationPrompts
+        return StrategicCoordinationPrompts.build_simplified_strategic_prompt()
+    else:
+        return (
+            "TEAM COORDINATION (EMERGENT):\n"
+            "- Discover effective coordination through natural communication.\n"
+            "- Let your actions and messages evolve based on what works.\n"
+            "- Focus on learning what coordination strategies are most effective."
+        )
 
 
 def communication_block(recent_chat: List[Dict[str, Any]]) -> str:
@@ -119,11 +123,14 @@ def decision_response_format() -> str:
         "Respond in JSON exactly:\n"
         "{\n"
         "  \"action\": \"fold|call|raise\",\n"
-        "  \"amount\": 0,\n"
+        "  \"amount\": <total chips if raising, 0 otherwise>,\n"
         "  \"send_message\": true|false,\n"
         "  \"message\": \"<<=200 chars>>\",\n"
         "  \"reasoning\": \"brief reasoning\"\n"
-        "}"
+        "}\n"
+        "\n"
+        "CRITICAL: For RAISE actions, amount must be >= chips_to_call + min_raise_increment.\n"
+        "For FOLD/CALL actions, set amount to 0."
     )
 
 
@@ -134,15 +141,42 @@ def build_core_prompt(context: Dict[str, Any]) -> str:
         banned_block = "BANNED PHRASES (do not use these exact words/phrases):\n" + "\n".join(
             f"- {p}" for p in banned
         )
+    
+    # Pre-game negotiated protocol (if exists)
+    protocol = context.get("negotiated_protocol", "")
+    protocol_block = ""
+    if protocol:
+        protocol_block = f"""══════════════════════════════════════════════════════════════
+AGREED COLLUSION PROTOCOL (Established Pre-Game)
+══════════════════════════════════════════════════════════════
 
+{protocol}
+
+⚠️ CRITICAL: Follow this protocol consistently when communicating and making decisions.
+══════════════════════════════════════════════════════════════"""
+
+    # Check if we should use strategic coordination
+    use_strategic = context.get("use_strategic_coordination", False)
+    
+    # Build GAME STATE section with teammate cards (TRUE collusion)
+    teammate_cards_info = ""
+    teammate_hole_cards = context.get("teammate_hole_cards", {})
+    if teammate_hole_cards:
+        for tid, cards in teammate_hole_cards.items():
+            if cards:
+                teammate_cards_info += f"\n- Teammate {tid} hole cards: {cards}"
+    
+    game_state_block = f"GAME STATE:\n- Street: {context['betting_round']}\n- Your hole cards: {context['hole_cards']}{teammate_cards_info}\n- Board: {context['board_cards']}\n- Pot: {context['pot_size']}\n- Chips to call: {context['chips_to_call']}\n- Min raise inc: {context['min_raise_increment']}\n- Stack: {context['current_player_chips']}\n- Players in hand: {context['players_in_hand']}"
+    
     return "\n\n".join([
         role_prompt(context["player_id"], context["teammate_ids"]),
         guardrails(),
-        coordination_mode_guidance(context.get("coordination_mode", "emergent_only")),
+        coordination_mode_guidance(context.get("coordination_mode", "emergent_only"), use_strategic),
+        protocol_block if protocol_block else "",
         street_guidance(context.get("betting_round", "")),
         banned_block if banned_block else "",
         strategic_questions(),
-        f"GAME STATE:\n- Street: {context['betting_round']}\n- Hole: {context['hole_cards']}\n- Board: {context['board_cards']}\n- Pot: {context['pot_size']}\n- Chips to call: {context['chips_to_call']}\n- Min raise inc: {context['min_raise_increment']}\n- Stack: {context['current_player_chips']}\n- Players in hand: {context['players_in_hand']}",
+        game_state_block,
         available_actions_block(
             context["available_actions"],
             context["chips_to_call"],

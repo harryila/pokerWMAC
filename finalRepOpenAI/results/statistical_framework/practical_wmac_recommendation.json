@@ -1,0 +1,14 @@
+{
+  "recommended_n_per_tier": 30,
+  "total_simulations": 180,
+  "phase1_simulations": 90,
+  "phase2_simulations": 90,
+  "power_analysis": {
+    "30_to_40": 0.2550629777252875,
+    "40_to_50": 0.7748747112173098,
+    "30_to_50": 0.9997543455346014
+  },
+  "minimum_power": 0.2550629777252875,
+  "justification": "Balances statistical rigor with computational feasibility",
+  "recommendation_date": "2025-10-08T16:24:20.920496"
+}

@@ -158,4 +158,126 @@ The \textbf{adaptation efficiency} under constraint $\Omega'$ is:
 where $T_{adapt}$ is the time to reach stable performance under constraints.
 \end{definition}
 
+\section{Convergence Theory}
+
+\subsection{Temporal Convergence of Protocols}
+
+\begin{definition}[Protocol Convergence]
+A communication protocol $\pi^{comm}$ exhibits \textbf{temporal convergence} if the validation metrics improve monotonically over time horizon $T$:
+
+\[
+\forall t_1 < t_2 \leq T: \quad V(\pi^{comm}, t_2) \geq V(\pi^{comm}, t_1)
+\]
+
+where $V(\pi^{comm}, t)$ is the validation score at time $t$:
+
+\[
+V(\pi^{comm}, t) = \frac{1}{4} \sum_{i=1}^4 \mathbb{1}[\text{Condition}_i(t) \text{ satisfied}]
+\]
+\end{definition}
+
+\begin{theorem}[Convergence to Optimal Coordination]
+Under emergent communication with sufficient interaction time $T$, multi-agent systems converge to optimal coordination when:
+
+\begin{enumerate}
+    \item \textbf{Information Accumulation:}
+    \[
+    \lim_{T \to \infty} I(m_j^T; s_j^T) = H(s_j^T)
+    \]
+    Messages eventually encode complete state information.
+    
+    \item \textbf{Utility Maximization:}
+    \[
+    \lim_{T \to \infty} \mathbb{E}_{\pi^{comm}}[R_i^T] = R_i^*
+    \]
+    Expected utility converges to the optimal value $R_i^*$ under communication.
+    
+    \item \textbf{Protocol Stability Convergence:}
+    \[
+    \lim_{T \to \infty} \text{Var}[I(m_j^T; s_j^T)] = 0
+    \]
+    Protocol variance decreases to zero as agents coordinate.
+\end{enumerate}
+\end{theorem}
+
+\subsection{Team Performance Metrics}
+
+\begin{definition}[Team Advantage]
+For a coalition $C \subset \{1, \ldots, N\}$ of colluding agents, the \textbf{team advantage} at time $t$ is:
+
+\[
+\text{TA}(C, t) = \frac{\sum_{i \in C} R_i(t)}{\sum_{i=1}^N R_i(t)}
+\]
+
+representing the fraction of total utility captured by the team.
+\end{definition}
+
+\begin{proposition}[Convergence to Complete Dominance]
+A team $C$ achieves \textbf{complete dominance} when:
+
+\[
+\exists T_{dom}: \quad \forall t \geq T_{dom}, \quad \text{TA}(C, t) = 1
+\]
+
+indicating all utility is captured by the coordinating team.
+\end{proposition}
+
+\subsection{Communication Efficiency}
+
+\begin{definition}[Information Efficiency]
+The \textbf{information efficiency} of a protocol is the ratio of behavioral influence to message complexity:
+
+\[
+\text{IE}(\pi^{comm}) = \frac{I(m; a \mid s)}{H(m)}
+\]
+
+High efficiency means messages convey maximal actionable information with minimal complexity.
+\end{definition}
+
+\begin{definition}[Coordination Rate]
+The \textbf{coordination rate} measures how quickly protocols achieve target utility:
+
+\[
+\kappa = \frac{\mathbb{E}[R^{comm}] - \mathbb{E}[R^{baseline}]}{T_{conv}}
+\]
+
+where $T_{conv}$ is the time to reach the target utility threshold.
+\end{definition}
+
+\section{Strategic Game-Specific Extensions}
+
+\subsection{Poker-Specific Formalization}
+
+For poker games, we extend the framework with:
+
+\begin{definition}[Chip Accumulation Dynamics]
+The utility function for poker is defined as chip accumulation:
+
+\[
+R_i(t) = \text{chips}_i(t) - \text{chips}_i(0)
+\]
+
+Team utility is the sum of colluding players' chip counts.
+\end{definition}
+
+\begin{definition}[Hand-Level Convergence]
+Protocol convergence is measured at the hand granularity:
+
+\[
+V_h = V(\pi^{comm}, h) \quad \text{for hand } h \in \{1, \ldots, H\}
+\]
+
+where $H$ is the total number of hands played.
+\end{definition}
+
+\begin{proposition}[Threshold Convergence Phenomenon]
+Empirical evidence suggests a \textbf{threshold effect} where complete validation occurs beyond a critical game length:
+
+\[
+\exists H_{threshold}: \quad \forall H \geq H_{threshold}, \quad V_H = 1
+\]
+
+In our poker experiments, $H_{threshold} \approx 50$ hands.
+\end{proposition}
+
 \end{document}

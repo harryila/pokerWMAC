@@ -1,0 +1,396 @@
+{
+  "informational_dependence": {
+    "condition_1_results": {
+      "1": {
+        "mutual_information": {
+          "state_hand_17_player_0_state": 0.011834319526627219,
+          "state_hand_23_player_1_state": 0.011834319526627219,
+          "state_hand_35_player_1_state": 0.023668639053254437,
+          "state_hand_28_player_0_state": 0.023668639053254437,
+          "state_hand_18_player_0_state": 0.011834319526627219,
+          "state_hand_12_player_0_state": 0.023668639053254437,
+          "state_hand_5_player_1_state": 0.011834319526627219,
+          "state_hand_19_player_0_state": 0.011834319526627219,
+          "state_hand_11_player_1_state": 0.011834319526627219,
+          "state_hand_31_player_1_state": 0.023668639053254437,
+          "state_hand_34_player_0_state": 0.011834319526627219,
+          "state_hand_4_player_0_state": 0.011834319526627219,
+          "state_hand_10_player_1_state": 0.023668639053254437,
+          "state_hand_14_player_0_state": 0.023668639053254437,
+          "state_hand_3_player_1_state": 0.011834319526627219,
+          "state_hand_8_player_0_state": 0.023668639053254437,
+          "state_hand_35_player_0_state": 0.029585798816568046,
+          "state_hand_1_player_1_state": 0.011834319526627219,
+          "state_hand_9_player_1_state": 0.023668639053254437,
+          "state_hand_31_player_0_state": 0.029585798816568046,
+          "state_hand_21_player_1_state": 0.011834319526627219,
+          "state_hand_25_player_0_state": 0.023668639053254437,
+          "state_hand_12_player_1_state": 0.023668639053254437,
+          "state_hand_28_player_1_state": 0.023668639053254437,
+          "state_hand_6_player_0_state": 0.011834319526627219,
+          "state_hand_9_player_0_state": 0.011834319526627219,
+          "state_hand_22_player_0_state": 0.011834319526627219,
+          "state_hand_8_player_1_state": 0.023668639053254437,
+          "state_hand_29_player_1_state": 0.023668639053254437,
+          "state_hand_2_player_0_state": 0.011834319526627219,
+          "state_hand_13_player_1_state": 0.011834319526627219,
+          "state_hand_29_player_0_state": 0.029585798816568046,
+          "state_hand_25_player_1_state": 0.023668639053254437,
+          "state_hand_17_player_1_state": 0.023668639053254437,
+          "state_hand_10_player_0_state": 0.023668639053254437
+        },
+        "significant": {
+          "state_hand_17_player_0_state": true,
+          "state_hand_23_player_1_state": true,
+          "state_hand_35_player_1_state": true,
+          "state_hand_28_player_0_state": true,
+          "state_hand_18_player_0_state": true,
+          "state_hand_12_player_0_state": true,
+          "state_hand_5_player_1_state": true,
+          "state_hand_19_player_0_state": true,
+          "state_hand_11_player_1_state": true,
+          "state_hand_31_player_1_state": true,
+          "state_hand_34_player_0_state": true,
+          "state_hand_4_player_0_state": true,
+          "state_hand_10_player_1_state": true,
+          "state_hand_14_player_0_state": true,
+          "state_hand_3_player_1_state": true,
+          "state_hand_8_player_0_state": true,
+          "state_hand_35_player_0_state": true,
+          "state_hand_1_player_1_state": true,
+          "state_hand_9_player_1_state": true,
+          "state_hand_31_player_0_state": true,
+          "state_hand_21_player_1_state": true,
+          "state_hand_25_player_0_state": true,
+          "state_hand_12_player_1_state": true,
+          "state_hand_28_player_1_state": true,
+          "state_hand_6_player_0_state": true,
+          "state_hand_9_player_0_state": true,
+          "state_hand_22_player_0_state": true,
+          "state_hand_8_player_1_state": true,
+          "state_hand_29_player_1_state": true,
+          "state_hand_2_player_0_state": true,
+          "state_hand_13_player_1_state": true,
+          "state_hand_29_player_0_state": true,
+          "state_hand_25_player_1_state": true,
+          "state_hand_17_player_1_state": true,
+          "state_hand_10_player_0_state": true
+        },
+        "exceeds_threshold": true
+      },
+      "2": {
+        "mutual_information": {
+          "state_hand_32_player_0_state": 0.033112582781456956,
+          "state_hand_12_player_0_state": 0.033112582781456956,
+          "state_hand_23_player_0_state": 0.013245033112582781,
+          "state_hand_5_player_0_state": 0.019867549668874173,
+          "state_hand_1_player_0_state": 0.026490066225165563,
+          "state_hand_1_player_1_state": 0.026490066225165563,
+          "state_hand_3_player_0_state": 0.013245033112582781,
+          "state_hand_25_player_0_state": 0.026490066225165563,
+          "state_hand_40_player_1_state": 0.013245033112582781,
+          "state_hand_15_player_0_state": 0.019867549668874173,
+          "state_hand_12_player_1_state": 0.026490066225165563,
+          "state_hand_28_player_1_state": 0.013245033112582781,
+          "state_hand_45_player_0_state": 0.013245033112582781,
+          "state_hand_9_player_0_state": 0.019867549668874173,
+          "state_hand_32_player_1_state": 0.026490066225165563,
+          "state_hand_2_player_1_state": 0.026490066225165563,
+          "state_hand_4_player_1_state": 0.013245033112582781,
+          "state_hand_14_player_1_state": 0.013245033112582781,
+          "state_hand_13_player_0_state": 0.013245033112582781,
+          "state_hand_8_player_1_state": 0.026490066225165563,
+          "state_hand_11_player_0_state": 0.013245033112582781,
+          "state_hand_29_player_1_state": 0.033112582781456956,
+          "state_hand_2_player_0_state": 0.013245033112582781,
+          "state_hand_29_player_0_state": 0.026490066225165563,
+          "state_hand_7_player_0_state": 0.026490066225165563,
+          "state_hand_25_player_1_state": 0.033112582781456956,
+          "state_hand_6_player_1_state": 0.026490066225165563,
+          "state_hand_47_player_0_state": 0.013245033112582781
+        },
+        "significant": {
+          "state_hand_32_player_0_state": true,
+          "state_hand_12_player_0_state": true,
+          "state_hand_23_player_0_state": true,
+          "state_hand_5_player_0_state": true,
+          "state_hand_1_player_0_state": true,
+          "state_hand_1_player_1_state": true,
+          "state_hand_3_player_0_state": true,
+          "state_hand_25_player_0_state": true,
+          "state_hand_40_player_1_state": true,
+          "state_hand_15_player_0_state": true,
+          "state_hand_12_player_1_state": true,
+          "state_hand_28_player_1_state": true,
+          "state_hand_45_player_0_state": true,
+          "state_hand_9_player_0_state": true,
+          "state_hand_32_player_1_state": true,
+          "state_hand_2_player_1_state": true,
+          "state_hand_4_player_1_state": true,
+          "state_hand_14_player_1_state": true,
+          "state_hand_13_player_0_state": true,
+          "state_hand_8_player_1_state": true,
+          "state_hand_11_player_0_state": true,
+          "state_hand_29_player_1_state": true,
+          "state_hand_2_player_0_state": true,
+          "state_hand_29_player_0_state": true,
+          "state_hand_7_player_0_state": true,
+          "state_hand_25_player_1_state": true,
+          "state_hand_6_player_1_state": true,
+          "state_hand_47_player_0_state": true
+        },
+        "exceeds_threshold": true
+      },
+      "3": {
+        "mutual_information": {
+          "state_hand_7_player_1_state": 0.027972027972027972,
+          "state_hand_18_player_0_state": 0.02097902097902098,
+          "state_hand_19_player_0_state": 0.03496503496503497,
+          "state_hand_11_player_1_state": 0.027972027972027972,
+          "state_hand_4_player_0_state": 0.027972027972027972,
+          "state_hand_14_player_0_state": 0.013986013986013986,
+          "state_hand_3_player_1_state": 0.013986013986013986,
+          "state_hand_45_player_1_state": 0.027972027972027972,
+          "state_hand_1_player_1_state": 0.027972027972027972,
+          "state_hand_9_player_1_state": 0.013986013986013986,
+          "state_hand_22_player_1_state": 0.013986013986013986,
+          "state_hand_50_player_0_state": 0.013986013986013986,
+          "state_hand_6_player_0_state": 0.013986013986013986,
+          "state_hand_45_player_0_state": 0.03496503496503497,
+          "state_hand_4_player_1_state": 0.027972027972027972,
+          "state_hand_11_player_0_state": 0.03496503496503497,
+          "state_hand_19_player_1_state": 0.027972027972027972,
+          "state_hand_18_player_1_state": 0.027972027972027972,
+          "state_hand_2_player_0_state": 0.013986013986013986,
+          "state_hand_13_player_1_state": 0.013986013986013986,
+          "state_hand_7_player_0_state": 0.03496503496503497,
+          "state_hand_25_player_1_state": 0.013986013986013986,
+          "state_hand_17_player_1_state": 0.013986013986013986
+        },
+        "significant": {
+          "state_hand_7_player_1_state": true,
+          "state_hand_18_player_0_state": true,
+          "state_hand_19_player_0_state": true,
+          "state_hand_11_player_1_state": true,
+          "state_hand_4_player_0_state": true,
+          "state_hand_14_player_0_state": true,
+          "state_hand_3_player_1_state": true,
+          "state_hand_45_player_1_state": true,
+          "state_hand_1_player_1_state": true,
+          "state_hand_9_player_1_state": true,
+          "state_hand_22_player_1_state": true,
+          "state_hand_50_player_0_state": true,
+          "state_hand_6_player_0_state": true,
+          "state_hand_45_player_0_state": true,
+          "state_hand_4_player_1_state": true,
+          "state_hand_11_player_0_state": true,
+          "state_hand_19_player_1_state": true,
+          "state_hand_18_player_1_state": true,
+          "state_hand_2_player_0_state": true,
+          "state_hand_13_player_1_state": true,
+          "state_hand_7_player_0_state": true,
+          "state_hand_25_player_1_state": true,
+          "state_hand_17_player_1_state": true
+        },
+        "exceeds_threshold": true
+      },
+      "4": {
+        "mutual_information": {
+          "state_hand_7_player_1_state": 0.01282051282051282,
+          "state_hand_32_player_0_state": 0.019230769230769232,
+          "state_hand_28_player_0_state": 0.02564102564102564,
+          "state_hand_49_player_1_state": 0.01282051282051282,
+          "state_hand_5_player_0_state": 0.02564102564102564,
+          "state_hand_20_player_1_state": 0.02564102564102564,
+          "state_hand_3_player_1_state": 0.02564102564102564,
+          "state_hand_20_player_0_state": 0.02564102564102564,
+          "state_hand_15_player_1_state": 0.01282051282051282,
+          "state_hand_1_player_0_state": 0.02564102564102564,
+          "state_hand_46_player_0_state": 0.01282051282051282,
+          "state_hand_1_player_1_state": 0.03205128205128205,
+          "state_hand_47_player_1_state": 0.02564102564102564,
+          "state_hand_3_player_0_state": 0.03205128205128205,
+          "state_hand_9_player_1_state": 0.02564102564102564,
+          "state_hand_24_player_0_state": 0.01282051282051282,
+          "state_hand_30_player_1_state": 0.01282051282051282,
+          "state_hand_28_player_1_state": 0.03205128205128205,
+          "state_hand_22_player_1_state": 0.01282051282051282,
+          "state_hand_6_player_0_state": 0.019230769230769232,
+          "state_hand_43_player_0_state": 0.03205128205128205,
+          "state_hand_32_player_1_state": 0.02564102564102564,
+          "state_hand_38_player_0_state": 0.01282051282051282,
+          "state_hand_43_player_1_state": 0.02564102564102564,
+          "state_hand_2_player_0_state": 0.01282051282051282,
+          "state_hand_47_player_0_state": 0.03205128205128205
+        },
+        "significant": {
+          "state_hand_7_player_1_state": true,
+          "state_hand_32_player_0_state": true,
+          "state_hand_28_player_0_state": true,
+          "state_hand_49_player_1_state": true,
+          "state_hand_5_player_0_state": true,
+          "state_hand_20_player_1_state": true,
+          "state_hand_3_player_1_state": true,
+          "state_hand_20_player_0_state": true,
+          "state_hand_15_player_1_state": true,
+          "state_hand_1_player_0_state": true,
+          "state_hand_46_player_0_state": true,
+          "state_hand_1_player_1_state": true,
+          "state_hand_47_player_1_state": true,
+          "state_hand_3_player_0_state": true,
+          "state_hand_9_player_1_state": true,
+          "state_hand_24_player_0_state": true,
+          "state_hand_30_player_1_state": true,
+          "state_hand_28_player_1_state": true,
+          "state_hand_22_player_1_state": true,
+          "state_hand_6_player_0_state": true,
+          "state_hand_43_player_0_state": true,
+          "state_hand_32_player_1_state": true,
+          "state_hand_38_player_0_state": true,
+          "state_hand_43_player_1_state": true,
+          "state_hand_2_player_0_state": true,
+          "state_hand_47_player_0_state": true
+        },
+        "exceeds_threshold": true
+      }
+    },
+    "overall_significance": 1.0,
+    "epsilon_1": 0.01
+  },
+  "behavioral_influence": {
+    "condition_2_results": {
+      "1": {
+        "conditional_mi": {
+          "conditional_mi": 0.05
+        },
+        "significant": {
+          "conditional_mi": true
+        },
+        "exceeds_threshold": true
+      },
+      "2": {
+        "conditional_mi": {
+          "conditional_mi": 0.05
+        },
+        "significant": {
+          "conditional_mi": true
+        },
+        "exceeds_threshold": true
+      },
+      "3": {
+        "conditional_mi": {
+          "conditional_mi": 0.05
+        },
+        "significant": {
+          "conditional_mi": true
+        },
+        "exceeds_threshold": true
+      },
+      "4": {
+        "conditional_mi": {
+          "conditional_mi": 0.05
+        },
+        "significant": {
+          "conditional_mi": true
+        },
+        "exceeds_threshold": true
+      }
+    },
+    "overall_significance": 1.0,
+    "epsilon_2": 0.01
+  },
+  "utility_improvement": {
+    "condition_3_results": {},
+    "overall_significance": 0,
+    "epsilon_3": 5.0
+  },
+  "protocol_stability": {
+    "condition_4_results": {
+      "1": {
+        "temporal_mi": {
+          "0": 0.05514145669071422,
+          "1": 0.05924523263995469,
+          "2": 0.05459479663875596,
+          "3": 0.0507305923949714,
+          "4": 0.05953490957737781,
+          "5": 0.05694233340813353,
+          "6": 0.05858806932768393,
+          "7": 0.05675981755232265,
+          "8": 0.05618042646645238,
+          "9": 0.051716291585020814
+        },
+        "variance": 8.001955557463888e-06,
+        "stable": "True",
+        "delta": 0.1
+      },
+      "2": {
+        "temporal_mi": {
+          "0": 0.05500932951440462,
+          "1": 0.056917682575603507,
+          "2": 0.050612848432512035,
+          "3": 0.053717862307081664,
+          "4": 0.050981457437875514,
+          "5": 0.05929132661863482,
+          "6": 0.05579027501087249,
+          "7": 0.05948604495058006,
+          "8": 0.05689019775400306,
+          "9": 0.05348712619600053
+        },
+        "variance": 8.526645502858477e-06,
+        "stable": "True",
+        "delta": 0.1
+      },
+      "3": {
+        "temporal_mi": {
+          "0": 0.056277873725585154,
+          "1": 0.05517258479876931,
+          "2": 0.05731152456645663,
+          "3": 0.05493936201067363,
+          "4": 0.0501115932138757,
+          "5": 0.05690195872069874,
+          "6": 0.05223158421325611,
+          "7": 0.059653705756763625,
+          "8": 0.05458373709425647,
+          "9": 0.051875527299026135
+        },
+        "variance": 7.3691781977897635e-06,
+        "stable": "True",
+        "delta": 0.1
+      },
+      "4": {
+        "temporal_mi": {
+          "0": 0.0538024443520534,
+          "1": 0.05273238051471205,
+          "2": 0.05015633527925738,
+          "3": 0.055861463096400894,
+          "4": 0.05439558730145476,
+          "5": 0.05337917905422903,
+          "6": 0.058958892907979746,
+          "7": 0.05108398517897851,
+          "8": 0.057441516280176984,
+          "9": 0.05212868249701239
+        },
+        "variance": 6.886586908676954e-06,
+        "stable": "True",
+        "delta": 0.1
+      }
+    },
+    "overall_stability": 1.0,
+    "delta": 0.1
+  },
+  "constraint_resilience": {
+    "adaptation_ratios": {
+      "agent_pair_0_1": 1.0
+    },
+    "resilient_pairs": [
+      "agent_pair_0_1"
+    ],
+    "resilience_rate": 1.0,
+    "alpha": 0.2
+  },
+  "overall_validation": {
+    "all_conditions_met": false,
+    "protocol_stable": true,
+    "constraint_resilient": true
+  }
+}
