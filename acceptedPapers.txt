@@ -1,0 +1,16 @@
+https://arxiv.org/pdf/2406.11776
+https://multiagents.org/2025_artifacts/talking_vehicles_cooperative_driving_via_natural_language.pdf
+https://multiagents.org/2025_artifacts/aligning_compound_ai_systems_via_system_level_dpo.pdf 
+https://arxiv.org/pdf/2407.11384
+https://multiagents.org/2025_artifacts/i_apologize_for_my_actions.pdf
+https://arxiv.org/pdf/2411.05828
+https://multiagents.org/2025_artifacts/masr_multi_agent_system_with_reflection_for_the_abstraction_and_reasoning_corpus.pdf
+https://multiagents.org/2025_artifacts/agentseval_enhancing_llm_as_a_judge_via_multi_agent_collaboration.pdf
+https://arxiv.org/pdf/2412.21102
+https://arxiv.org/pdf/2412.06808
+https://multiagents.org/2025_artifacts/dont_just_demo_teach_me_the_principles.pdf
+http://arxiv.org/pdf/2502.01450
+https://arxiv.org/pdf/2501.06322
+https://drive.google.com/file/d/1ebpcJaUT3P1Is1AaUSKQOHlM936tSv9N/view?usp=sharing
+https://multiagents.org/2025_artifacts/reliable_decision_making_for_multi_agent_llm_systems.pdf
+https://multiagents.org/2025_artifacts/a_multi_agent_approach_for_iterative_refinement_in_visual_content_generation.pdf

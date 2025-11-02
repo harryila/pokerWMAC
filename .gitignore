@@ -1,7 +1,11 @@
 # Data directories - exclude all simulation data
+data_legacy/
+data_legacy2/
+data_legacy3/
 data/
 */data/
 **/data/
+data*/
 
 # Environment files
 .env
