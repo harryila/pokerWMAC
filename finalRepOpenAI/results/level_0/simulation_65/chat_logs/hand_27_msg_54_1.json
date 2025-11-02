@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T23:17:51.900725",
+  "hand_id": 27,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how the flop plays out. If it looks promising, we can apply pressure later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 85,
+  "contains_signal": true,
+  "message_id": 54,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

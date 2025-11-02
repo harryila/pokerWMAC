@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T14:51:02.012104",
+  "hand_id": 14,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm on board with applying pressure here. Let's see what happens next.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 70,
+  "contains_signal": true,
+  "message_id": 29,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      },
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      },
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

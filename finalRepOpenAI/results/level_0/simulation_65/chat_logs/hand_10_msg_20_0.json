@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T23:14:23.082554",
+  "hand_id": 10,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I'm matching the bet and staying in. Let's keep the pressure on when it's our turn.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 83,
+  "contains_signal": true,
+  "message_id": 20,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

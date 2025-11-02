@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T15:32:52.664510",
+  "hand_id": 21,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's see how it plays out. Keeping options open for a squeeze later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 69,
+  "contains_signal": true,
+  "message_id": 43,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

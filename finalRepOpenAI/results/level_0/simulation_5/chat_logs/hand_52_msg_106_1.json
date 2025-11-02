@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:18:03.484880",
+  "hand_id": 52,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I\u2019ll match the bet and see how this plays out. Let's keep an eye on how the action unfolds.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 91,
+  "contains_signal": true,
+  "message_id": 106,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      },
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

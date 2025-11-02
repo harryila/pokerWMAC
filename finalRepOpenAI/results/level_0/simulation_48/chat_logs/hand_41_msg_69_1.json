@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T20:52:07.250885",
+  "hand_id": 41,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I'm in for the call. Let's see how this plays out. Keep an eye on the action from early position.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 97,
+  "contains_signal": true,
+  "message_id": 69,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

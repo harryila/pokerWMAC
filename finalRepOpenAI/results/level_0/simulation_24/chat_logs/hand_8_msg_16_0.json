@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T17:50:48.680760",
+  "hand_id": 8,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm in for now. Let's see how the early positions act. Keep me posted on your reads.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 84,
+  "contains_signal": true,
+  "message_id": 16,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

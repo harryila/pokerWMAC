@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-28T17:32:46.407811",
+  "hand_id": 12,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "I'm with you",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Saving for better spot.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 17.5,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 17,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 6,
+        "suit": 1,
+        "str_rank": "8",
+        "str_suit": "s",
+        "display": "8s"
+      }
+    ]
+  }
+}

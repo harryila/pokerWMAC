@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T19:08:54.194754",
+  "hand_id": 34,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Hey, I\u2019m going to call here to keep the pot going. Let\u2019s see how this plays out.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 80,
+  "contains_signal": false,
+  "message_id": 21,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

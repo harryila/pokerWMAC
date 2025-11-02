@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T15:20:15.697642",
+  "hand_id": 18,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I\u2019ll call as well. Let\u2019s see how the others act. We can take advantage of any weaknesses we spot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 97,
+  "contains_signal": true,
+  "message_id": 35,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

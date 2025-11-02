@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T20:06:18.672217",
+  "hand_id": 30,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let\u2019s stay in and see what develops. If you feel strong, let\u2019s work together on the next round.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 95,
+  "contains_signal": true,
+  "message_id": 25,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

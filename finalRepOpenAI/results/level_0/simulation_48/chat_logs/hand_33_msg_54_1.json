@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T20:46:03.256729",
+  "hand_id": 33,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's see how this develops. I think we should play tight and wait for a good opportunity.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 90,
+  "contains_signal": true,
+  "message_id": 54,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

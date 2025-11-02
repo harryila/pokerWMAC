@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T18:13:17.889219",
+  "hand_id": 24,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's keep the pot growing and see where this takes us. I feel good about our chances here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 91,
+  "contains_signal": true,
+  "message_id": 49,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

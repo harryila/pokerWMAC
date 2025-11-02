@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:18:18.703543",
+  "hand_id": 8,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let\u2019s see how the board develops. I'm ready to support a move if you feel strong about this hand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 97,
+  "contains_signal": true,
+  "message_id": 15,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

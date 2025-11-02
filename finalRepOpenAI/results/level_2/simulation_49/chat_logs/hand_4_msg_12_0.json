@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T20:32:29.067096",
+  "hand_id": 4,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I'm with you, let's keep building this pot together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 52,
+  "contains_signal": true,
+  "message_id": 12,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      },
+      {
+        "rank": 4,
+        "suit": 4,
+        "str_rank": "6",
+        "str_suit": "d",
+        "display": "6d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

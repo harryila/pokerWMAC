@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:41:44.048786",
+  "hand_id": 14,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how the turn plays out. I think we should keep an eye on how the others respond.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 90,
+  "contains_signal": true,
+  "message_id": 28,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      },
+      {
+        "rank": 3,
+        "suit": 2,
+        "str_rank": "5",
+        "str_suit": "h",
+        "display": "5h"
+      },
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T22:36:58.167801",
+  "hand_id": 14,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Looks like we're both in! Let's see how the next cards play out. I have a good feeling about this.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 98,
+  "contains_signal": true,
+  "message_id": 25,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      },
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      },
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

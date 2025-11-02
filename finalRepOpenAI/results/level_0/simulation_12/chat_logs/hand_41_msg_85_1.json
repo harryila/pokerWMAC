@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T15:24:53.255832",
+  "hand_id": 41,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Just calling here, keeping options open. Let me know your thoughts on the next move.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 84,
+  "contains_signal": true,
+  "message_id": 85,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

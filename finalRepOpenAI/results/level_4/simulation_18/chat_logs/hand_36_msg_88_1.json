@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:42:27.760702",
+  "hand_id": 36,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm with you on this one!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 25,
+  "contains_signal": false,
+  "message_id": 88,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

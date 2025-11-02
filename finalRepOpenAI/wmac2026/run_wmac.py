@@ -41,23 +41,10 @@ def monkey_patch_prompts():
                     return f"{r}{s}".lower()
                 return str(card)
 
-        # Get hole cards for this player
-        my_hole_cards = [_card_str(c) for c in game.get_hand(player_id)] if hasattr(game, 'get_hand') else []
-        
-        # Get teammate's hole cards (for TRUE collusion)
-        teammate_ids = getattr(self, 'teammate_ids', []) or []
-        teammate_hole_cards = {}
-        for tid in teammate_ids:
-            try:
-                teammate_hole_cards[tid] = [_card_str(c) for c in game.get_hand(tid)] if hasattr(game, 'get_hand') else []
-            except:
-                teammate_hole_cards[tid] = []
-        
         state = GameStateView(
             player_id=player_id,
-            teammate_ids=teammate_ids,
-            hole_cards=my_hole_cards,
-            teammate_hole_cards=teammate_hole_cards,
+            teammate_ids=getattr(self, 'teammate_ids', []) or [],
+            hole_cards=[_card_str(c) for c in (game.players[player_id].cards or [])] if getattr(game.players[player_id], 'cards', None) else [],
             board_cards=[_card_str(c) for c in getattr(game, 'board', [])],
             betting_round=getattr(getattr(game, 'hand_phase', None), 'name', 'UNKNOWN'),
             pot_size=getattr(game, 'pot', 0),
@@ -82,18 +69,7 @@ def monkey_patch_prompts():
         
         augment_level = ca.AUGMENT_LEVEL
         
-        # CRITICAL FIX: Only augment COLLUDING players, not all LLM players
-        collusion_players = getattr(game, 'collusion_llm_player_ids', set())
-        is_colluder = player_id in collusion_players
-        
-        if not is_colluder:
-            print(f"[AUGMENT DEBUG] Player {player_id} is NOT a colluder - no augmentation")
-            augment_level = 0  # Force no augmentation for non-colluders
-        else:
-            print(f"[AUGMENT DEBUG] Player {player_id} is a colluder - applying Level {augment_level} augmentation")
-        
-        # Level 1: Strategic prompts ONLY (no numerical primitives)
-        # Level 2+: Strategic prompts + numerical primitives (CUMULATIVE!)
+        # Level 1: Strategic prompts
         if augment_level >= 1:
             print(f"[AUGMENT DEBUG] Level {augment_level}: Adding strategic prompts for player {player_id}")
             import wmac2026.strategic_coordination_prompts as scp
@@ -102,9 +78,8 @@ def monkey_patch_prompts():
             if old_text in built.text:
                 built.text = built.text.replace(old_text, strategic_prompt)
         
-        # Levels 2-4: Add computational primitives (each includes previous levels)
-        # Strategic prompts (from >= 1 above) provide the context to interpret these numbers!
-        if augment_level == 2:
+        # Level 2: Add hand strength calculation
+        if augment_level >= 2:
             print(f"[AUGMENT DEBUG] Level 2: Adding hand strength for player {player_id}")
             try:
                 hole_cards = game.get_hand(player_id)
@@ -119,24 +94,25 @@ def monkey_patch_prompts():
             except Exception as e:
                 print(f"[AUGMENT DEBUG] Error adding hand strength: {e}")
         
-        elif augment_level == 3:
-            print(f"[AUGMENT DEBUG] Level 3: Adding hand strength + bet calculations for player {player_id}")
+        # Level 3: Add bet size calculations
+        if augment_level >= 3:
+            print(f"[AUGMENT DEBUG] Level 3: Adding bet calculations for player {player_id}")
             try:
                 hole_cards = game.get_hand(player_id)
                 pot_size = game.get_pot_size() if hasattr(game, 'get_pot_size') else 0
                 my_chips = game.get_player_chips(player_id) if hasattr(game, 'get_player_chips') else 1000
                 
-                # build_level_3_augmentation already includes Level 2 content internally
                 level_3_augmentation = ca.ComputationalAugmentation.build_level_3_augmentation(
                     hole_cards, pot_size, my_chips
                 )
                 built.text += "\n" + level_3_augmentation
-                print(f"[AUGMENT DEBUG] Hand strength + bet calculations added")
+                print(f"[AUGMENT DEBUG] Bet calculations added")
             except Exception as e:
-                print(f"[AUGMENT DEBUG] Error adding augmentation: {e}")
+                print(f"[AUGMENT DEBUG] Error adding bet calculations: {e}")
         
-        elif augment_level == 4:
-            print(f"[AUGMENT DEBUG] Level 4: Adding full augmentation for player {player_id}")
+        # Level 4: Add DeepMind-level decision recommendations
+        if augment_level >= 4:
+            print(f"[AUGMENT DEBUG] Level 4: Adding strategic recommendations for player {player_id}")
             try:
                 hole_cards = game.get_hand(player_id)
                 pot_size = game.get_pot_size() if hasattr(game, 'get_pot_size') else 0
@@ -148,6 +124,8 @@ def monkey_patch_prompts():
                 teammate_last_action = "none"
                 recent_chat = state.recent_chat
                 if recent_chat:
+                    # Find teammate's most recent action
+                    collusion_players = getattr(game, 'collusion_llm_player_ids', [])
                     teammate_id = None
                     for pid in collusion_players:
                         if pid != player_id:
@@ -155,7 +133,8 @@ def monkey_patch_prompts():
                             break
                     
                     if teammate_id is not None:
-                        for msg in reversed(recent_chat[-5:]):
+                        # Look for teammate's recent actions in chat
+                        for msg in reversed(recent_chat[-5:]):  # Check last 5 messages
                             if msg.get('player_id') == teammate_id:
                                 content = msg.get('content', '').lower()
                                 if 'raise' in content or 'raised' in content:
@@ -168,15 +147,14 @@ def monkey_patch_prompts():
                                     teammate_last_action = "fold"
                                     break
                 
-                # build_level_4_augmentation already includes Level 3 (which includes Level 2)
                 level_4_augmentation = ca.ComputationalAugmentation.build_level_4_augmentation(
                     hole_cards, pot_size, my_chips, teammate_last_action, 
                     available_actions, board_cards, "unknown"
                 )
                 built.text += "\n" + level_4_augmentation
-                print(f"[AUGMENT DEBUG] Full augmentation (strength + bets + decisions) added")
+                print(f"[AUGMENT DEBUG] Strategic recommendations added")
             except Exception as e:
-                print(f"[AUGMENT DEBUG] Error adding full augmentation: {e}")
+                print(f"[AUGMENT DEBUG] Error adding strategic recommendations: {e}")
         
         # Inject negotiated protocol if it exists
         protocol = getattr(game, 'wmac_negotiated_protocol', None)
@@ -251,10 +229,6 @@ def main():
         logger=logger,
         use_strategic_coordination=args.strategic_coordination,
     )
-    
-    # CRITICAL: Store collusion_llm_player_ids on the actual game object for monkey patch access
-    setattr(game.game, 'collusion_llm_player_ids', set(args.collusion_llm_players))
-    print(f"[SETUP DEBUG] Stored collusion_llm_player_ids on game.game: {set(args.collusion_llm_players)}")
 
     # Attach flags to game BEFORE agents are created
     setattr(game, 'wmac_banned_phrases', args.ban_phrases or [])

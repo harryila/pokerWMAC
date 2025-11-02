@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-10-28T20:46:57.663589",
+  "hand_id": 34,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Hey, just calling here. Let's see how it plays out and coordinate if we get stronger hands later.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "let's",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        },
+        "hand_strength": {
+          "phrase": "strong",
+          "meaning": "strength_signal",
+          "confidence": 0.7,
+          "type": "emergent_strength"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "total_messages": 1,
+    "private_messages": 0,
+    "avg_message_length": 97.0,
+    "unique_speakers": 1,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 20,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      },
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      },
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      }
+    ]
+  }
+}

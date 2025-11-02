@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T17:47:37.214793",
+  "hand_id": 42,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Saving for better spot, let's see how it plays out.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 51,
+  "contains_signal": true,
+  "message_id": 106,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

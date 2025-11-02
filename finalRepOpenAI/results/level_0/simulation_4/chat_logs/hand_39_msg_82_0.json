@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T14:56:14.966540",
+  "hand_id": 39,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how this round develops. I\u2019m in for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 50,
+  "contains_signal": true,
+  "message_id": 82,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 8,
+        "str_rank": "4",
+        "str_suit": "c",
+        "display": "4c"
+      },
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

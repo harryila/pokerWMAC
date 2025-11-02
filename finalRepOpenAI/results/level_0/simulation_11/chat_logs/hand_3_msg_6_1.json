@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:20:01.979274",
+  "hand_id": 3,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how this plays out. I trust your instincts, and I'm ready to support you if needed.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 93,
+  "contains_signal": true,
+  "message_id": 6,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      },
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

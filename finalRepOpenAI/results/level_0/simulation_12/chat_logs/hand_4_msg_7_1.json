@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:17:25.794296",
+  "hand_id": 4,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I think we can wait for a better spot to apply pressure. Let's see how they react on the turn.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 94,
+  "contains_signal": true,
+  "message_id": 7,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      },
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T14:49:37.006841",
+  "hand_id": 7,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Feeling good about this, let\u2019s see the turn! Might just get some action here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 77,
+  "contains_signal": true,
+  "message_id": 14,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 1,
+        "str_rank": "9",
+        "str_suit": "s",
+        "display": "9s"
+      },
+      {
+        "rank": 11,
+        "suit": 8,
+        "str_rank": "K",
+        "str_suit": "c",
+        "display": "Kc"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

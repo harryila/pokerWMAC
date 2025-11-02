@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T23:30:19.153989",
+  "hand_id": 27,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm matching the bet for now. Let's keep our options open and see how the board develops.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 89,
+  "contains_signal": true,
+  "message_id": 55,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 4,
+        "suit": 4,
+        "str_rank": "6",
+        "str_suit": "d",
+        "display": "6d"
+      },
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      },
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

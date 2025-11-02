@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T17:42:36.635139",
+  "hand_id": 19,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's see how the action unfolds. If you feel strong, don't hesitate to make a move.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 84,
+  "contains_signal": true,
+  "message_id": 38,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

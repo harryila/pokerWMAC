@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T22:42:10.004820",
+  "hand_id": 21,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how the next card plays out. Building the pot could be beneficial for us both.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 88,
+  "contains_signal": true,
+  "message_id": 39,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 9,
+        "suit": 8,
+        "str_rank": "J",
+        "str_suit": "c",
+        "display": "Jc"
+      },
+      {
+        "rank": 7,
+        "suit": 1,
+        "str_rank": "9",
+        "str_suit": "s",
+        "display": "9s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

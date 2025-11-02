@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-10-28T18:04:20.772641",
+  "hand_id": 39,
+  "phase": "FLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "I'm with you on this hand.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 1,
+    "private_messages": 0,
+    "avg_message_length": 26.0,
+    "unique_speakers": 1,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 182,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      }
+    ]
+  }
+}

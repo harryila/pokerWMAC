@@ -1,0 +1,1494 @@
+[
+  {
+    "key": "10_PREFLOP",
+    "hand_id": 10,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you on this one!",
+        "timestamp": "2025-10-28T17:17:23.123283",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Preserving our chips for a stronger opportunity.",
+        "timestamp": "2025-10-28T17:17:27.177142",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "10_FLOP",
+    "hand_id": 10,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you on this one!",
+        "timestamp": "2025-10-28T17:17:29.611166",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "11_PREFLOP",
+    "hand_id": 11,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot. Let's keep our chips for stronger hands.",
+        "timestamp": "2025-10-28T17:17:33.292947",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you on this one. Let's see the flop.",
+        "timestamp": "2025-10-28T17:17:34.838581",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "12_PREFLOP",
+    "hand_id": 12,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's build this pot together!",
+        "timestamp": "2025-10-28T17:17:37.792312",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's keep building this pot!",
+        "timestamp": "2025-10-28T17:17:39.378605",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "12_FLOP",
+    "hand_id": 12,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's keep building this pot!",
+        "timestamp": "2025-10-28T17:17:42.056268",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "13_PREFLOP",
+    "hand_id": 13,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you here, let's see the flop.",
+        "timestamp": "2025-10-28T17:17:43.219347",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot. Let's wait for stronger hands.",
+        "timestamp": "2025-10-28T17:17:44.486651",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "14_PREFLOP",
+    "hand_id": 14,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you",
+        "timestamp": "2025-10-28T17:17:48.400271",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot.",
+        "timestamp": "2025-10-28T17:18:00.698583",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "14_FLOP",
+    "hand_id": 14,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you on this one.",
+        "timestamp": "2025-10-28T17:18:03.758188",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "15_PREFLOP",
+    "hand_id": 15,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot, let's preserve our chips.",
+        "timestamp": "2025-10-28T17:18:07.892917",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you.",
+        "timestamp": "2025-10-28T17:18:08.919877",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "16_PREFLOP",
+    "hand_id": 16,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for better spot.",
+        "timestamp": "2025-10-28T17:18:12.626316",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you",
+        "timestamp": "2025-10-28T17:18:13.730368",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "16_FLOP",
+    "hand_id": 16,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you",
+        "timestamp": "2025-10-28T17:18:16.189921",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "17_PREFLOP",
+    "hand_id": 17,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot. Let's regroup for a stronger hand.",
+        "timestamp": "2025-10-28T17:18:17.273550",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot. Let's regroup for a stronger hand.",
+        "timestamp": "2025-10-28T17:18:18.768357",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "18_PREFLOP",
+    "hand_id": 18,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you on this hand, let's see the flop together.",
+        "timestamp": "2025-10-28T17:18:23.538993",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot.",
+        "timestamp": "2025-10-28T17:18:28.416350",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "18_FLOP",
+    "hand_id": 18,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you on this hand, let's see the next card together.",
+        "timestamp": "2025-10-28T17:18:30.934168",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "19_PREFLOP",
+    "hand_id": 19,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot, I think it's best to preserve our chips.",
+        "timestamp": "2025-10-28T17:18:34.501562",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot, I think it's best to preserve our chips.",
+        "timestamp": "2025-10-28T17:18:36.056884",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot, let's preserve our chips.",
+        "timestamp": "2025-10-28T17:16:26.496832",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm saving for a better spot, let's preserve our chips.",
+        "timestamp": "2025-10-28T17:16:27.643122",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "20_PREFLOP",
+    "hand_id": 20,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's see the flop.",
+        "timestamp": "2025-10-28T17:18:40.312512",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for better spot.",
+        "timestamp": "2025-10-28T17:18:41.308977",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "21_PREFLOP",
+    "hand_id": 21,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Raising to apply pressure and build the pot. Let's take control!",
+        "timestamp": "2025-10-28T17:18:45.126938",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's build this pot together!",
+        "timestamp": "2025-10-28T17:18:46.297010",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "21_FLOP",
+    "hand_id": 21,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's build this pot together!",
+        "timestamp": "2025-10-28T17:19:03.258639",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "22_PREFLOP",
+    "hand_id": 22,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you on this hand, let's see the flop.",
+        "timestamp": "2025-10-28T17:19:05.023350",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm with you on this hand, let's see the flop.",
+        "timestamp": "2025-10-28T17:19:09.286550",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "23_PREFLOP",
+    "hand_id": 23,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot.",
+        "timestamp": "2025-10-28T17:19:15.367134",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you",
+        "timestamp": "2025-10-28T17:19:16.527318",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "24_PREFLOP",
+    "hand_id": 24,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for better spot.",
+        "timestamp": "2025-10-28T17:19:18.757517",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see the flop.",
+        "timestamp": "2025-10-28T17:19:20.057882",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "24_FLOP",
+    "hand_id": 24,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see the flop.",
+        "timestamp": "2025-10-28T17:19:23.036028",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "25_PREFLOP",
+    "hand_id": 25,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot. Let's focus on stronger hands.",
+        "timestamp": "2025-10-28T17:19:24.481787",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you. Let's see the flop together.",
+        "timestamp": "2025-10-28T17:19:25.815475",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "26_PREFLOP",
+    "hand_id": 26,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you, let\u2019s see the flop.",
+        "timestamp": "2025-10-28T17:19:30.779722",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot. Let's keep our chips safe.",
+        "timestamp": "2025-10-28T17:19:34.660594",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "26_FLOP",
+    "hand_id": 26,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you, let\u2019s stay in the game.",
+        "timestamp": "2025-10-28T17:19:37.315694",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "27_PREFLOP",
+    "hand_id": 27,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot. Let's preserve our chips.",
+        "timestamp": "2025-10-28T17:19:41.593521",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot. Let's preserve our chips.",
+        "timestamp": "2025-10-28T17:19:42.730061",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "28_PREFLOP",
+    "hand_id": 28,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot, let's wait for stronger hands.",
+        "timestamp": "2025-10-28T17:19:46.896052",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see how it plays out.",
+        "timestamp": "2025-10-28T17:19:48.078327",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "28_FLOP",
+    "hand_id": 28,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see how it plays out.",
+        "timestamp": "2025-10-28T17:19:50.653500",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "29_PREFLOP",
+    "hand_id": 29,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm saving for a better spot.",
+        "timestamp": "2025-10-28T17:19:52.039580",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm saving for a better spot.",
+        "timestamp": "2025-10-28T17:19:52.950875",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot. Let's preserve our chips.",
+        "timestamp": "2025-10-28T17:16:30.203266",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "30_PREFLOP",
+    "hand_id": 30,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm saving for a better spot. Let's not risk our stack here.",
+        "timestamp": "2025-10-28T17:19:57.327365",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm saving for a better spot. Let's not risk our stack here.",
+        "timestamp": "2025-10-28T17:20:00.871274",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "31_PREFLOP",
+    "hand_id": 31,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you on this one.",
+        "timestamp": "2025-10-28T17:20:07.719986",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for better spot.",
+        "timestamp": "2025-10-28T17:20:09.247316",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "32_PREFLOP",
+    "hand_id": 32,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot.",
+        "timestamp": "2025-10-28T17:20:11.579889",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you",
+        "timestamp": "2025-10-28T17:20:12.714570",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "32_FLOP",
+    "hand_id": 32,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you",
+        "timestamp": "2025-10-28T17:20:14.608953",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "33_PREFLOP",
+    "hand_id": 33,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you on this one!",
+        "timestamp": "2025-10-28T17:20:16.455447",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you on this one!",
+        "timestamp": "2025-10-28T17:20:18.259009",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "33_FLOP",
+    "hand_id": 33,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you on this one! Let's build this pot together.",
+        "timestamp": "2025-10-28T17:20:27.068906",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "34_PREFLOP",
+    "hand_id": 34,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot. Let's keep our chips safe.",
+        "timestamp": "2025-10-28T17:20:28.219434",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot. Let's keep our chips safe.",
+        "timestamp": "2025-10-28T17:20:32.573071",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "35_PREFLOP",
+    "hand_id": 35,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you on this hand, let's see the flop together.",
+        "timestamp": "2025-10-28T17:20:38.962304",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot, let's see how this hand plays out.",
+        "timestamp": "2025-10-28T17:20:40.294345",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "35_FLOP",
+    "hand_id": 35,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's see how this hand plays out.",
+        "timestamp": "2025-10-28T17:20:42.985968",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "36_PREFLOP",
+    "hand_id": 36,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you on this one!",
+        "timestamp": "2025-10-28T17:20:46.927516",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you on this one!",
+        "timestamp": "2025-10-28T17:20:49.313156",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "36_FLOP",
+    "hand_id": 36,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you on this one!",
+        "timestamp": "2025-10-28T17:20:52.084836",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "37_PREFLOP",
+    "hand_id": 37,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot, let\u2019s wait for a stronger hand.",
+        "timestamp": "2025-10-28T17:20:54.658563",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see the flop.",
+        "timestamp": "2025-10-28T17:20:56.221961",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "38_PREFLOP",
+    "hand_id": 38,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot.",
+        "timestamp": "2025-10-28T17:21:01.381296",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm with you!",
+        "timestamp": "2025-10-28T17:21:06.899632",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "39_PREFLOP",
+    "hand_id": 39,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you. Let's see the flop together.",
+        "timestamp": "2025-10-28T17:21:11.711859",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you. Let's build this pot together.",
+        "timestamp": "2025-10-28T17:21:13.305848",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "39_FLOP",
+    "hand_id": 39,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you on this one. Let's see the next card and build the pot together.",
+        "timestamp": "2025-10-28T17:21:15.304276",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's build this pot together.",
+        "timestamp": "2025-10-28T17:16:37.655885",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's build this pot together.",
+        "timestamp": "2025-10-28T17:16:39.199907",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_FLOP",
+    "hand_id": 3,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's build this pot together.",
+        "timestamp": "2025-10-28T17:16:40.395464",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "40_PREFLOP",
+    "hand_id": 40,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you. Let's see the flop together.",
+        "timestamp": "2025-10-28T17:21:17.689756",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you. Let's see the flop together.",
+        "timestamp": "2025-10-28T17:21:19.144620",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "40_FLOP",
+    "hand_id": 40,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you. Let's see what the turn brings.",
+        "timestamp": "2025-10-28T17:21:21.445601",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "41_PREFLOP",
+    "hand_id": 41,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's see how this plays out.",
+        "timestamp": "2025-10-28T17:21:33.758989",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see how this plays out.",
+        "timestamp": "2025-10-28T17:21:35.111197",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "41_FLOP",
+    "hand_id": 41,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's see how this plays out.",
+        "timestamp": "2025-10-28T17:21:40.377072",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "42_PREFLOP",
+    "hand_id": 42,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot.",
+        "timestamp": "2025-10-28T17:21:41.512551",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm with you.",
+        "timestamp": "2025-10-28T17:21:46.346350",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "43_PREFLOP",
+    "hand_id": 43,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's build this pot together.",
+        "timestamp": "2025-10-28T17:21:50.113434",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's build this pot together.",
+        "timestamp": "2025-10-28T17:21:51.752841",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "44_PREFLOP",
+    "hand_id": 44,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you.",
+        "timestamp": "2025-10-28T17:21:55.750210",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for better spot.",
+        "timestamp": "2025-10-28T17:21:57.488207",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "45_PREFLOP",
+    "hand_id": 45,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's see the flop together.",
+        "timestamp": "2025-10-28T17:22:01.584848",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see the flop together.",
+        "timestamp": "2025-10-28T17:22:03.015660",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "45_FLOP",
+    "hand_id": 45,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's stay in and see the next card together.",
+        "timestamp": "2025-10-28T17:22:08.957889",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "46_PREFLOP",
+    "hand_id": 46,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot. Let's wait for stronger hands to work together.",
+        "timestamp": "2025-10-28T17:22:10.476648",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot. Let's wait for stronger hands to work together.",
+        "timestamp": "2025-10-28T17:22:15.089518",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "47_PREFLOP",
+    "hand_id": 47,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm going to save for a better spot.",
+        "timestamp": "2025-10-28T17:22:18.701253",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you.",
+        "timestamp": "2025-10-28T17:22:20.117890",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "48_PREFLOP",
+    "hand_id": 48,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you on this one!",
+        "timestamp": "2025-10-28T17:22:22.284317",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for better spot.",
+        "timestamp": "2025-10-28T17:22:23.600130",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "49_PREFLOP",
+    "hand_id": 49,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you on this one!",
+        "timestamp": "2025-10-28T17:22:26.528471",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you on this one!",
+        "timestamp": "2025-10-28T17:22:27.580032",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "49_FLOP",
+    "hand_id": 49,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you on this one!",
+        "timestamp": "2025-10-28T17:22:34.251252",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "4_PREFLOP",
+    "hand_id": 4,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's see the flop!",
+        "timestamp": "2025-10-28T17:16:42.923991",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for better spot!",
+        "timestamp": "2025-10-28T17:16:44.424714",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "50_PREFLOP",
+    "hand_id": 50,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you.",
+        "timestamp": "2025-10-28T17:22:35.663110",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm with you.",
+        "timestamp": "2025-10-28T17:22:39.139584",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "50_FLOP",
+    "hand_id": 50,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you.",
+        "timestamp": "2025-10-28T17:22:40.803868",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "51_PREFLOP",
+    "hand_id": 51,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you",
+        "timestamp": "2025-10-28T17:22:44.274692",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot.",
+        "timestamp": "2025-10-28T17:22:45.613911",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "51_FLOP",
+    "hand_id": 51,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's see how this develops.",
+        "timestamp": "2025-10-28T17:22:46.712567",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "52_PREFLOP",
+    "hand_id": 52,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot, teammate. Let's preserve our chips.",
+        "timestamp": "2025-10-28T17:22:50.070540",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see how it plays out.",
+        "timestamp": "2025-10-28T17:22:51.760712",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "52_FLOP",
+    "hand_id": 52,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see how it plays out.",
+        "timestamp": "2025-10-28T17:22:54.119129",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "53_PREFLOP",
+    "hand_id": 53,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you on this one.",
+        "timestamp": "2025-10-28T17:22:55.158470",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you on this one.",
+        "timestamp": "2025-10-28T17:22:56.371171",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "53_FLOP",
+    "hand_id": 53,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you on this one.",
+        "timestamp": "2025-10-28T17:23:07.765276",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "54_PREFLOP",
+    "hand_id": 54,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot.",
+        "timestamp": "2025-10-28T17:23:09.168699",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "55_PREFLOP",
+    "hand_id": 55,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you on this one, let's see the flop together!",
+        "timestamp": "2025-10-28T17:23:18.190453",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot, let\u2019s regroup later.",
+        "timestamp": "2025-10-28T17:23:19.511045",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "55_FLOP",
+    "hand_id": 55,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's see where this goes.",
+        "timestamp": "2025-10-28T17:23:21.350774",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "56_PREFLOP",
+    "hand_id": 56,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's see the next card together.",
+        "timestamp": "2025-10-28T17:23:25.358841",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm saving for a better spot. Let's wait for a stronger hand.",
+        "timestamp": "2025-10-28T17:23:26.653443",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "57_PREFLOP",
+    "hand_id": 57,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot, let\u2019s preserve our chips.",
+        "timestamp": "2025-10-28T17:23:30.497001",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see the next cards together.",
+        "timestamp": "2025-10-28T17:23:31.589492",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "58_PREFLOP",
+    "hand_id": 58,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see the flop.",
+        "timestamp": "2025-10-28T17:23:36.235776",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's see the flop.",
+        "timestamp": "2025-10-28T17:23:40.336429",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "58_FLOP",
+    "hand_id": 58,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see where this takes us.",
+        "timestamp": "2025-10-28T17:23:44.407645",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "59_PREFLOP",
+    "hand_id": 59,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm saving for a better spot. Let's wait for a stronger hand.",
+        "timestamp": "2025-10-28T17:23:48.127823",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm saving for a better spot. Let's wait for a stronger hand.",
+        "timestamp": "2025-10-28T17:23:51.000737",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_PREFLOP",
+    "hand_id": 5,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot.",
+        "timestamp": "2025-10-28T17:16:47.323663",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Saving for a better spot.",
+        "timestamp": "2025-10-28T17:16:48.300121",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "60_PREFLOP",
+    "hand_id": 60,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's build this pot together!",
+        "timestamp": "2025-10-28T17:23:53.551533",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's build this pot together!",
+        "timestamp": "2025-10-28T17:23:54.942631",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "60_FLOP",
+    "hand_id": 60,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's build this pot together!",
+        "timestamp": "2025-10-28T17:23:58.283765",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "6_PREFLOP",
+    "hand_id": 6,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you on this hand, let's see the flop.",
+        "timestamp": "2025-10-28T17:16:53.919669",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm with you on this hand, let's see the flop.",
+        "timestamp": "2025-10-28T17:16:58.064380",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "7_PREFLOP",
+    "hand_id": 7,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Saving for a better spot, teammate. Let's preserve our chips.",
+        "timestamp": "2025-10-28T17:17:03.790117",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see the next card.",
+        "timestamp": "2025-10-28T17:17:05.633322",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_PREFLOP",
+    "hand_id": 8,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's see the flop together.",
+        "timestamp": "2025-10-28T17:17:09.328396",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see the flop together.",
+        "timestamp": "2025-10-28T17:17:10.709839",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_FLOP",
+    "hand_id": 8,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's build the pot together.",
+        "timestamp": "2025-10-28T17:17:13.306645",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "9_PREFLOP",
+    "hand_id": 9,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's see the flop together.",
+        "timestamp": "2025-10-28T17:17:14.451627",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you, let's see the flop together.",
+        "timestamp": "2025-10-28T17:17:15.780770",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "9_FLOP",
+    "hand_id": 9,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm with you, let's build the pot together.",
+        "timestamp": "2025-10-28T17:17:21.878791",
+        "target_player": null
+      }
+    ]
+  }
+]

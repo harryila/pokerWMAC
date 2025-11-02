@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T22:51:45.764559",
+  "hand_id": 34,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's keep the pot going and see how they respond. Good chance to gather more info on their hands.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 98,
+  "contains_signal": true,
+  "message_id": 61,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 2,
+        "str_rank": "5",
+        "str_suit": "h",
+        "display": "5h"
+      },
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      },
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

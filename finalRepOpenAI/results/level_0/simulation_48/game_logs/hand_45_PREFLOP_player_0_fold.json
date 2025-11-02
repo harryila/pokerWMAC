@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-10-28T20:55:45.720330",
+  "hand_id": 45,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "action_type": "FOLD",
+  "amount": null,
+  "reason": "Calling maintains the pot size and allows for potential future action while signaling support for my teammate.",
+  "action_number": 256,
+  "game_state": {
+    "hand_id": 45,
+    "current_player": 0,
+    "phase": "preflop",
+    "pot_amount": 15,
+    "chips_to_call": 0,
+    "min_raise": 5,
+    "community_cards": [],
+    "players": {
+      "0": {
+        "chips": 510,
+        "state": "IN",
+        "position": "UTG",
+        "hand_cards": [
+          {
+            "rank": 8,
+            "suit": 4,
+            "str_rank": "T",
+            "str_suit": "d",
+            "display": "Td"
+          },
+          {
+            "rank": 7,
+            "suit": 8,
+            "str_rank": "9",
+            "str_suit": "c",
+            "display": "9c"
+          }
+        ],
+        "is_current_player": true,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": true
+      },
+      "1": {
+        "chips": 491,
+        "state": "OUT",
+        "position": "CO",
+        "hand_cards": [
+          {
+            "rank": 0,
+            "suit": 1,
+            "str_rank": "2",
+            "str_suit": "s",
+            "display": "2s"
+          },
+          {
+            "rank": 2,
+            "suit": 8,
+            "str_rank": "4",
+            "str_suit": "c",
+            "display": "4c"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "2": {
+        "chips": 497,
+        "state": "IN",
+        "position": "SB",
+        "hand_cards": [
+          {
+            "rank": 12,
+            "suit": 1,
+            "str_rank": "A",
+            "str_suit": "s",
+            "display": "As"
+          },
+          {
+            "rank": 6,
+            "suit": 8,
+            "str_rank": "8",
+            "str_suit": "c",
+            "display": "8c"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": true,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "3": {
+        "chips": 487,
+        "state": "IN",
+        "position": "BB",
+        "hand_cards": [
+          {
+            "rank": 0,
+            "suit": 8,
+            "str_rank": "2",
+            "str_suit": "c",
+            "display": "2c"
+          },
+          {
+            "rank": 11,
+            "suit": 1,
+            "str_rank": "K",
+            "str_suit": "s",
+            "display": "Ks"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": true,
+        "is_big_blind": false
+      }
+    },
+    "betting_history": [
+      {
+        "phase": "preflop",
+        "actions": [
+          {
+            "player_id": 1,
+            "action_type": "FOLD",
+            "amount": 0,
+            "position": "CO"
+          },
+          {
+            "player_id": 2,
+            "action_type": "CALL",
+            "amount": 0,
+            "position": "SB"
+          },
+          {
+            "player_id": 3,
+            "action_type": "CALL",
+            "amount": 0,
+            "position": "BB"
+          }
+        ]
+      }
+    ],
+    "button_position": 2,
+    "small_blind_position": 3,
+    "big_blind_position": 0,
+    "num_players": 4,
+    "num_active_players": 3
+  }
+}

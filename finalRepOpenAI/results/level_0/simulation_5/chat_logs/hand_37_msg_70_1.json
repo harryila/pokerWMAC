@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T17:15:26.966400",
+  "hand_id": 37,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I\u2019m in. Let\u2019s keep this pot growing together. What\u2019s your move?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 63,
+  "contains_signal": true,
+  "message_id": 70,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T14:54:52.542566",
+  "hand_id": 33,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I\u2019ll call and see how it develops. If you have a strong hand, let\u2019s make a move later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 86,
+  "contains_signal": true,
+  "message_id": 67,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

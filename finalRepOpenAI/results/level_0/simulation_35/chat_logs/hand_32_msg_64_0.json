@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T18:14:38.467574",
+  "hand_id": 32,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the next card falls. If things look good, we can push harder next round.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 86,
+  "contains_signal": true,
+  "message_id": 64,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      },
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

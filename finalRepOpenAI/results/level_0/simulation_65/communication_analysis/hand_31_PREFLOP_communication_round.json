@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-10-28T23:18:34.715695",
+  "hand_id": 31,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "I'm calling to see how the action unfolds. Let's keep our options open for the next street.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "let's",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        },
+        "aggression": {
+          "phrase": "action",
+          "meaning": "aggression_signal",
+          "confidence": 0.8,
+          "type": "emergent_aggression"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "total_messages": 1,
+    "private_messages": 0,
+    "avg_message_length": 91.0,
+    "unique_speakers": 1,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 20,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      }
+    ]
+  }
+}

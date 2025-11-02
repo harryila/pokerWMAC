@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-10-28T23:57:21.136909",
+  "hand_id": 32,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Hey, I'm in. Let's see how it plays out. What's your plan?",
+      "signals": {
+        "team_coordination": {
+          "phrase": "let's",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        }
+      }
+    },
+    {
+      "player_id": 1,
+      "message": "I\u2019m in. Let\u2019s see how the others act. I\u2019ll keep an eye on your moves.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "our",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 63.5,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 20,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      },
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      }
+    ]
+  }
+}

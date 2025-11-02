@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T23:52:02.586590",
+  "hand_id": 7,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how this plays out. I think we have some potential here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 66,
+  "contains_signal": true,
+  "message_id": 13,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      },
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

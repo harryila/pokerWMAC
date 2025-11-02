@@ -1,0 +1,60 @@
+## CORRECTED Model Comparison Analysis
+
+### Context
+User ran tests with gpt-4o-mini to compare with original results. Checking what model was originally used.
+
+### Discovery
+**Original runs used GPT-3.5-turbo (default), NOT GPT-4!**
+
+Evidence:
+- Default in run_wmac.py: --model default="gpt-3.5-turbo"
+- Logs from level2_50h_test.log: "Using OpenAI model: gpt-3.5-turbo"
+- Research tracker incorrectly labels as "GPT-4" results
+
+### Corrected Comparison
+
+**GPT-3.5-turbo (original, 50 hands):**
+- Level 2: 59.45% team advantage
+- Level 3: 80.7% team advantage  
+- Level 4: 70.45% team advantage
+
+**GPT-4o-mini (new, 60 hands):**
+- Level 2: 53.6% team advantage (-5.85%)
+- Level 3: 44.2% team advantage (-36.5%)
+- Level 4: 49.4% team advantage (-21.05%)
+
+### Key Findings
+
+1. **GPT-3.5-turbo > GPT-4o-mini for coordination**
+   - 3.5-turbo leverages augmentation MUCH better (50% → 80.7%)
+   - 4o-mini shows minimal benefit (53.6% → 44.2%)
+
+2. **This is actually a useful comparison!**
+   - Shows augmentation effectiveness varies by model
+   - Even smaller models (3.5-turbo) can benefit from augmentation
+   - Newer doesn't always mean better for this task
+
+3. **4o-mini is worse than 3.5-turbo here**
+   - Possibly due to:
+     * Different prompt optimization in 3.5-turbo
+     * 4o-mini being too "conversational" and less strategic
+     * Loss of coordination capabilities in smaller models
+
+### Research Implications
+
+**This finding is valuable:**
+- Augmentation effectiveness is model-specific (not just capability-based)
+- Model architecture/optimization matters as much as size
+- The "GPT-4" label in tracker was wrong - need to fix documentation
+
+### Paper Impact
+
+**Should report:**
+- GPT-3.5-turbo (not GPT-4) was used for main results
+- Augmentation provides 61.4% gap bridging with 3.5-turbo
+- GPT-4o-mini shows different augmentation curve → model-specific phenomenon
+
+**Documentation needs fixing:**
+- RESEARCH_TRACKER.md incorrectly says "GPT-4" results
+- RESEARCH_OVERVIEW.md incorrectly says "GPT-4" results
+- Need to correct to "GPT-3.5-turbo"

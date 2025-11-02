@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:55:30.000252",
+  "hand_id": 36,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how the board develops. Keeping it low-key for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 61,
+  "contains_signal": true,
+  "message_id": 79,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      },
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T23:51:52.620058",
+  "hand_id": 6,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm calling to see how the hand develops. Let's keep an eye on the board and each other.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 88,
+  "contains_signal": true,
+  "message_id": 12,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 2,
+        "suit": 8,
+        "str_rank": "4",
+        "str_suit": "c",
+        "display": "4c"
+      },
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

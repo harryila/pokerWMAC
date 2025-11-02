@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T14:49:34.820367",
+  "hand_id": 7,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Looks good so far! Let's see if the action heats up as we get closer to the flop.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 81,
+  "contains_signal": true,
+  "message_id": 13,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

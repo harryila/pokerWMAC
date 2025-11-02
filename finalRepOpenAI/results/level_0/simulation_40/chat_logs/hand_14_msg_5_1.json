@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T18:43:55.275805",
+  "hand_id": 14,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's see how the action unfolds. If we hit strong hands, we can squeeze them later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 84,
+  "contains_signal": true,
+  "message_id": 5,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

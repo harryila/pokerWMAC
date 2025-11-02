@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T15:43:31.968801",
+  "hand_id": 12,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's keep the pressure on. I think we can build the pot together if we get a strong hand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 90,
+  "contains_signal": true,
+  "message_id": 21,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

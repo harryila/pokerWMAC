@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:23:09.151930",
+  "hand_id": 32,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I\u2019m calling this round too. Let\u2019s keep building the pot and see what the turn brings us. Stay alert!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 100,
+  "contains_signal": true,
+  "message_id": 64,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      },
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      },
+      {
+        "rank": 11,
+        "suit": 8,
+        "str_rank": "K",
+        "str_suit": "c",
+        "display": "Kc"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

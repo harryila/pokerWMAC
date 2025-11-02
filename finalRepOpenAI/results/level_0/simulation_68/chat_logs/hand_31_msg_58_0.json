@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T23:57:05.799696",
+  "hand_id": 31,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's see how it plays out. I can support a squeeze if you signal strength later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 81,
+  "contains_signal": true,
+  "message_id": 58,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T15:49:50.699705",
+  "hand_id": 48,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Hey, looks like we're in a good position. Let\u2019s see how the next hand develops.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 79,
+  "contains_signal": true,
+  "message_id": 89,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-29T00:02:29.947398",
+  "hand_id": 54,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how they react on this flop. If they show strength, I'll be ready to support you.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 91,
+  "contains_signal": true,
+  "message_id": 99,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      },
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      },
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

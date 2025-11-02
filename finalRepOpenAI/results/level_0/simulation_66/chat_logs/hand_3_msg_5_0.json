@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T23:25:13.834399",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I like your conservative approach. Let\u2019s see how this hand develops before making any big moves.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 96,
+  "contains_signal": true,
+  "message_id": 5,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

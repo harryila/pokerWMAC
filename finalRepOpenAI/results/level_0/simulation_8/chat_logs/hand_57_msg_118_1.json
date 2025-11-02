@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:15:40.573942",
+  "hand_id": 57,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how this develops. I think we can gauge our options better after this round.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 86,
+  "contains_signal": true,
+  "message_id": 118,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

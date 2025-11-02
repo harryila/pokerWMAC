@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:04:49.543040",
+  "hand_id": 8,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the next round goes. I'm still in this with you.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 62,
+  "contains_signal": true,
+  "message_id": 14,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

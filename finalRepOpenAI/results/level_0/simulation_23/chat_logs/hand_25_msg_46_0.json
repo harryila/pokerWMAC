@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T15:45:47.499813",
+  "hand_id": 25,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the others react before we decide our next move. Keeping our options open for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 96,
+  "contains_signal": true,
+  "message_id": 46,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      },
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

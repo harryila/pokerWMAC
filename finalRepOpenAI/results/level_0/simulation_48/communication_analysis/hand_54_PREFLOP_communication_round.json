@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-10-28T21:01:36.743611",
+  "hand_id": 54,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Hey, I\u2019m just matching the bet for now. Let\u2019s see how the others act before we make a move.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "we",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        }
+      }
+    },
+    {
+      "player_id": 1,
+      "message": "I\u2019ll match the bet for now too. Let\u2019s see how the others react before we decide our next move.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "we",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 92.5,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 20,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 2,
+        "suit": 8,
+        "str_rank": "4",
+        "str_suit": "c",
+        "display": "4c"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      }
+    ]
+  }
+}

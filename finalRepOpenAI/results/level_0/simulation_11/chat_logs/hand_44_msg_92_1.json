@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T17:26:24.115491",
+  "hand_id": 44,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I think we should see how this unfolds. Let\u2019s keep the pressure ready for when it\u2019s our turn to act.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 100,
+  "contains_signal": true,
+  "message_id": 92,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

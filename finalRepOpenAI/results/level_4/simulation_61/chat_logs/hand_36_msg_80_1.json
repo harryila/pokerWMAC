@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T22:42:28.883119",
+  "hand_id": 36,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm with you on this one. Let's see the next card.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 50,
+  "contains_signal": true,
+  "message_id": 80,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      },
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

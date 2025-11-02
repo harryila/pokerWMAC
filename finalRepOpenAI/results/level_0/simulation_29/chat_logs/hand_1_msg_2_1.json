@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:59:27.479829",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Looks like we're both playing it safe. Let's see what the turn brings before making any big moves.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 98,
+  "contains_signal": true,
+  "message_id": 2,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:46:41.207323",
+  "hand_id": 43,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how this develops. I think we can both make a move if the next cards are favorable.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 93,
+  "contains_signal": true,
+  "message_id": 95,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 8,
+        "str_rank": "J",
+        "str_suit": "c",
+        "display": "Jc"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

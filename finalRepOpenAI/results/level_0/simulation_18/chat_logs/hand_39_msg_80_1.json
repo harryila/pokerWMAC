@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:36:42.483125",
+  "hand_id": 39,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I\u2019m calling to see how this develops. Let\u2019s keep the pressure on if we hit something good.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 90,
+  "contains_signal": true,
+  "message_id": 80,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      },
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

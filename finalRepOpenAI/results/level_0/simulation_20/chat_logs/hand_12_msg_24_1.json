@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:41:25.918090",
+  "hand_id": 12,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how the turn plays out, I think we're in a good position to build our hands further.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 94,
+  "contains_signal": true,
+  "message_id": 24,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

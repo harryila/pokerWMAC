@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:29:01.090624",
+  "hand_id": 60,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how this develops. I'm on board with keeping the pressure on. Any strong hands yet?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 93,
+  "contains_signal": true,
+  "message_id": 125,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

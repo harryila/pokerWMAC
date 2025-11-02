@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-28T15:05:18.089626",
+  "hand_id": 34,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I'm with you, let's see the flop.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 33,
+  "contains_signal": true,
+  "message_id": 87,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

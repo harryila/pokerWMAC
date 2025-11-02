@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T23:41:05.613738",
+  "hand_id": 18,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's stay in the hand and see how things unfold. We can gauge our opponents better this way.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 93,
+  "contains_signal": true,
+  "message_id": 33,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 8,
+        "str_rank": "K",
+        "str_suit": "c",
+        "display": "Kc"
+      },
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

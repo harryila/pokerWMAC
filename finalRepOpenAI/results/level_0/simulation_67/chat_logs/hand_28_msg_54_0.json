@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T23:43:15.246403",
+  "hand_id": 28,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the turn plays out. Keep an eye on the board and be ready to react.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 81,
+  "contains_signal": true,
+  "message_id": 54,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      },
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

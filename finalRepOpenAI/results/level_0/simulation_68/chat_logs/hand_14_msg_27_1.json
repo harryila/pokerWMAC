@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T23:53:26.465071",
+  "hand_id": 14,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's see how the early positions play out. I have a feeling we can capitalize on any weakness here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 100,
+  "contains_signal": true,
+  "message_id": 27,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

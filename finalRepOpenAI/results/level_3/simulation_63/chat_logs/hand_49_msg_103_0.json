@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T23:05:19.928853",
+  "hand_id": 49,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Staying in this hand with you.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 30,
+  "contains_signal": false,
+  "message_id": 103,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      },
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      },
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

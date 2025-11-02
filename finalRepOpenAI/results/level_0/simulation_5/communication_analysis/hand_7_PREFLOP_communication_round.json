@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-10-28T17:10:16.137521",
+  "hand_id": 7,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "I\u2019m in. Let\u2019s see what develops. If you have a strong hand, I\u2019ll support you.",
+      "signals": {
+        "hand_strength": {
+          "phrase": "strong",
+          "meaning": "strength_signal",
+          "confidence": 0.7,
+          "type": "emergent_strength"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "total_messages": 1,
+    "private_messages": 0,
+    "avg_message_length": 77.0,
+    "unique_speakers": 1,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 20,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      },
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      },
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      }
+    ]
+  }
+}

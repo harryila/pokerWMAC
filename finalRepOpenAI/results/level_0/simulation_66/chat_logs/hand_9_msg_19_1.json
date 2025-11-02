@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T23:26:29.569066",
+  "hand_id": 9,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I agree, let's stay in and see what happens. Could be a good spot for us later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 79,
+  "contains_signal": true,
+  "message_id": 19,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

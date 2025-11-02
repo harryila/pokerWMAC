@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-10-28T20:39:51.242764",
+  "hand_id": 24,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "Let's see how this develops. I think we can leverage our position if things get interesting.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "let's",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "total_messages": 1,
+    "private_messages": 0,
+    "avg_message_length": 92.0,
+    "unique_speakers": 1,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 20,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      },
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 6,
+        "suit": 1,
+        "str_rank": "8",
+        "str_suit": "s",
+        "display": "8s"
+      }
+    ]
+  }
+}

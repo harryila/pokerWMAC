@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T23:32:53.586753",
+  "hand_id": 39,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm in. Let's see how the board develops. Good chance for a squeeze if we hit something strong!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 95,
+  "contains_signal": true,
+  "message_id": 82,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      },
+      {
+        "rank": 3,
+        "suit": 2,
+        "str_rank": "5",
+        "str_suit": "h",
+        "display": "5h"
+      },
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

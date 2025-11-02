@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T15:16:47.509835",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let\u2019s see how the board develops. If it stays calm, we can decide our next move together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 89,
+  "contains_signal": true,
+  "message_id": 1,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

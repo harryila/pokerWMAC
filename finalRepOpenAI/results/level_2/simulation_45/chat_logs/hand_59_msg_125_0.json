@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-10-28T20:28:54.486159",
+  "hand_id": 59,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Saving for better spot, not worth it this time.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 47,
+  "contains_signal": false,
+  "message_id": 125,
+  "game_context": {
+    "pot_size": 10,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

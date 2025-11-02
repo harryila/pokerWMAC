@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T18:05:54.028207",
+  "hand_id": 40,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I think we should see how this plays out. Let's keep the pot building together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 79,
+  "contains_signal": true,
+  "message_id": 85,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      },
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

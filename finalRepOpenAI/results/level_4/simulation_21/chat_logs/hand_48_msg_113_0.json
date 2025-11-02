@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-28T15:44:32.555230",
+  "hand_id": 48,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm folding to save our chips for a stronger spot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 50,
+  "contains_signal": true,
+  "message_id": 113,
+  "game_context": {
+    "pot_size": 15,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

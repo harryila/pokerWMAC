@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-10-28T15:20:49.770516",
+  "hand_id": 21,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Let's see how this plays out, I'm ready to support if the situation looks right.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "let's",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        }
+      }
+    },
+    {
+      "player_id": 1,
+      "message": "I'm in for now. Let's see how the next round goes. If you feel strong, I can support you later.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "let's",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        },
+        "hand_strength": {
+          "phrase": "strong",
+          "meaning": "strength_signal",
+          "confidence": 0.7,
+          "type": "emergent_strength"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 87.5,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 20,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      },
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      },
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      }
+    ]
+  }
+}

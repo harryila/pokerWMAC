@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T15:24:16.662683",
+  "hand_id": 38,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm on board with this hand. Let's see if we can build some pressure if it goes our way.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 88,
+  "contains_signal": true,
+  "message_id": 79,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      },
+      {
+        "rank": 1,
+        "suit": 8,
+        "str_rank": "3",
+        "str_suit": "c",
+        "display": "3c"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

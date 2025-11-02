@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T23:35:22.090273",
+  "hand_id": 51,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how this plays out. I think we might have some good opportunities ahead.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 82,
+  "contains_signal": true,
+  "message_id": 105,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      },
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      },
+      {
+        "rank": 9,
+        "suit": 8,
+        "str_rank": "J",
+        "str_suit": "c",
+        "display": "Jc"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

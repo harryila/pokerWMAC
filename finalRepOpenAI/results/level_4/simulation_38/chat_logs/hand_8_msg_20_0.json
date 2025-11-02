@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T18:15:30.271162",
+  "hand_id": 8,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I'm with you on this one, let's build the pot together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 55,
+  "contains_signal": true,
+  "message_id": 20,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      },
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

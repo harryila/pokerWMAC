@@ -1,0 +1,915 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 13
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Saving for better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you on this one."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "I'm with you on this one."
+[Player 1 FOLD]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+Player 0: "I'm with you."
+[Player 0 CALL]
+Player 1: "I'm with you."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "I'm with you on this one."
+[Player 0 FOLD]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+Player 1: "Saving for better spot."
+[Player 1 FOLD]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I'm with you."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+
+========================================
+HAND 4
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you."
+[Player 1 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+
+========================================
+HAND 5
+========================================
+
+--- PREFLOP ---
+[Player 3 RAISE $20]
+Player 0: "I'm with you"
+[Player 0 CALL]
+Player 1: "Saving for better spot"
+[Player 1 FOLD]
+[Player 2 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+
+========================================
+HAND 6
+========================================
+
+--- PREFLOP ---
+Player 0: "I'm with you"
+[Player 0 CALL]
+Player 1: "I'm with you"
+[Player 1 CALL]
+[Player 2 FOLD]
+[Player 3 FOLD]
+
+--- FLOP ---
+Player 0: "I'm with you"
+[Player 0 FOLD]
+
+========================================
+HAND 7
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm with you."
+[Player 1 CALL]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "I'm with you."
+[Player 0 FOLD]
+
+========================================
+HAND 8
+========================================
+
+--- PREFLOP ---
+[Player 2 RAISE $100]
+[Player 3 FOLD]
+Player 0: "Saving for better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you, let's see how this plays out."
+[Player 1 CALL]
+
+--- FLOP ---
+Player 1: "I'm with you, let's see how this plays out."
+[Player 1 FOLD]
+
+========================================
+HAND 9
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "Saving for a better spot."
+[Player 1 FOLD]
+
+========================================
+HAND 10
+========================================
+
+--- PREFLOP ---
+Player 0: "I'm with you."
+[Player 0 CALL]
+Player 1: "I'm with you."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "I'm with you."
+[Player 0 FOLD]
+
+========================================
+HAND 11
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm with you"
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Saving for better spot"
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "I'm with you"
+[Player 1 FOLD]
+
+========================================
+HAND 12
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 FOLD]
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you."
+[Player 1 FOLD]
+
+========================================
+HAND 13
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "I'm with you"
+[Player 0 CALL]
+Player 1: "Saving for better spot"
+[Player 1 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 14
+========================================
+
+--- PREFLOP ---
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+
+========================================
+HAND 15
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm with you!"
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+Player 0: "Saving for a better spot!"
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 1: "I'm with you!"
+[Player 1 FOLD]
+
+========================================
+HAND 16
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I'm with you, let's see how this plays out."
+[Player 0 CALL]
+Player 1: "I'm with you, let's see how this plays out."
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "I'm with you, let's see how this plays out."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 17
+========================================
+
+--- PREFLOP ---
+[Player 3 RAISE $50]
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "Saving for a better spot."
+[Player 1 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 18
+========================================
+
+--- PREFLOP ---
+Player 0: "I'm with you on this one!"
+[Player 0 CALL]
+Player 1: "Saving for better spot."
+[Player 1 FOLD]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+
+========================================
+HAND 19
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm with you."
+[Player 1 CALL]
+[Player 2 FOLD]
+[Player 3 CALL]
+Player 0: "I'm with you."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+
+========================================
+HAND 20
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I'm with you, ready to see how this plays out."
+[Player 0 CALL]
+Player 1: "I'm with you, let's see how it develops."
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "I'm with you, let's keep the pressure on."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 21
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "I'm with you"
+[Player 0 CALL]
+Player 1: "I'm with you"
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "I'm with you, let's see the next card."
+[Player 1 FOLD]
+
+========================================
+HAND 22
+========================================
+
+--- PREFLOP ---
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+
+========================================
+HAND 23
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm with you, let's see how this plays out."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+Player 0: "Saving for better spot. Let's play it safe for now."
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 1: "I'm with you, let's see how this plays out."
+[Player 1 FOLD]
+
+========================================
+HAND 24
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 CALL]
+Player 0: "Saving for better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you."
+[Player 1 FOLD]
+
+========================================
+HAND 25
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+========================================
+HAND 26
+========================================
+
+--- PREFLOP ---
+Player 0: "I'm with you"
+[Player 0 CALL]
+Player 1: "I'm with you"
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "I'm with you, let's see the next card."
+[Player 0 FOLD]
+
+========================================
+HAND 27
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm with you"
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+Player 0: "I'm with you"
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 1: "I'm with you"
+[Player 1 FOLD]
+
+========================================
+HAND 28
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 CALL]
+Player 0: "I'm with you"
+[Player 0 CALL]
+Player 1: "I'm with you"
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "I'm with you, let's keep the pressure on."
+[Player 0 FOLD]
+
+========================================
+HAND 29
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "I'm with you on this one."
+[Player 1 FOLD]
+
+========================================
+HAND 30
+========================================
+
+--- PREFLOP ---
+Player 0: "Saving for better spot, I have a weak hand here."
+[Player 0 FOLD]
+Player 1: "I'm with you, let's see how this plays out."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+
+========================================
+HAND 31
+========================================
+
+--- PREFLOP ---
+Player 1: "Saving for a better spot."
+[Player 1 FOLD]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I'm with you."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+
+========================================
+HAND 32
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+
+========================================
+HAND 33
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "I'm with you"
+[Player 0 CALL]
+Player 1: "Saving for better spot"
+[Player 1 FOLD]
+[Player 2 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+
+========================================
+HAND 34
+========================================
+
+--- PREFLOP ---
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+
+========================================
+HAND 35
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm with you"
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I'm with you"
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "I'm with you"
+[Player 1 FOLD]
+
+========================================
+HAND 36
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 CALL]
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you."
+[Player 1 FOLD]
+
+========================================
+HAND 37
+========================================
+
+--- PREFLOP ---
+[Player 3 RAISE $20]
+Player 0: "I'm with you!"
+[Player 0 CALL]
+Player 1: "I'm with you!"
+[Player 1 CALL]
+[Player 2 CALL]
+
+--- FLOP ---
+Player 1: "I'm with you!"
+[Player 1 FOLD]
+[Player 2 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 38
+========================================
+
+--- PREFLOP ---
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+
+========================================
+HAND 39
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm with you"
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I'm with you"
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "I'm with you"
+[Player 1 FOLD]
+
+========================================
+HAND 40
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 CALL]
+Player 0: "I'm with you."
+[Player 0 CALL]
+Player 1: "I'm with you."
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "I'm with you. Let's see where this goes."
+[Player 0 FOLD]
+
+========================================
+HAND 41
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "I'm with you"
+[Player 0 CALL]
+Player 1: "I'm with you, let's see the next card."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "I'm with you, let's see the next card."
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 42
+========================================
+
+--- PREFLOP ---
+Player 0: "I'm with you."
+[Player 0 CALL]
+Player 1: "Saving for better spot."
+[Player 1 FOLD]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+
+========================================
+HAND 43
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm with you, let's see how this develops."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Saving for better spot. Let's keep our chips safe."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "I'm with you, let's see how this develops."
+[Player 1 FOLD]
+
+========================================
+HAND 44
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 CALL]
+Player 0: "I'm with you"
+[Player 0 CALL]
+Player 1: "I'm with you"
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "I'm with you"
+[Player 0 FOLD]
+
+========================================
+HAND 45
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "I'm with you on this one, let's see the next card."
+[Player 0 CALL]
+Player 1: "I'm with you, let's see how this plays out!"
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "I'm with you, let's see how this plays out!"
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 46
+========================================
+
+--- PREFLOP ---
+Player 0: "I'm with you on this one."
+[Player 0 CALL]
+Player 1: "I'm with you on this one."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "I'm with you on this one."
+[Player 0 FOLD]
+
+========================================
+HAND 47
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm with you on this hand."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I'm with you on this hand."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "I'm with you on this hand."
+[Player 1 FOLD]
+
+========================================
+HAND 48
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you on this one."
+[Player 1 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+
+========================================
+HAND 49
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "I'm with you"
+[Player 0 CALL]
+Player 1: "Saving for better spot."
+[Player 1 FOLD]
+[Player 2 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+
+========================================
+HAND 50
+========================================
+
+--- PREFLOP ---
+Player 0: "I'm with you"
+[Player 0 CALL]
+Player 1: "I'm with you"
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "I'm with you on this one, let's see where it goes."
+[Player 0 FOLD]
+
+========================================
+HAND 51
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm with you"
+[Player 1 CALL]
+[Player 2 FOLD]
+[Player 3 CALL]
+Player 0: "Saving for better spot"
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+
+========================================
+HAND 52
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I'm with you on this one, let's see how it goes."
+[Player 0 CALL]
+Player 1: "Saving for better spot. Let's preserve our chips."
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "I'm with you on this one, let's see how it goes."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 53
+========================================
+
+--- PREFLOP ---
+[Player 3 RAISE $20]
+Player 0: "I'm with you on this one, let's see how it plays out."
+[Player 0 CALL]
+Player 1: "Saving for better spot."
+[Player 1 FOLD]
+[Player 2 CALL]
+
+--- FLOP ---
+[Player 2 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 54
+========================================
+
+--- PREFLOP ---
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "I'm with you."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+
+========================================
+HAND 55
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm with you."
+[Player 1 CALL]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "I'm with you."
+[Player 0 FOLD]
+
+========================================
+HAND 56
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 CALL]
+Player 0: "I'm with you"
+[Player 0 CALL]
+Player 1: "I'm with you"
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "I'm with you"
+[Player 0 FOLD]
+
+========================================
+HAND 57
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "I'm with you!"
+[Player 0 CALL]
+Player 1: "Saving for better spot."
+[Player 1 FOLD]
+[Player 2 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+
+========================================
+HAND 58
+========================================
+
+--- PREFLOP ---
+Player 0: "I'm with you!"
+[Player 0 CALL]
+Player 1: "I'm with you!"
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "I'm with you!"
+[Player 0 FOLD]
+
+========================================
+HAND 59
+========================================
+
+--- PREFLOP ---
+Player 1: "Saving for better spot."
+[Player 1 FOLD]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Saving for better spot."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+
+========================================
+HAND 60
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 FOLD]
+Player 0: "Saving for a better spot."
+[Player 0 FOLD]
+Player 1: "Saving for a better spot."
+[Player 1 FOLD]

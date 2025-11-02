@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-28T21:48:45.813312",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I\u2019m just matching the bet here too. Let\u2019s stay in and see how it develops.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 74,
+  "contains_signal": true,
+  "message_id": 5,
+  "game_context": {
+    "pot_size": 15,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

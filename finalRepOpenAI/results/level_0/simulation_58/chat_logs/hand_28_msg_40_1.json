@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T22:04:59.150424",
+  "hand_id": 28,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm in. Let's see what they do next. We can capitalize on any weakness.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 71,
+  "contains_signal": true,
+  "message_id": 40,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

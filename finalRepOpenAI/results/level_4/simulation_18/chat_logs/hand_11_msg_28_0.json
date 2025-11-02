@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:32:58.677407",
+  "hand_id": 11,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I'm with you. Let\u2019s see what the turn brings!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 45,
+  "contains_signal": false,
+  "message_id": 28,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

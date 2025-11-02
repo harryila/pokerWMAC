@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T14:50:04.784671",
+  "hand_id": 10,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's keep the pot building. I'm ready to support any action you take next.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 75,
+  "contains_signal": true,
+  "message_id": 18,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

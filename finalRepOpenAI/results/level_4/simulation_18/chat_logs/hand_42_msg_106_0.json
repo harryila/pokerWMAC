@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-10-28T17:43:13.906946",
+  "hand_id": 42,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "I'm with you, let's see the turn card together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 47,
+  "contains_signal": true,
+  "message_id": 106,
+  "game_context": {
+    "pot_size": 210,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      },
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

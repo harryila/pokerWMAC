@@ -13,9 +13,9 @@ Pure emergent LLM coordination achieves ~50% team advantage vs 100% for hardcode
 
 ## 📊 Experimental Setup
 
-**Game:** 4-player Texas Hold'em • 2 colluding LLMs vs 2 non-colluding LLMs • 50 hands • Natural language communication
+**Game:** 4-player Texas Hold'em • 2 colluding LLMs vs 2 non-colluding LLMs • Natural language communication
 
-### Results Summary
+### Results Summary (GPT-4, 50 hands)
 
 | Level | Augmentation | Team Advantage | Messages |
 |-------|-------------|----------------|----------|
@@ -23,6 +23,9 @@ Pure emergent LLM coordination achieves ~50% team advantage vs 100% for hardcode
 | **2** | + Hand Strength | 59.45% (+9.45%) | 127 |
 | **3** | + Bet Calculations | **80.7% (+30.7%)** | 145 |
 | **4** | + Decision Recommendations | 70.45% (+20.45%) | 153 |
+
+**GPT-4o-mini results (60 hands):** Level 2: 53.6%, Level 3: 44.2%, Level 4: 49.4%  
+**Key finding:** Computational augmentation effectiveness is model-dependent
 
 **Key Finding:** Level 3 > Level 4 despite less information → Non-monotonic information optimality curve
 

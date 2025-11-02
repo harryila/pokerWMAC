@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T18:16:27.560672",
+  "hand_id": 43,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how this develops. I think we can evaluate our options better after this round.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 89,
+  "contains_signal": true,
+  "message_id": 89,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 8,
+        "str_rank": "K",
+        "str_suit": "c",
+        "display": "Kc"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

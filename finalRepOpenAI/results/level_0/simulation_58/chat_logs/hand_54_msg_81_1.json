@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T22:22:13.137423",
+  "hand_id": 54,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm good to see the next card. Let's stay involved and see if we can build something here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 90,
+  "contains_signal": true,
+  "message_id": 81,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

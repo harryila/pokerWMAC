@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-29T00:03:49.034589",
+  "hand_id": 60,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's see how this plays out. I think we might have a chance here if we coordinate well.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 88,
+  "contains_signal": true,
+  "message_id": 109,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

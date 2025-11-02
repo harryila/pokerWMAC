@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:57:32.431288",
+  "hand_id": 49,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's stay in and see how the turn plays out. I think we can still apply pressure later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 88,
+  "contains_signal": true,
+  "message_id": 110,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 2,
+        "str_rank": "5",
+        "str_suit": "h",
+        "display": "5h"
+      },
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      },
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

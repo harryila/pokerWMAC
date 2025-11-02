@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T18:16:42.439631",
+  "hand_id": 19,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm with you, let's see the next card.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 38,
+  "contains_signal": true,
+  "message_id": 46,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

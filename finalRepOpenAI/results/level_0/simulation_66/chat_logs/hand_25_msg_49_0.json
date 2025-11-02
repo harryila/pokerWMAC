@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T23:29:44.754249",
+  "hand_id": 25,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Hey, just calling this round. Let's see how the board develops before making any big moves.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 91,
+  "contains_signal": true,
+  "message_id": 49,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

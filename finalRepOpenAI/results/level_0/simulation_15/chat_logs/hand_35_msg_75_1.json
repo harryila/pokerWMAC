@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:35:12.904317",
+  "hand_id": 35,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how it plays out. I'm ready to support if the action heats up.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 72,
+  "contains_signal": true,
+  "message_id": 75,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      },
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      },
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

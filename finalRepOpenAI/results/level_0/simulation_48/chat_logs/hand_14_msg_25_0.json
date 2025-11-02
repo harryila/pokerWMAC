@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T20:35:11.483059",
+  "hand_id": 14,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the turn plays out. Keeping it low for now sounds good.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 69,
+  "contains_signal": true,
+  "message_id": 25,
+  "game_context": {
+    "pot_size": 15,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "simulation_id": 12,
+  "start_time": "2025-10-28T17:30:38.429511",
+  "end_time": "2025-10-28T17:30:38.429521",
+  "description": "Poker simulation 12",
+  "status": "completed",
+  "total_actions": 299,
+  "final_stats": {
+    "total_hands": 60,
+    "final_chips": {
+      "0": 526,
+      "1": 531,
+      "2": 470,
+      "3": 473
+    },
+    "collusion_players": [
+      0,
+      1
+    ],
+    "llm_players": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "human_players": [],
+    "communication_config": {
+      "level": "moderate",
+      "style": "emergent",
+      "strategy": "signal_and_squeeze"
+    },
+    "coordination_mode": "emergent_only",
+    "augmentation_level": 3
+  }
+}

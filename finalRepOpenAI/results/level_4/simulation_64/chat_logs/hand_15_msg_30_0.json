@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-10-28T23:07:56.777894",
+  "hand_id": 15,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "I'm with you, let's keep building the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 42,
+  "contains_signal": true,
+  "message_id": 30,
+  "game_context": {
+    "pot_size": 240,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

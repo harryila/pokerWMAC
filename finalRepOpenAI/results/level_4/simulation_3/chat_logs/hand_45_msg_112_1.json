@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-28T14:55:14.669977",
+  "hand_id": 45,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I'm with you.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 13,
+  "contains_signal": false,
+  "message_id": 112,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

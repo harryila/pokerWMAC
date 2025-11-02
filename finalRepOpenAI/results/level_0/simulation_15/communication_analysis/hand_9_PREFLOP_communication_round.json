@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-10-28T17:30:42.271261",
+  "hand_id": 9,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Let's see how things develop. I have a feeling something good is coming up.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "let's",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        }
+      }
+    },
+    {
+      "player_id": 1,
+      "message": "I like the vibe here. Let\u2019s see how it plays out. I\u2019m in.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 66.0,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 20,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T15:43:03.436116",
+  "hand_id": 9,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Looks like a solid flop. Let's see how the action unfolds before making any big moves.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 86,
+  "contains_signal": true,
+  "message_id": 15,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      },
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

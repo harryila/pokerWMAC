@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-10-28T22:56:52.498936",
+  "hand_id": 40,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "Let's see how the next cards play out. Might be a good spot to apply some pressure later.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "let's",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        },
+        "aggression": {
+          "phrase": "pressure",
+          "meaning": "aggression_signal",
+          "confidence": 0.8,
+          "type": "emergent_aggression"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "total_messages": 1,
+    "private_messages": 0,
+    "avg_message_length": 89.0,
+    "unique_speakers": 1,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 15,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      },
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      },
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      }
+    ]
+  }
+}

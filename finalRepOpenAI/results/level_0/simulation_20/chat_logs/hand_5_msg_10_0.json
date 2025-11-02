@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:40:13.998043",
+  "hand_id": 5,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's keep it steady for now. We can gauge the action before deciding on our next move.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 87,
+  "contains_signal": true,
+  "message_id": 10,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      },
+      {
+        "rank": 12,
+        "suit": 4,
+        "str_rank": "A",
+        "str_suit": "d",
+        "display": "Ad"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

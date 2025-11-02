@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:42:39.052628",
+  "hand_id": 32,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's apply some pressure here!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 31,
+  "contains_signal": true,
+  "message_id": 83,
+  "game_context": {
+    "pot_size": 150,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      },
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      },
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

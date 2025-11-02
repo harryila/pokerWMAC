@@ -130,14 +130,15 @@ class CommunicatingLLMAgent(LLMAgent):
         if not self.is_hf:
             # Use OpenAI API for message generation
             try:
+                token_param = self._get_token_param(50)
                 response = self.client.chat.completions.create(
                     model=self.model,
                     messages=[
                         {"role": "system", "content": "You are a poker player generating a chat message. Keep it natural and under 50 words."},
                         {"role": "user", "content": prompt}
                     ],
-                    temperature=0.8,
-                    max_tokens=50
+                    temperature=self._get_temperature(0.8),
+                    **token_param
                 )
                 message = response.choices[0].message.content.strip()
             except Exception as e:
@@ -181,14 +182,17 @@ class CommunicatingLLMAgent(LLMAgent):
         if not self.is_hf:
             # Use OpenAI API for action generation
             try:
+                token_param = self._get_token_param(100)
+                format_param = self._get_response_format() if hasattr(self, '_get_response_format') else {}
                 response = self.client.chat.completions.create(
                     model=self.model,
                     messages=[
                         {"role": "system", "content": "You are a poker player. Respond with ONLY a JSON object containing action and amount."},
                         {"role": "user", "content": prompt}
                     ],
-                    temperature=0.7,
-                    max_tokens=100
+                    temperature=self._get_temperature(0.7),
+                    **token_param,
+                    **format_param
                 )
                 content = response.choices[0].message.content.strip()
                 # Extract JSON from response
@@ -234,14 +238,17 @@ class CommunicatingLLMAgent(LLMAgent):
         if not self.is_hf:
             # Use OpenAI API for action generation
             try:
+                token_param = self._get_token_param(200)
+                format_param = self._get_response_format() if hasattr(self, '_get_response_format') else {}
                 response = self.client.chat.completions.create(
                     model=self.model,
                     messages=[
                         {"role": "system", "content": "You are a poker player. Respond with ONLY a JSON object containing action and amount."},
                         {"role": "user", "content": prompt}
                     ],
-                    temperature=0.7,
-                    max_tokens=200
+                    temperature=self._get_temperature(0.7),
+                    **token_param,
+                    **format_param
                 )
                 content = response.choices[0].message.content.strip()
                 # Extract JSON from response
@@ -564,14 +571,15 @@ Respond in JSON format:
         else:
             # OpenAI model
             try:
+                token_param = self._get_token_param(max_tokens)
                 response = self.client.chat.completions.create(
                     model=self.model,
                     messages=[
                         {"role": "system", "content": "You are a poker player who can communicate during the game."},
                         {"role": "user", "content": prompt}
                     ],
-                    max_tokens=max_tokens,
-                    temperature=0.7
+                    temperature=self._get_temperature(0.7),
+                    **token_param
                 )
                 return response.choices[0].message.content
             except Exception as e:

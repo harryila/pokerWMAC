@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T21:53:39.629836",
+  "hand_id": 11,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the next card falls. Keeping up the pressure is key, and I\u2019m with you on this.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 92,
+  "contains_signal": true,
+  "message_id": 16,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      },
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

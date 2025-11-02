@@ -1,0 +1,893 @@
+{
+  "descriptive_stats": {
+    "0": {
+      "n": 22,
+      "mean": 0.5020681818181818,
+      "std": 0.008315641392874744,
+      "sem": 0.0017729007019172613,
+      "ci_95_lower": 0.4983812329731473,
+      "ci_95_upper": 0.5057551306632163,
+      "min": 0.481,
+      "max": 0.523,
+      "median": 0.5
+    },
+    "2": {
+      "n": 22,
+      "mean": 0.4859090909090909,
+      "std": 0.08140019251814669,
+      "sem": 0.017354579356353473,
+      "ci_95_lower": 0.4498182674101933,
+      "ci_95_upper": 0.5219999144079884,
+      "min": 0.2045,
+      "max": 0.6175,
+      "median": 0.49075
+    },
+    "3": {
+      "n": 21,
+      "mean": 0.5004761904761905,
+      "std": 0.03762528278647092,
+      "sem": 0.008210509829196284,
+      "ci_95_lower": 0.4833493670890702,
+      "ci_95_upper": 0.5176030138633109,
+      "min": 0.439,
+      "max": 0.6045,
+      "median": 0.502
+    },
+    "4": {
+      "n": 21,
+      "mean": 0.491,
+      "std": 0.03828021682279241,
+      "sem": 0.008353428152846103,
+      "ci_95_lower": 0.47357505421380164,
+      "ci_95_upper": 0.5084249457861983,
+      "min": 0.415,
+      "max": 0.583,
+      "median": 0.491
+    }
+  },
+  "anova": {
+    "f_statistic": 0.5351597199799027,
+    "p_value": 0.6594817065300338,
+    "significant": false
+  },
+  "pairwise_comparisons": {
+    "Level_0_vs_2": {
+      "t_statistic": 0.9262930237184115,
+      "p_value": 0.35958604427233987,
+      "significant": 0.0,
+      "cohens_d": 0.27928785505434056,
+      "effect_size": "Small",
+      "mean_diff": 0.0161590909090909,
+      "mean_diff_pct": 1.61590909090909
+    },
+    "Level_0_vs_3": {
+      "t_statistic": 0.19367057042727268,
+      "p_value": 0.8473901615557066,
+      "significant": 0.0,
+      "cohens_d": 0.05908494991408891,
+      "effect_size": "Negligible",
+      "mean_diff": 0.0015919913419912834,
+      "mean_diff_pct": 0.15919913419912834
+    },
+    "Level_0_vs_4": {
+      "t_statistic": 1.3245376095170787,
+      "p_value": 0.19266056582665772,
+      "significant": 0.0,
+      "cohens_d": 0.4040894708214432,
+      "effect_size": "Small",
+      "mean_diff": 0.01106818181818181,
+      "mean_diff_pct": 1.106818181818181
+    },
+    "Level_2_vs_3": {
+      "t_statistic": -0.7471322055518377,
+      "p_value": 0.45924727121403397,
+      "significant": 0.0,
+      "cohens_d": -0.22793483205446644,
+      "effect_size": "Small",
+      "mean_diff": -0.014567099567099617,
+      "mean_diff_pct": -1.4567099567099617
+    },
+    "Level_2_vs_4": {
+      "t_statistic": -0.26033601043645427,
+      "p_value": 0.795907643523188,
+      "significant": 0.0,
+      "cohens_d": -0.07942321904425778,
+      "effect_size": "Negligible",
+      "mean_diff": -0.00509090909090909,
+      "mean_diff_pct": -0.509090909090909
+    },
+    "Level_3_vs_4": {
+      "t_statistic": 0.8090381820057939,
+      "p_value": 0.4232795147885625,
+      "significant": 0.0,
+      "cohens_d": 0.24967460346146927,
+      "effect_size": "Small",
+      "mean_diff": 0.009476190476190527,
+      "mean_diff_pct": 0.9476190476190527
+    }
+  },
+  "raw_data": {
+    "0": [
+      {
+        "simulation_id": "simulation_11",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_12",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_15",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_18",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_20",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_23",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_24",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_29",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_35",
+        "level": 0,
+        "team_advantage": 0.512,
+        "team_advantage_pct": 51.2,
+        "opponents_eliminated": false,
+        "colluder_chips": 1024,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_4",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_40",
+        "level": 0,
+        "team_advantage": 0.481,
+        "team_advantage_pct": 48.1,
+        "opponents_eliminated": false,
+        "colluder_chips": 962,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_44",
+        "level": 0,
+        "team_advantage": 0.523,
+        "team_advantage_pct": 52.300000000000004,
+        "opponents_eliminated": false,
+        "colluder_chips": 1046,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_48",
+        "level": 0,
+        "team_advantage": 0.507,
+        "team_advantage_pct": 50.7,
+        "opponents_eliminated": false,
+        "colluder_chips": 1014,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_5",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_53",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_58",
+        "level": 0,
+        "team_advantage": 0.5215,
+        "team_advantage_pct": 52.15,
+        "opponents_eliminated": false,
+        "colluder_chips": 1043,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_62",
+        "level": 0,
+        "team_advantage": 0.501,
+        "team_advantage_pct": 50.1,
+        "opponents_eliminated": false,
+        "colluder_chips": 1002,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_65",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_66",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_67",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_68",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_8",
+        "level": 0,
+        "team_advantage": 0.5,
+        "team_advantage_pct": 50.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1000,
+        "total_chips": 2000
+      }
+    ],
+    "2": [
+      {
+        "simulation_id": "simulation_10",
+        "level": 2,
+        "team_advantage": 0.48,
+        "team_advantage_pct": 48.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 960,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_13",
+        "level": 2,
+        "team_advantage": 0.504,
+        "team_advantage_pct": 50.4,
+        "opponents_eliminated": false,
+        "colluder_chips": 1008,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_14",
+        "level": 2,
+        "team_advantage": 0.5475,
+        "team_advantage_pct": 54.75,
+        "opponents_eliminated": false,
+        "colluder_chips": 1095,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_16",
+        "level": 2,
+        "team_advantage": 0.5475,
+        "team_advantage_pct": 54.75,
+        "opponents_eliminated": false,
+        "colluder_chips": 1095,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_17",
+        "level": 2,
+        "team_advantage": 0.537,
+        "team_advantage_pct": 53.7,
+        "opponents_eliminated": false,
+        "colluder_chips": 1074,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_19",
+        "level": 2,
+        "team_advantage": 0.4325,
+        "team_advantage_pct": 43.25,
+        "opponents_eliminated": false,
+        "colluder_chips": 865,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_2",
+        "level": 2,
+        "team_advantage": 0.5055,
+        "team_advantage_pct": 50.55,
+        "opponents_eliminated": false,
+        "colluder_chips": 1011,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_20",
+        "level": 2,
+        "team_advantage": 0.475,
+        "team_advantage_pct": 47.5,
+        "opponents_eliminated": false,
+        "colluder_chips": 950,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_23",
+        "level": 2,
+        "team_advantage": 0.2045,
+        "team_advantage_pct": 20.45,
+        "opponents_eliminated": false,
+        "colluder_chips": 409,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_27",
+        "level": 2,
+        "team_advantage": 0.472,
+        "team_advantage_pct": 47.199999999999996,
+        "opponents_eliminated": false,
+        "colluder_chips": 944,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_31",
+        "level": 2,
+        "team_advantage": 0.496,
+        "team_advantage_pct": 49.6,
+        "opponents_eliminated": false,
+        "colluder_chips": 992,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_33",
+        "level": 2,
+        "team_advantage": 0.538,
+        "team_advantage_pct": 53.800000000000004,
+        "opponents_eliminated": false,
+        "colluder_chips": 1076,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_37",
+        "level": 2,
+        "team_advantage": 0.478,
+        "team_advantage_pct": 47.8,
+        "opponents_eliminated": false,
+        "colluder_chips": 956,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_41",
+        "level": 2,
+        "team_advantage": 0.421,
+        "team_advantage_pct": 42.1,
+        "opponents_eliminated": false,
+        "colluder_chips": 842,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_45",
+        "level": 2,
+        "team_advantage": 0.4855,
+        "team_advantage_pct": 48.55,
+        "opponents_eliminated": false,
+        "colluder_chips": 971,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_49",
+        "level": 2,
+        "team_advantage": 0.474,
+        "team_advantage_pct": 47.4,
+        "opponents_eliminated": false,
+        "colluder_chips": 948,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_5",
+        "level": 2,
+        "team_advantage": 0.5695,
+        "team_advantage_pct": 56.95,
+        "opponents_eliminated": false,
+        "colluder_chips": 1139,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_52",
+        "level": 2,
+        "team_advantage": 0.4525,
+        "team_advantage_pct": 45.25,
+        "opponents_eliminated": false,
+        "colluder_chips": 905,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_56",
+        "level": 2,
+        "team_advantage": 0.6175,
+        "team_advantage_pct": 61.75000000000001,
+        "opponents_eliminated": false,
+        "colluder_chips": 1235,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_6",
+        "level": 2,
+        "team_advantage": 0.3905,
+        "team_advantage_pct": 39.050000000000004,
+        "opponents_eliminated": false,
+        "colluder_chips": 781,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_60",
+        "level": 2,
+        "team_advantage": 0.5275,
+        "team_advantage_pct": 52.75,
+        "opponents_eliminated": false,
+        "colluder_chips": 1055,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_9",
+        "level": 2,
+        "team_advantage": 0.5345,
+        "team_advantage_pct": 53.449999999999996,
+        "opponents_eliminated": false,
+        "colluder_chips": 1069,
+        "total_chips": 2000
+      }
+    ],
+    "3": [
+      {
+        "simulation_id": "simulation_1",
+        "level": 3,
+        "team_advantage": 0.559,
+        "team_advantage_pct": 55.900000000000006,
+        "opponents_eliminated": false,
+        "colluder_chips": 1118,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_11",
+        "level": 3,
+        "team_advantage": 0.502,
+        "team_advantage_pct": 50.2,
+        "opponents_eliminated": false,
+        "colluder_chips": 1004,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_12",
+        "level": 3,
+        "team_advantage": 0.5285,
+        "team_advantage_pct": 52.849999999999994,
+        "opponents_eliminated": false,
+        "colluder_chips": 1057,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_15",
+        "level": 3,
+        "team_advantage": 0.5105,
+        "team_advantage_pct": 51.05,
+        "opponents_eliminated": false,
+        "colluder_chips": 1021,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_16",
+        "level": 3,
+        "team_advantage": 0.439,
+        "team_advantage_pct": 43.9,
+        "opponents_eliminated": false,
+        "colluder_chips": 878,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_19",
+        "level": 3,
+        "team_advantage": 0.6045,
+        "team_advantage_pct": 60.45,
+        "opponents_eliminated": false,
+        "colluder_chips": 1209,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_21",
+        "level": 3,
+        "team_advantage": 0.5055,
+        "team_advantage_pct": 50.55,
+        "opponents_eliminated": false,
+        "colluder_chips": 1011,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_22",
+        "level": 3,
+        "team_advantage": 0.4425,
+        "team_advantage_pct": 44.25,
+        "opponents_eliminated": false,
+        "colluder_chips": 885,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_25",
+        "level": 3,
+        "team_advantage": 0.4675,
+        "team_advantage_pct": 46.75,
+        "opponents_eliminated": false,
+        "colluder_chips": 935,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_28",
+        "level": 3,
+        "team_advantage": 0.4675,
+        "team_advantage_pct": 46.75,
+        "opponents_eliminated": false,
+        "colluder_chips": 935,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_32",
+        "level": 3,
+        "team_advantage": 0.475,
+        "team_advantage_pct": 47.5,
+        "opponents_eliminated": false,
+        "colluder_chips": 950,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_36",
+        "level": 3,
+        "team_advantage": 0.51,
+        "team_advantage_pct": 51.0,
+        "opponents_eliminated": false,
+        "colluder_chips": 1020,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_39",
+        "level": 3,
+        "team_advantage": 0.4925,
+        "team_advantage_pct": 49.25,
+        "opponents_eliminated": false,
+        "colluder_chips": 985,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_43",
+        "level": 3,
+        "team_advantage": 0.5205,
+        "team_advantage_pct": 52.05,
+        "opponents_eliminated": false,
+        "colluder_chips": 1041,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_47",
+        "level": 3,
+        "team_advantage": 0.502,
+        "team_advantage_pct": 50.2,
+        "opponents_eliminated": false,
+        "colluder_chips": 1004,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_51",
+        "level": 3,
+        "team_advantage": 0.4945,
+        "team_advantage_pct": 49.45,
+        "opponents_eliminated": false,
+        "colluder_chips": 989,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_55",
+        "level": 3,
+        "team_advantage": 0.455,
+        "team_advantage_pct": 45.5,
+        "opponents_eliminated": false,
+        "colluder_chips": 910,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_59",
+        "level": 3,
+        "team_advantage": 0.5135,
+        "team_advantage_pct": 51.349999999999994,
+        "opponents_eliminated": false,
+        "colluder_chips": 1027,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_63",
+        "level": 3,
+        "team_advantage": 0.519,
+        "team_advantage_pct": 51.9,
+        "opponents_eliminated": false,
+        "colluder_chips": 1038,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_7",
+        "level": 3,
+        "team_advantage": 0.5035,
+        "team_advantage_pct": 50.349999999999994,
+        "opponents_eliminated": false,
+        "colluder_chips": 1007,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_8",
+        "level": 3,
+        "team_advantage": 0.498,
+        "team_advantage_pct": 49.8,
+        "opponents_eliminated": false,
+        "colluder_chips": 996,
+        "total_chips": 2000
+      }
+    ],
+    "4": [
+      {
+        "simulation_id": "simulation_10",
+        "level": 4,
+        "team_advantage": 0.5455,
+        "team_advantage_pct": 54.55,
+        "opponents_eliminated": false,
+        "colluder_chips": 1091,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_13",
+        "level": 4,
+        "team_advantage": 0.4595,
+        "team_advantage_pct": 45.95,
+        "opponents_eliminated": false,
+        "colluder_chips": 919,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_14",
+        "level": 4,
+        "team_advantage": 0.475,
+        "team_advantage_pct": 47.5,
+        "opponents_eliminated": false,
+        "colluder_chips": 950,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_17",
+        "level": 4,
+        "team_advantage": 0.4575,
+        "team_advantage_pct": 45.75,
+        "opponents_eliminated": false,
+        "colluder_chips": 915,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_18",
+        "level": 4,
+        "team_advantage": 0.5155,
+        "team_advantage_pct": 51.55,
+        "opponents_eliminated": false,
+        "colluder_chips": 1031,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_21",
+        "level": 4,
+        "team_advantage": 0.5305,
+        "team_advantage_pct": 53.05,
+        "opponents_eliminated": false,
+        "colluder_chips": 1061,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_22",
+        "level": 4,
+        "team_advantage": 0.5035,
+        "team_advantage_pct": 50.349999999999994,
+        "opponents_eliminated": false,
+        "colluder_chips": 1007,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_26",
+        "level": 4,
+        "team_advantage": 0.514,
+        "team_advantage_pct": 51.4,
+        "opponents_eliminated": false,
+        "colluder_chips": 1028,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_3",
+        "level": 4,
+        "team_advantage": 0.4375,
+        "team_advantage_pct": 43.75,
+        "opponents_eliminated": false,
+        "colluder_chips": 875,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_30",
+        "level": 4,
+        "team_advantage": 0.583,
+        "team_advantage_pct": 58.3,
+        "opponents_eliminated": false,
+        "colluder_chips": 1166,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_34",
+        "level": 4,
+        "team_advantage": 0.4855,
+        "team_advantage_pct": 48.55,
+        "opponents_eliminated": false,
+        "colluder_chips": 971,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_38",
+        "level": 4,
+        "team_advantage": 0.459,
+        "team_advantage_pct": 45.9,
+        "opponents_eliminated": false,
+        "colluder_chips": 918,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_42",
+        "level": 4,
+        "team_advantage": 0.491,
+        "team_advantage_pct": 49.1,
+        "opponents_eliminated": false,
+        "colluder_chips": 982,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_46",
+        "level": 4,
+        "team_advantage": 0.457,
+        "team_advantage_pct": 45.7,
+        "opponents_eliminated": false,
+        "colluder_chips": 914,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_50",
+        "level": 4,
+        "team_advantage": 0.497,
+        "team_advantage_pct": 49.7,
+        "opponents_eliminated": false,
+        "colluder_chips": 994,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_54",
+        "level": 4,
+        "team_advantage": 0.5035,
+        "team_advantage_pct": 50.349999999999994,
+        "opponents_eliminated": false,
+        "colluder_chips": 1007,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_57",
+        "level": 4,
+        "team_advantage": 0.502,
+        "team_advantage_pct": 50.2,
+        "opponents_eliminated": false,
+        "colluder_chips": 1004,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_6",
+        "level": 4,
+        "team_advantage": 0.4725,
+        "team_advantage_pct": 47.25,
+        "opponents_eliminated": false,
+        "colluder_chips": 945,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_61",
+        "level": 4,
+        "team_advantage": 0.524,
+        "team_advantage_pct": 52.400000000000006,
+        "opponents_eliminated": false,
+        "colluder_chips": 1048,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_64",
+        "level": 4,
+        "team_advantage": 0.415,
+        "team_advantage_pct": 41.5,
+        "opponents_eliminated": false,
+        "colluder_chips": 830,
+        "total_chips": 2000
+      },
+      {
+        "simulation_id": "simulation_9",
+        "level": 4,
+        "team_advantage": 0.483,
+        "team_advantage_pct": 48.3,
+        "opponents_eliminated": false,
+        "colluder_chips": 966,
+        "total_chips": 2000
+      }
+    ]
+  }
+}

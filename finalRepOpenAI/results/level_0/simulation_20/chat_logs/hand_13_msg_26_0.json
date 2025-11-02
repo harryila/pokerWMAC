@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:41:34.551377",
+  "hand_id": 13,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the turn plays out. We can assess our options better then.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 72,
+  "contains_signal": true,
+  "message_id": 26,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      },
+      {
+        "rank": 12,
+        "suit": 4,
+        "str_rank": "A",
+        "str_suit": "d",
+        "display": "Ad"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

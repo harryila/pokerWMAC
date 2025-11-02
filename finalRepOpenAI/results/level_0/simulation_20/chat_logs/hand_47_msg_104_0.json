@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:47:16.359574",
+  "hand_id": 47,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I'm with you on calling. Let's keep the pressure and see how they respond on the turn.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 86,
+  "contains_signal": true,
+  "message_id": 104,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      },
+      {
+        "rank": 11,
+        "suit": 8,
+        "str_rank": "K",
+        "str_suit": "c",
+        "display": "Kc"
+      },
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

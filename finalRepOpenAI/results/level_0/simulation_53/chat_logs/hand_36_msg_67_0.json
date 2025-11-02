@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-28T21:29:47.601110",
+  "hand_id": 36,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Staying in this hand sounds good. Let's see how the flop plays out together!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 76,
+  "contains_signal": true,
+  "message_id": 67,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

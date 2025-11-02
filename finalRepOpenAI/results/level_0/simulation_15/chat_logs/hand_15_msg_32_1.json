@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:31:42.896248",
+  "hand_id": 15,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm with you on keeping it manageable. Let's see how the next cards help us out.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 80,
+  "contains_signal": true,
+  "message_id": 32,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 8,
+        "str_rank": "4",
+        "str_suit": "c",
+        "display": "4c"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

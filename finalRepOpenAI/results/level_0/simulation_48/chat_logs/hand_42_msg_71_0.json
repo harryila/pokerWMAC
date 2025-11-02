@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T20:53:26.330443",
+  "hand_id": 42,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Looks like we have a chance to build this pot. Let\u2019s see how the others react and play it from here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 100,
+  "contains_signal": true,
+  "message_id": 71,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

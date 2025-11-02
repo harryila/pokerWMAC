@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T18:09:29.816636",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Hey, just calling here to keep the pot manageable. Let me know if you have a strong hand to signal.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 99,
+  "contains_signal": true,
+  "message_id": 2,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

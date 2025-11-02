@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T18:10:41.202462",
+  "hand_id": 8,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how it plays out from here. I'm curious about the next card and what the others do.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 93,
+  "contains_signal": true,
+  "message_id": 13,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      },
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

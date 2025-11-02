@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:28:38.181117",
+  "hand_id": 5,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I'm with you, let's see what develops.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 38,
+  "contains_signal": true,
+  "message_id": 12,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      },
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      },
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

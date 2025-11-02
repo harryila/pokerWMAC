@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T15:19:23.894994",
+  "hand_id": 14,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I agree with keeping it low-key for now. Let's see how the others react before we commit more chips.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 100,
+  "contains_signal": true,
+  "message_id": 27,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

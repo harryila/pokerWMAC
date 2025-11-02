@@ -1,0 +1,52 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-10-28T19:03:55.898270,1,PREFLOP,1,,public,I'm with you on this hand.,26,False
+2025-10-28T19:06:18.869651,3,PREFLOP,1,,public,"I'm with you, let's see the flop together.",42,True
+2025-10-28T19:07:08.356725,4,PREFLOP,1,,public,"I'm with you, let's see the flop together.",42,True
+2025-10-28T19:07:56.784253,5,PREFLOP,1,,public,Saving for a better spot. Let's stay strong!,44,True
+2025-10-28T19:08:10.276533,5,PREFLOP,0,,public,Saving for better spot. Let's preserve our chips!,49,True
+2025-10-28T19:10:08.637428,7,PREFLOP,1,,public,I'm with you.,13,False
+2025-10-28T19:10:46.685339,8,PREFLOP,0,,public,"I'm with you, let's see the flop together!",42,True
+2025-10-28T19:11:50.463778,9,PREFLOP,1,,public,I'm with you on this one. Let's see how it plays out.,53,True
+2025-10-28T19:14:13.226667,11,PREFLOP,1,,public,Saving for a better spot.,25,False
+2025-10-28T19:14:42.231563,12,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T19:16:06.787031,13,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T19:17:01.141437,14,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T19:17:22.737120,15,PREFLOP,0,,public,Saving for a better spot. Let's wait for stronger hands.,56,True
+2025-10-28T19:17:41.926451,15,PREFLOP,1,,public,I'm with you. Let's see the flop together.,42,True
+2025-10-28T19:18:20.362039,16,PREFLOP,0,,public,"I'm with you, let's build this pot together.",44,True
+2025-10-28T19:18:21.905166,16,PREFLOP,1,,public,Saving for a better spot.,25,False
+2025-10-28T19:19:16.604887,17,PREFLOP,1,,public,I'm with you on this one.,25,False
+2025-10-28T19:22:25.474613,20,PREFLOP,1,,public,"I'm with you, let's see the flop.",33,True
+2025-10-28T19:23:03.529847,21,PREFLOP,1,,public,I'm with you on this one.,25,False
+2025-10-28T19:24:28.329649,22,PREFLOP,0,,public,Saving for a better spot. Let's focus on stronger hands together.,65,True
+2025-10-28T19:24:47.656413,23,PREFLOP,0,,public,I'm with you on this one. Let's see the flop together.,54,True
+2025-10-28T19:25:43.373779,24,PREFLOP,1,,public,I'm with you on this one.,25,False
+2025-10-28T19:26:12.449191,25,PREFLOP,1,,public,Saving for a better opportunity.,32,False
+2025-10-28T19:26:51.025027,25,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T19:27:40.035605,26,PREFLOP,1,,public,Saving for a better spot.,25,False
+2025-10-28T19:28:18.749963,27,PREFLOP,0,,public,"Saving for a better spot, I have a weak hand here.",50,True
+2025-10-28T19:30:28.681590,29,PREFLOP,0,,public,I'm with you on this one!,25,False
+2025-10-28T19:32:17.193977,31,PREFLOP,0,,public,I'm with you on this one.,25,False
+2025-10-28T19:32:36.298511,31,PREFLOP,1,,public,I'm with you on this one.,25,False
+2025-10-28T19:32:55.342822,31,FLOP,1,,public,I'm with you on this one.,25,False
+2025-10-28T19:35:15.358759,34,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T19:35:52.604752,35,PREFLOP,0,,public,I'm with you. Let's build this pot together!,44,True
+2025-10-28T19:37:33.299156,37,PREFLOP,1,,public,"I'm with you, let's see the flop together.",42,True
+2025-10-28T19:39:27.264895,39,PREFLOP,1,,public,"I'm with you, let's see the flop.",33,True
+2025-10-28T19:39:29.478063,40,PREFLOP,0,,public,Saving for a better spot. Let's wait for stronger hands.,56,True
+2025-10-28T19:40:06.326863,41,PREFLOP,1,,public,"I'm with you, let's see the flop.",33,True
+2025-10-28T19:40:55.306750,41,FLOP,1,,public,"I'm with you, let's see the next card.",38,True
+2025-10-28T19:43:01.355496,44,PREFLOP,1,,public,I'm saving for a better spot. Let's preserve our chips.,55,True
+2025-10-28T19:43:29.375246,45,PREFLOP,1,,public,I'm with you on this one!,25,False
+2025-10-28T19:45:09.360865,46,PREFLOP,0,,public,I'm with you. Let's see the flop.,33,True
+2025-10-28T19:45:37.068207,46,FLOP,0,,public,I'm with you. Let's keep building the pot.,42,True
+2025-10-28T19:46:25.760875,48,PREFLOP,0,,public,I'm with you,12,False
+2025-10-28T19:46:35.790373,48,PREFLOP,1,,public,Saving for a better spot.,25,False
+2025-10-28T19:49:24.079090,50,PREFLOP,1,,public,I'm with you on this one.,25,False
+2025-10-28T19:50:37.241366,52,PREFLOP,0,,public,"I'm with you, let's see the flop together.",42,True
+2025-10-28T19:50:56.215686,52,PREFLOP,1,,public,Saving for better spot.,23,False
+2025-10-28T19:51:28.152131,53,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T19:53:10.650132,54,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T19:53:56.018647,55,PREFLOP,1,,public,I'm with you on this one.,25,False
+2025-10-28T19:57:41.634017,59,PREFLOP,1,,public,Saving for a better spot.,25,False
+2025-10-28T19:58:18.449132,60,PREFLOP,1,,public,"I'm with you, let's see the flop together.",42,True

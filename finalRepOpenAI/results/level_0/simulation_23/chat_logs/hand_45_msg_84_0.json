@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T15:49:20.099343",
+  "hand_id": 45,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Looks like we might have a chance here. Let's see what the turn brings and keep our options open.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 97,
+  "contains_signal": true,
+  "message_id": 84,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      },
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      },
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

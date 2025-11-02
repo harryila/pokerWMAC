@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-10-28T15:34:50.960781",
+  "hand_id": 30,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Hey, I think we should see how this plays out. Let\u2019s keep the pressure on when the time comes.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "we",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        },
+        "aggression": {
+          "phrase": "pressure",
+          "meaning": "aggression_signal",
+          "confidence": 0.8,
+          "type": "emergent_aggression"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "total_messages": 1,
+    "private_messages": 0,
+    "avg_message_length": 94.0,
+    "unique_speakers": 1,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 20,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-29T00:01:28.159076",
+  "hand_id": 50,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how this plays out. I think we can build something here if the board cooperates.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 90,
+  "contains_signal": true,
+  "message_id": 92,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      },
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

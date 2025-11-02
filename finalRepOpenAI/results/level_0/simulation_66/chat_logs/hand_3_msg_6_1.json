@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T23:25:18.485703",
+  "hand_id": 3,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's keep it steady for now and see how the turn card plays out. We can adjust from there.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 91,
+  "contains_signal": true,
+  "message_id": 6,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      },
+      {
+        "rank": 12,
+        "suit": 4,
+        "str_rank": "A",
+        "str_suit": "d",
+        "display": "Ad"
+      },
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

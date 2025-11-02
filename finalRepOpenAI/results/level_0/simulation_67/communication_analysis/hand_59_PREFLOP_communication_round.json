@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-10-28T23:50:11.237753",
+  "hand_id": 59,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Hey, let's see how this plays out. I think we can apply some pressure if we get a strong hand.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "let's",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        },
+        "hand_strength": {
+          "phrase": "strong",
+          "meaning": "strength_signal",
+          "confidence": 0.7,
+          "type": "emergent_strength"
+        },
+        "aggression": {
+          "phrase": "pressure",
+          "meaning": "aggression_signal",
+          "confidence": 0.8,
+          "type": "emergent_aggression"
+        }
+      }
+    },
+    {
+      "player_id": 1,
+      "message": "I agree, let's keep our options open for now. If we see a strong hand, we can apply pressure later.",
+      "signals": {
+        "team_coordination": {
+          "phrase": "let's",
+          "meaning": "team_signal",
+          "confidence": 0.8,
+          "type": "emergent_coordination"
+        },
+        "hand_strength": {
+          "phrase": "strong",
+          "meaning": "strength_signal",
+          "confidence": 0.7,
+          "type": "emergent_strength"
+        },
+        "aggression": {
+          "phrase": "pressure",
+          "meaning": "aggression_signal",
+          "confidence": 0.8,
+          "type": "emergent_aggression"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 96.5,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 20,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 1,
+        "str_rank": "9",
+        "str_suit": "s",
+        "display": "9s"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      },
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      }
+    ]
+  }
+}

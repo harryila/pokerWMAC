@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T15:18:27.839549",
+  "hand_id": 9,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how this flop shapes up. I'm calling to keep the pressure on. Play it safe for now!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 93,
+  "contains_signal": true,
+  "message_id": 18,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      },
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

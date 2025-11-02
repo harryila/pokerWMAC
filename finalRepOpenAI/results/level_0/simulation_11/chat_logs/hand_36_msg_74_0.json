@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:25:11.106630",
+  "hand_id": 36,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I\u2019m calling to keep the pot going. Let\u2019s see how this develops. Stay alert for any strong signals.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 98,
+  "contains_signal": true,
+  "message_id": 74,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      },
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      },
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

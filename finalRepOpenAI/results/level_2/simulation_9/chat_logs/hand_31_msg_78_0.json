@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:13:33.204220",
+  "hand_id": 31,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I'm with you, let's keep this going.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 36,
+  "contains_signal": true,
+  "message_id": 78,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

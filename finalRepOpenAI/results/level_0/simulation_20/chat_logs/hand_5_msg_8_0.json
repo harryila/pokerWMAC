@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T17:40:11.422796",
+  "hand_id": 5,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let\u2019s see how the hand develops. I think we should take it slow for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 72,
+  "contains_signal": true,
+  "message_id": 8,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

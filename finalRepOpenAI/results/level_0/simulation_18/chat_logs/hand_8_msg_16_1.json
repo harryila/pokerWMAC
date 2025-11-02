@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T15:30:30.289679",
+  "hand_id": 8,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Sounds good! I'm with you. Let's keep the pressure on and see what we can do next.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 82,
+  "contains_signal": true,
+  "message_id": 16,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

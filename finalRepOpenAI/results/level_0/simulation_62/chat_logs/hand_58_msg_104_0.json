@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T23:11:32.141564",
+  "hand_id": 58,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the board develops. Keeping an eye on our opponents while we build the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 89,
+  "contains_signal": true,
+  "message_id": 104,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      },
+      {
+        "rank": 7,
+        "suit": 1,
+        "str_rank": "9",
+        "str_suit": "s",
+        "display": "9s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

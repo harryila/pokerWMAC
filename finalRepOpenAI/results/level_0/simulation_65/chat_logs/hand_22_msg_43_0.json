@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T23:16:47.943251",
+  "hand_id": 22,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Looks good so far. Let's keep an eye on the next few cards and play it smart.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 77,
+  "contains_signal": true,
+  "message_id": 43,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

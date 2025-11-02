@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T15:04:36.756423",
+  "hand_id": 8,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's see how this plays out. I'm ready for any action if you give me a signal.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 79,
+  "contains_signal": true,
+  "message_id": 12,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

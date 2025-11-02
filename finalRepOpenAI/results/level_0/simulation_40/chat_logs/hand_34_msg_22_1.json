@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T19:09:50.134727",
+  "hand_id": 34,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I\u2019m with you on this one. Let\u2019s keep the action going and see what the turn brings.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 83,
+  "contains_signal": true,
+  "message_id": 22,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      },
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

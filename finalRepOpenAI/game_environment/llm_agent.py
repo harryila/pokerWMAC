@@ -79,6 +79,37 @@ class LLMAgent:
 
             # Initialize the client
             self.client = openai.OpenAI()
+    
+    def _get_token_param(self, max_tokens: int) -> dict:
+        """Get the correct token parameter based on model type."""
+        # GPT-5 uses max_completion_tokens, others use max_tokens
+        if isinstance(self.model, str) and 'gpt-5' in self.model:
+            # For reliability during testing, allow very large completions
+            # Use at least 2000 tokens for complex prompts/actions
+            is_complex = max_tokens >= 200
+            baseline = 2000 if is_complex else 1000
+            adjusted_tokens = max(baseline, max_tokens)
+            return {"max_completion_tokens": adjusted_tokens}
+        else:
+            return {"max_tokens": max_tokens}
+    
+    def _is_gpt5(self) -> bool:
+        """Check if the model is GPT-5."""
+        return isinstance(self.model, str) and 'gpt-5' in self.model
+    
+    def _get_temperature(self, desired_temp: float) -> float:
+        """Get the correct temperature based on model type."""
+        # GPT-5 only supports temperature=1.0
+        if self._is_gpt5():
+            return 1.0
+        else:
+            return desired_temp
+    
+    def _get_response_format(self):
+        """Get response format for structured outputs (GPT-5 specific)."""
+        if self._is_gpt5():
+            return {"response_format": {"type": "json_object"}}
+        return {}
 
     def _format_game_state(self, game: TexasHoldEm, player_id: int) -> str:
         """
@@ -290,7 +321,7 @@ Betting history:
        # Create clean baseline prompts
 
         pre_game_prompt = get_pre_game_prompt_baseline()
-        decision_prompt = get_decision_prompt_baseline(state_str)
+        decision_prompt = self._optimize_prompt_for_gpt5(get_decision_prompt_baseline(state_str))
 
         try:
             if self.is_hf:

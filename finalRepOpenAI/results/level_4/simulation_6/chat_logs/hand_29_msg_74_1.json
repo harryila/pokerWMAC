@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:04:29.361443",
+  "hand_id": 29,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let\u2019s see how this develops together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 37,
+  "contains_signal": true,
+  "message_id": 74,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      },
+      {
+        "rank": 3,
+        "suit": 2,
+        "str_rank": "5",
+        "str_suit": "h",
+        "display": "5h"
+      },
+      {
+        "rank": 12,
+        "suit": 4,
+        "str_rank": "A",
+        "str_suit": "d",
+        "display": "Ad"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

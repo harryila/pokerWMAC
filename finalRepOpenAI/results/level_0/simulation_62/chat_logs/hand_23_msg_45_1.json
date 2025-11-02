@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T22:43:19.329594",
+  "hand_id": 23,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how the hand develops. I trust your read on the situation.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 68,
+  "contains_signal": true,
+  "message_id": 45,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      },
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 1,
+        "suit": 8,
+        "str_rank": "3",
+        "str_suit": "c",
+        "display": "3c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

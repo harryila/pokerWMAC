@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T21:47:55.635362",
+  "hand_id": 2,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I think waiting to see how the others act is a good idea. Let's keep our options open for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 94,
+  "contains_signal": true,
+  "message_id": 3,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 2,
+        "suit": 8,
+        "str_rank": "4",
+        "str_suit": "c",
+        "display": "4c"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

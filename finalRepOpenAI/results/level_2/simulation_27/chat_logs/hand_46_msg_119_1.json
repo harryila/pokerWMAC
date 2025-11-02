@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-10-28T17:58:17.733389",
+  "hand_id": 46,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Building the pot with a strong hand!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 36,
+  "contains_signal": true,
+  "message_id": 119,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

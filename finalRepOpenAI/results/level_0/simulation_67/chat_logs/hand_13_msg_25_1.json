@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T23:39:52.787999",
+  "hand_id": 13,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I think we should see how the next card plays out. The board looks promising for a squeeze later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 97,
+  "contains_signal": true,
+  "message_id": 25,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      },
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

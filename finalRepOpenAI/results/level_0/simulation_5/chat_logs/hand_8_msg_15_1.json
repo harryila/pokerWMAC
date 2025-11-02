@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T17:10:25.628350",
+  "hand_id": 8,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Looks like the table is keeping it steady. Let's see how they react before we make any big moves.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 97,
+  "contains_signal": true,
+  "message_id": 15,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

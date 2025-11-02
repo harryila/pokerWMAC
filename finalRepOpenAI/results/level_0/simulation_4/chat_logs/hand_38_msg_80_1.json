@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T14:56:05.907546",
+  "hand_id": 38,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how the turn plays out. I think we can still apply pressure if needed later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 86,
+  "contains_signal": true,
+  "message_id": 80,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      },
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

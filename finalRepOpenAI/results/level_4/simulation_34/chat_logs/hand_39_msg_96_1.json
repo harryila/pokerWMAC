@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T18:11:46.658508",
+  "hand_id": 39,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm with you, let's see the flop together!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 42,
+  "contains_signal": true,
+  "message_id": 96,
+  "game_context": {
+    "pot_size": 15,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      },
+      {
+        "rank": 6,
+        "suit": 1,
+        "str_rank": "8",
+        "str_suit": "s",
+        "display": "8s"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

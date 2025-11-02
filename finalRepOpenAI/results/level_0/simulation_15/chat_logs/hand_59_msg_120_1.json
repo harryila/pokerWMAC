@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:39:08.819307",
+  "hand_id": 59,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I\u2019m calling as well. Let\u2019s see if we can build on this and gauge the next moves.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 80,
+  "contains_signal": true,
+  "message_id": 120,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

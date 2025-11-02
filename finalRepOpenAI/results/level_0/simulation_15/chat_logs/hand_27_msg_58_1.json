@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:33:51.392516",
+  "hand_id": 27,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's stay in and see how they play this out. If it looks good, we can make a move next.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 88,
+  "contains_signal": true,
+  "message_id": 58,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      },
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      },
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T15:40:10.346542",
+  "hand_id": 56,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I think we should keep the pressure on. Let's see what the next cards bring and stay in the game.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 97,
+  "contains_signal": true,
+  "message_id": 115,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      },
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

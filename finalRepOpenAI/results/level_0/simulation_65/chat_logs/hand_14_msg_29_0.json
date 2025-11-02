@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T23:15:13.030677",
+  "hand_id": 14,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how they act before we decide our next move. Keeping it flexible for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 83,
+  "contains_signal": true,
+  "message_id": 29,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      },
+      {
+        "rank": 7,
+        "suit": 1,
+        "str_rank": "9",
+        "str_suit": "s",
+        "display": "9s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:51:19.602019",
+  "hand_id": 56,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's stay in and see what develops. I think we can still build the pot with a strong hand later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 97,
+  "contains_signal": true,
+  "message_id": 105,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

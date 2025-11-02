@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T23:23:51.502704",
+  "hand_id": 57,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Looks like we can play this one safe. Let's see how the action unfolds and keep our options open.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 97,
+  "contains_signal": true,
+  "message_id": 110,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

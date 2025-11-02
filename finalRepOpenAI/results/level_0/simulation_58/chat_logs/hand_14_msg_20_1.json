@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T21:55:39.254271",
+  "hand_id": 14,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I think we should see how this plays out. Keeping the pressure in mind for later moves.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 87,
+  "contains_signal": true,
+  "message_id": 20,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      },
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      },
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

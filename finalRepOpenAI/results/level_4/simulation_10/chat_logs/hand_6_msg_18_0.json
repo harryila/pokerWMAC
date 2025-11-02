@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-10-28T15:11:21.809574",
+  "hand_id": 6,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Saving for a better spot, let's regroup later!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 46,
+  "contains_signal": true,
+  "message_id": 18,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

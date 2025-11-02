@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T23:54:52.510610",
+  "hand_id": 20,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how the next card comes. Could be a good spot to build a pot if we hit strong hands.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 94,
+  "contains_signal": true,
+  "message_id": 40,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 9,
+        "suit": 8,
+        "str_rank": "J",
+        "str_suit": "c",
+        "display": "Jc"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

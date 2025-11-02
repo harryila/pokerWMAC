@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:20:29.728030",
+  "hand_id": 6,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the turn plays out. I think we can still build from here if we hit something strong.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 98,
+  "contains_signal": true,
+  "message_id": 13,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

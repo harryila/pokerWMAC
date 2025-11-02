@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T23:33:42.968421",
+  "hand_id": 43,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I think we should keep the pot going and see how the turn plays out. Let's play it smart together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 98,
+  "contains_signal": true,
+  "message_id": 87,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      },
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

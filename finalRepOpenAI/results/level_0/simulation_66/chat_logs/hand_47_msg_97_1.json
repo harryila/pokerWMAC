@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T23:34:32.018200",
+  "hand_id": 47,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Staying in for now. Let's see how this develops and keep an eye out for a strong play later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 92,
+  "contains_signal": true,
+  "message_id": 97,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

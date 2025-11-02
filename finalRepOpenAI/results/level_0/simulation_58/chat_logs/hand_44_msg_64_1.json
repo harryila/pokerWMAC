@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T22:15:48.737748",
+  "hand_id": 44,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I'm in. Let\u2019s see what happens next. If you sense strength, we can squeeze them later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 86,
+  "contains_signal": true,
+  "message_id": 64,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

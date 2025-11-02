@@ -1,0 +1,131 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-10-28T18:11:20.113717,1,PREFLOP,0,,public,Saving for better spot.,23,False
+2025-10-28T18:11:21.227258,1,PREFLOP,1,,public,Saving for better spot.,23,False
+2025-10-28T18:11:25.656188,2,PREFLOP,1,,public,I'm with you on this one!,25,False
+2025-10-28T18:11:29.481835,2,PREFLOP,0,,public,I'm with you on this one!,25,False
+2025-10-28T18:11:31.783838,2,FLOP,1,,public,I'm with you on this one!,25,False
+2025-10-28T18:11:35.769635,3,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T18:11:37.211142,3,PREFLOP,1,,public,I'm with you!,13,False
+2025-10-28T18:11:41.129322,4,PREFLOP,0,,public,"I'm with you, let's build the pot together!",43,True
+2025-10-28T18:11:42.341096,4,PREFLOP,1,,public,"I'm with you, let's build the pot together!",43,True
+2025-10-28T18:11:45.353821,4,FLOP,1,,public,"I'm with you, let's build the pot together!",43,True
+2025-10-28T18:11:48.376932,5,PREFLOP,0,,public,"I'm with you, let's see the flop together.",42,True
+2025-10-28T18:11:49.538868,5,PREFLOP,1,,public,"I'm with you, let's see the flop together.",42,True
+2025-10-28T18:11:53.586939,5,FLOP,0,,public,"I'm with you, let's see the next card!",38,True
+2025-10-28T18:11:55.126050,6,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T18:11:58.810855,6,PREFLOP,0,,public,I'm with you,12,False
+2025-10-28T18:12:00.449387,6,PREFLOP,1,,public,"I'm with you, let’s build this pot together!",44,True
+2025-10-28T18:12:03.486888,6,FLOP,0,,public,"I'm with you, let's build this pot together!",44,True
+2025-10-28T18:12:05.271340,6,FLOP,1,,public,"I'm with you, let’s build this pot together!",44,True
+2025-10-28T18:12:08.542365,7,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T18:12:09.562185,7,PREFLOP,1,,public,Saving for a better spot.,25,False
+2025-10-28T18:12:13.781166,8,PREFLOP,0,,public,I'm with you!,13,False
+2025-10-28T18:12:15.052998,8,PREFLOP,1,,public,I'm with you!,13,False
+2025-10-28T18:12:17.529221,8,FLOP,1,,public,I'm with you!,13,False
+2025-10-28T18:12:18.971314,9,PREFLOP,0,,public,"I'm with you, let's build the pot together.",43,True
+2025-10-28T18:12:20.568470,9,PREFLOP,1,,public,"I'm with you, let's build the pot together.",43,True
+2025-10-28T18:12:26.128505,9,FLOP,0,,public,"I'm with you, let's build the pot together.",43,True
+2025-10-28T18:12:27.629383,10,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T18:12:31.555974,10,PREFLOP,0,,public,I'm with you,12,False
+2025-10-28T18:12:35.515931,11,PREFLOP,0,,public,I'm with you,12,False
+2025-10-28T18:12:36.699338,11,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T18:12:38.079386,11,FLOP,0,,public,I'm with you to build the pot.,30,False
+2025-10-28T18:12:41.694284,12,PREFLOP,0,,public,I'm with you,12,False
+2025-10-28T18:12:42.853704,12,PREFLOP,1,,public,Saving for better spot,22,False
+2025-10-28T18:12:47.132215,13,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T18:12:48.168332,13,PREFLOP,1,,public,I'm with you.,13,False
+2025-10-28T18:12:54.723165,14,PREFLOP,1,,public,Saving for a better spot.,25,False
+2025-10-28T18:12:59.230225,14,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T18:13:03.221282,15,PREFLOP,0,,public,I'm with you on this hand. Let's see how it plays out.,54,True
+2025-10-28T18:13:06.791807,15,PREFLOP,1,,public,Saving for better spot.,23,False
+2025-10-28T18:13:08.136424,15,FLOP,0,,public,I'm with you on this hand. Let's see how it plays out.,54,True
+2025-10-28T18:13:10.566712,16,PREFLOP,0,,public,Saving for better spot.,23,False
+2025-10-28T18:13:11.730589,16,PREFLOP,1,,public,I'm with you.,13,False
+2025-10-28T18:13:14.177705,16,FLOP,1,,public,I'm with you on this one.,25,False
+2025-10-28T18:13:15.221343,17,PREFLOP,0,,public,I'm with you,12,False
+2025-10-28T18:13:16.452636,17,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T18:13:20.571973,17,FLOP,0,,public,"I'm with you, let's build this pot together.",44,True
+2025-10-28T18:13:22.129616,18,PREFLOP,1,,public,"I'm with you, let's see the flop!",33,True
+2025-10-28T18:13:26.512577,18,PREFLOP,0,,public,Saving for better spot,22,False
+2025-10-28T18:13:28.309934,18,FLOP,1,,public,"I'm with you, let's see how this develops.",42,True
+2025-10-28T18:13:32.252065,19,PREFLOP,0,,public,I'm with you on this hand.,26,False
+2025-10-28T18:13:33.860600,19,PREFLOP,1,,public,I'm with you on this hand.,26,False
+2025-10-28T18:13:35.121225,19,FLOP,0,,public,I'm with you on this hand.,26,False
+2025-10-28T18:13:37.732043,20,PREFLOP,0,,public,"I'm with you, ready to see the next card!",41,False
+2025-10-28T18:13:39.475673,20,PREFLOP,1,,public,Saving for better spot.,23,False
+2025-10-28T18:13:42.963336,21,PREFLOP,0,,public,Saving for better spot.,23,False
+2025-10-28T18:13:44.146452,21,PREFLOP,1,,public,Saving for better spot.,23,False
+2025-10-28T18:13:48.173486,22,PREFLOP,1,,public,Saving for better spot.,23,False
+2025-10-28T18:13:51.823679,22,PREFLOP,0,,public,Saving for better spot.,23,False
+2025-10-28T18:13:57.963226,23,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T18:13:59.339045,23,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T18:14:02.614708,24,PREFLOP,0,,public,I'm with you on this one!,25,False
+2025-10-28T18:14:04.157852,24,PREFLOP,1,,public,Saving for better spot,22,False
+2025-10-28T18:14:08.038473,25,PREFLOP,0,,public,I'm with you,12,False
+2025-10-28T18:14:09.068510,25,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T18:14:13.248496,25,FLOP,0,,public,"I'm with you, let's build this pot together.",44,True
+2025-10-28T18:14:15.005229,26,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T18:14:19.513577,26,PREFLOP,0,,public,Saving for better spot,22,False
+2025-10-28T18:14:20.833235,26,PREFLOP,1,,public,I'm with you on this one.,25,False
+2025-10-28T18:14:21.878084,26,FLOP,1,,public,I'm with you on this one.,25,False
+2025-10-28T18:14:26.106419,27,PREFLOP,0,,public,I'm with you on this one!,25,False
+2025-10-28T18:14:27.362993,27,PREFLOP,1,,public,I'm with you!,13,False
+2025-10-28T18:14:28.407053,27,FLOP,0,,public,I'm with you!,13,False
+2025-10-28T18:14:32.581065,28,PREFLOP,0,,public,Saving for better spot.,23,False
+2025-10-28T18:14:34.501575,28,PREFLOP,1,,public,"I'm with you, let's build this pot!",35,True
+2025-10-28T18:14:36.836333,28,FLOP,1,,public,"I'm with you, let's build this pot!",35,True
+2025-10-28T18:14:37.840401,29,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T18:14:39.272160,29,PREFLOP,1,,public,I'm with you.,13,False
+2025-10-28T18:14:44.190397,30,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T18:14:49.311622,30,PREFLOP,0,,public,I'm with you,12,False
+2025-10-28T18:14:55.540388,31,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T18:14:56.753785,31,PREFLOP,1,,public,I'm with you.,13,False
+2025-10-28T18:14:59.353055,32,PREFLOP,0,,public,I'm with you on this one!,25,False
+2025-10-28T18:15:00.883054,32,PREFLOP,1,,public,I'm with you on this one!,25,False
+2025-10-28T18:15:03.850529,32,FLOP,1,,public,I'm with you on this one!,25,False
+2025-10-28T18:15:06.934019,33,PREFLOP,0,,public,Saving for better spot.,23,False
+2025-10-28T18:15:08.254545,33,PREFLOP,1,,public,"I'm with you, let's build this pot!",35,True
+2025-10-28T18:15:13.989585,34,PREFLOP,1,,public,I'm with you on this one!,25,False
+2025-10-28T18:15:17.963988,34,PREFLOP,0,,public,Saving for better spot.,23,False
+2025-10-28T18:15:22.182907,35,PREFLOP,0,,public,"Saving for a better spot, let's preserve our chips.",51,True
+2025-10-28T18:15:23.397451,35,PREFLOP,1,,public,"Saving for a better spot, let's preserve our chips.",51,True
+2025-10-28T18:15:29.790375,36,PREFLOP,0,,public,Saving for a better spot.,25,False
+2025-10-28T18:15:31.185196,36,PREFLOP,1,,public,I'm with you on this one!,25,False
+2025-10-28T18:15:33.959213,36,FLOP,1,,public,I'm with you on this one!,25,False
+2025-10-28T18:15:35.594399,37,PREFLOP,0,,public,"I'm with you, let's see how this plays out.",43,True
+2025-10-28T18:15:36.691438,37,PREFLOP,1,,public,Saving for better spot,22,False
+2025-10-28T18:15:42.363800,38,PREFLOP,1,,public,Saving for better spot.,23,False
+2025-10-28T18:15:46.248250,38,PREFLOP,0,,public,I'm with you.,13,False
+2025-10-28T18:15:51.480735,39,PREFLOP,0,,public,"I'm with you, let's see the next cards.",39,True
+2025-10-28T18:15:52.903029,39,PREFLOP,1,,public,"I'm with you, let's see the next cards.",39,True
+2025-10-28T18:15:54.235093,39,FLOP,0,,public,"I'm with you, let's see the next cards.",39,True
+2025-10-28T18:15:58.327618,40,PREFLOP,0,,public,I'm with you on this one!,25,False
+2025-10-28T18:15:59.924785,40,PREFLOP,1,,public,Saving for better spot.,23,False
+2025-10-28T18:16:04.357450,40,PREFLOP,0,,public,I'm with you on this one!,25,False
+2025-10-28T18:16:08.017061,41,PREFLOP,0,,public,"I'm with you, let's see the next card together.",47,True
+2025-10-28T18:16:09.293159,41,PREFLOP,1,,public,"I'm with you, let's take this one together!",43,True
+2025-10-28T18:16:15.741832,41,FLOP,0,,public,"I'm with you, let's take this one together!",43,True
+2025-10-28T18:16:16.917313,42,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T18:16:21.141498,42,PREFLOP,0,,public,I'm with you on this one!,25,False
+2025-10-28T18:16:26.389691,43,PREFLOP,0,,public,Saving for a better spot. Let's keep our chips safe.,52,True
+2025-10-28T18:16:27.964762,43,PREFLOP,1,,public,Saving for a better spot. Let's keep our chips safe.,52,True
+2025-10-28T18:16:30.689169,44,PREFLOP,0,,public,"I'm with you, let's see the next cards.",39,True
+2025-10-28T18:16:31.814656,44,PREFLOP,1,,public,"I'm with you, let's see the next cards.",39,True
+2025-10-28T18:16:34.967771,44,FLOP,1,,public,"I'm with you, let's see the next cards.",39,True
+2025-10-28T18:16:36.218888,45,PREFLOP,0,,public,Saving for better spot.,23,False
+2025-10-28T18:16:37.448160,45,PREFLOP,1,,public,I'm with you.,13,False
+2025-10-28T18:16:44.505893,46,PREFLOP,1,,public,"I'm with you, let's see the flop together!",42,True
+2025-10-28T18:16:48.300932,46,PREFLOP,0,,public,"Saving for better spot, let's keep our chips safe.",50,True
+2025-10-28T18:16:53.339104,47,PREFLOP,0,,public,"I'm with you, let's see the flop together!",42,True
+2025-10-28T18:16:54.845210,47,PREFLOP,1,,public,"I'm with you, let's see the flop together!",42,True
+2025-10-28T18:16:57.175450,48,PREFLOP,0,,public,I'm with you.,13,False
+2025-10-28T18:16:58.222702,48,PREFLOP,1,,public,I'm with you.,13,False
+2025-10-28T18:17:10.302292,48,FLOP,1,,public,I'm with you.,13,False
+2025-10-28T18:17:21.993926,49,PREFLOP,0,,public,"I'm with you, let's build this pot together!",44,True
+2025-10-28T18:17:42.168029,49,PREFLOP,1,,public,"I'm with you, let's build the pot together!",43,True
+2025-10-28T18:20:38.997337,52,PREFLOP,0,,public,I'm with you.,13,False
+2025-10-28T18:20:49.280252,52,PREFLOP,1,,public,Saving for better spot.,23,False
+2025-10-28T18:21:01.934883,53,PREFLOP,0,,public,Saving for better spot.,23,False
+2025-10-28T18:22:16.596336,54,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T18:25:01.971755,56,PREFLOP,1,,public,I'm with you,12,False
+2025-10-28T18:28:14.515546,60,PREFLOP,0,,public,I'm with you,12,False

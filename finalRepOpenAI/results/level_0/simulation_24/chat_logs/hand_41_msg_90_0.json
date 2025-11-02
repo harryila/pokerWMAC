@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:56:15.225345",
+  "hand_id": 41,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Looks like we're in a good spot. Let's see how the next card plays out. Keeping it low-key for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 99,
+  "contains_signal": true,
+  "message_id": 90,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      },
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

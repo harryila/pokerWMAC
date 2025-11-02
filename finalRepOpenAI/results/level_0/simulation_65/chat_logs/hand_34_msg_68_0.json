@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T23:19:13.864888",
+  "hand_id": 34,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the next cards fall. We can apply pressure later if we need to.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 77,
+  "contains_signal": true,
+  "message_id": 68,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      },
+      {
+        "rank": 2,
+        "suit": 8,
+        "str_rank": "4",
+        "str_suit": "c",
+        "display": "4c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

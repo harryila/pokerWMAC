@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T23:36:53.393394",
+  "hand_id": 59,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Looks like a good spot to see the next cards. Let's keep the pressure on if we hit something strong.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 100,
+  "contains_signal": true,
+  "message_id": 119,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

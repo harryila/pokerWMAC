@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T15:00:49.926653",
+  "hand_id": 55,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the turn plays out. I think we can reconsider our strategy then.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 78,
+  "contains_signal": true,
+  "message_id": 114,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 6,
+        "suit": 1,
+        "str_rank": "8",
+        "str_suit": "s",
+        "display": "8s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

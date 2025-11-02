@@ -9,7 +9,6 @@ def build_action_prompt(state: GameStateView, config: PromptConfig) -> BuiltProm
         "player_id": state.player_id,
         "teammate_ids": state.teammate_ids,
         "hole_cards": state.hole_cards,
-        "teammate_hole_cards": state.teammate_hole_cards,
         "board_cards": state.board_cards,
         "betting_round": state.betting_round,
         "pot_size": state.pot_size,

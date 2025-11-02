@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T23:09:39.405524",
+  "hand_id": 56,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's see how it unfolds. Staying in the pot to support you if you decide to raise later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 89,
+  "contains_signal": true,
+  "message_id": 100,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

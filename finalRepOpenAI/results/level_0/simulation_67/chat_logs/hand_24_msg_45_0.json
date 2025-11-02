@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T23:42:20.862836",
+  "hand_id": 24,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's stay in and see what develops. I'm ready to support a squeeze if the situation looks good.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 96,
+  "contains_signal": true,
+  "message_id": 45,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

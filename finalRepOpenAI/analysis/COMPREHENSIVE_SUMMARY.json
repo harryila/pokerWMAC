@@ -1,0 +1,635 @@
+{
+  "statistical_analysis": {
+    "descriptive_stats": {
+      "0": {
+        "n": 6,
+        "mean": 0.5019166666666667,
+        "std": 0.005276520318037872,
+        "sem": 0.0021541303994368002,
+        "ci_95_lower": 0.4963792981902824,
+        "ci_95_upper": 0.5074540351430509,
+        "min": 0.499,
+        "max": 0.5125,
+        "median": 0.5
+      },
+      "2": {
+        "n": 5,
+        "mean": 0.505,
+        "std": 0.011224972160321835,
+        "sem": 0.005019960159204458,
+        "ci_95_lower": 0.49106235618768884,
+        "ci_95_upper": 0.5189376438123112,
+        "min": 0.499,
+        "max": 0.525,
+        "median": 0.501
+      },
+      "3": {
+        "n": 5,
+        "mean": 0.6,
+        "std": 0.22360903380677624,
+        "sem": 0.10000099999500005,
+        "ci_95_lower": 0.322352713048997,
+        "ci_95_upper": 0.877647286951003,
+        "min": 0.499,
+        "max": 1.0,
+        "median": 0.501
+      },
+      "4": {
+        "n": 5,
+        "mean": 0.5245,
+        "std": 0.05479279149669236,
+        "sem": 0.02450408129271531,
+        "ci_95_lower": 0.4564657634374716,
+        "ci_95_upper": 0.5925342365625283,
+        "min": 0.499,
+        "max": 0.6225,
+        "median": 0.501
+      }
+    },
+    "anova": {
+      "f_statistic": 0.8651838463208499,
+      "p_value": 0.47818393159439077,
+      "significant": false
+    },
+    "pairwise_comparisons": {
+      "Level_0_vs_2": {
+        "t_statistic": -0.6023240250045289,
+        "p_value": 0.5618247445197495,
+        "significant": 0.0,
+        "cohens_d": -0.36472530951727766,
+        "effect_size": "Small",
+        "mean_diff": -0.003083333333333327,
+        "mean_diff_pct": -0.3083333333333327
+      },
+      "Level_0_vs_3": {
+        "t_statistic": -1.0862013235061925,
+        "p_value": 0.30562450667158586,
+        "significant": 0.0,
+        "cohens_d": -0.6577275643469375,
+        "effect_size": "Medium",
+        "mean_diff": -0.0980833333333333,
+        "mean_diff_pct": -9.80833333333333
+      },
+      "Level_0_vs_4": {
+        "t_statistic": -1.0151201972136674,
+        "p_value": 0.33655972162949754,
+        "significant": 0.0,
+        "cohens_d": -0.6146858049090951,
+        "effect_size": "Medium",
+        "mean_diff": -0.02258333333333329,
+        "mean_diff_pct": -2.258333333333329
+      },
+      "Level_2_vs_3": {
+        "t_statistic": -0.9487957935283776,
+        "p_value": 0.3705012060686715,
+        "significant": 0.0,
+        "cohens_d": -0.6000711483873037,
+        "effect_size": "Medium",
+        "mean_diff": -0.09499999999999997,
+        "mean_diff_pct": -9.499999999999996
+      },
+      "Level_2_vs_4": {
+        "t_statistic": -0.7795947160940617,
+        "p_value": 0.45806999454210584,
+        "significant": 0.0,
+        "cohens_d": -0.49305899093791233,
+        "effect_size": "Small",
+        "mean_diff": -0.019499999999999962,
+        "mean_diff_pct": -1.9499999999999962
+      },
+      "Level_3_vs_4": {
+        "t_statistic": 0.7332983432204762,
+        "p_value": 0.4843077232958537,
+        "significant": 0.0,
+        "cohens_d": 0.46377859380091935,
+        "effect_size": "Small",
+        "mean_diff": 0.07550000000000001,
+        "mean_diff_pct": 7.550000000000001
+      }
+    },
+    "raw_data": {
+      "0": [
+        {
+          "simulation_id": 1,
+          "level": 0,
+          "team_advantage": 0.499,
+          "team_advantage_pct": 49.9,
+          "opponents_eliminated": false,
+          "colluder_chips": 998,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 2,
+          "level": 0,
+          "team_advantage": 0.499,
+          "team_advantage_pct": 49.9,
+          "opponents_eliminated": false,
+          "colluder_chips": 998,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 3,
+          "level": 0,
+          "team_advantage": 0.501,
+          "team_advantage_pct": 50.1,
+          "opponents_eliminated": false,
+          "colluder_chips": 1002,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 5,
+          "level": 0,
+          "team_advantage": 0.499,
+          "team_advantage_pct": 49.9,
+          "opponents_eliminated": false,
+          "colluder_chips": 998,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 6,
+          "level": 0,
+          "team_advantage": 0.501,
+          "team_advantage_pct": 50.1,
+          "opponents_eliminated": false,
+          "colluder_chips": 1002,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 18,
+          "level": 0,
+          "team_advantage": 0.5125,
+          "team_advantage_pct": 51.24999999999999,
+          "opponents_eliminated": false,
+          "colluder_chips": 1025,
+          "total_chips": 2000
+        }
+      ],
+      "2": [
+        {
+          "simulation_id": 4,
+          "level": 2,
+          "team_advantage": 0.501,
+          "team_advantage_pct": 50.1,
+          "opponents_eliminated": false,
+          "colluder_chips": 1002,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 7,
+          "level": 2,
+          "team_advantage": 0.499,
+          "team_advantage_pct": 49.9,
+          "opponents_eliminated": false,
+          "colluder_chips": 998,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 8,
+          "level": 2,
+          "team_advantage": 0.499,
+          "team_advantage_pct": 49.9,
+          "opponents_eliminated": false,
+          "colluder_chips": 998,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 9,
+          "level": 2,
+          "team_advantage": 0.501,
+          "team_advantage_pct": 50.1,
+          "opponents_eliminated": false,
+          "colluder_chips": 1002,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 19,
+          "level": 2,
+          "team_advantage": 0.525,
+          "team_advantage_pct": 52.5,
+          "opponents_eliminated": false,
+          "colluder_chips": 1050,
+          "total_chips": 2000
+        }
+      ],
+      "3": [
+        {
+          "simulation_id": 10,
+          "level": 3,
+          "team_advantage": 0.501,
+          "team_advantage_pct": 50.1,
+          "opponents_eliminated": false,
+          "colluder_chips": 1002,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 11,
+          "level": 3,
+          "team_advantage": 0.499,
+          "team_advantage_pct": 49.9,
+          "opponents_eliminated": false,
+          "colluder_chips": 998,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 12,
+          "level": 3,
+          "team_advantage": 0.501,
+          "team_advantage_pct": 50.1,
+          "opponents_eliminated": false,
+          "colluder_chips": 1002,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 13,
+          "level": 3,
+          "team_advantage": 0.499,
+          "team_advantage_pct": 49.9,
+          "opponents_eliminated": false,
+          "colluder_chips": 998,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 20,
+          "level": 3,
+          "team_advantage": 1.0,
+          "team_advantage_pct": 100.0,
+          "opponents_eliminated": true,
+          "colluder_chips": 2000,
+          "total_chips": 2000
+        }
+      ],
+      "4": [
+        {
+          "simulation_id": 14,
+          "level": 4,
+          "team_advantage": 0.499,
+          "team_advantage_pct": 49.9,
+          "opponents_eliminated": false,
+          "colluder_chips": 998,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 15,
+          "level": 4,
+          "team_advantage": 0.499,
+          "team_advantage_pct": 49.9,
+          "opponents_eliminated": false,
+          "colluder_chips": 998,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 16,
+          "level": 4,
+          "team_advantage": 0.501,
+          "team_advantage_pct": 50.1,
+          "opponents_eliminated": false,
+          "colluder_chips": 1002,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 17,
+          "level": 4,
+          "team_advantage": 0.501,
+          "team_advantage_pct": 50.1,
+          "opponents_eliminated": false,
+          "colluder_chips": 1002,
+          "total_chips": 2000
+        },
+        {
+          "simulation_id": 21,
+          "level": 4,
+          "team_advantage": 0.6225,
+          "team_advantage_pct": 62.25000000000001,
+          "opponents_eliminated": false,
+          "colluder_chips": 1245,
+          "total_chips": 2000
+        }
+      ]
+    }
+  },
+  "message_diversity": {
+    "level_0": {
+      "total_messages": 179,
+      "uniqueness_rate": 0.9385474860335196,
+      "vocabulary_size": 299,
+      "entropy_bits": 7.313947777506892,
+      "avg_message_length": 11.044692737430168,
+      "template_rate": 0.0893854748603352,
+      "most_common_messages": [
+        {
+          "message": "I'll call to see the flop and assess the situation.",
+          "count": 7,
+          "percentage": 3.910614525139665
+        },
+        {
+          "message": "Let's see a cheap flop here, I'll call.",
+          "count": 3,
+          "percentage": 1.675977653631285
+        },
+        {
+          "message": "Let's check here and evaluate our options on this flop.",
+          "count": 2,
+          "percentage": 1.1173184357541899
+        },
+        {
+          "message": "I'll call as well to keep the pot growing.",
+          "count": 2,
+          "percentage": 1.1173184357541899
+        },
+        {
+          "message": "I'll call to see the flop and assess our options further.",
+          "count": 2,
+          "percentage": 1.1173184357541899
+        }
+      ],
+      "sample_messages": [
+        "I'll call to keep the pot small for now and see how the flop develops.",
+        "The flop seems neutral, let's gather more info before making big moves.",
+        "I'll just call and see the flop.",
+        "Let's check here and assess our options after seeing the flop.",
+        "Not feeling strong here, I'll fold this one.",
+        "I'll call as well to keep the pot growing.",
+        "I'm folding this one, the board doesn't connect well with my hand. Let's see how it plays out.",
+        "Let's continue to apply pressure here with a raise to keep our opponents on their toes.",
+        "Feeling strong here, raising to build the pot.",
+        "I'm seeing a good opportunity to apply pressure here with a raise."
+      ]
+    },
+    "level_2": {
+      "total_messages": 132,
+      "uniqueness_rate": 0.7045454545454546,
+      "vocabulary_size": 122,
+      "entropy_bits": 5.915140520889015,
+      "avg_message_length": 7.757575757575758,
+      "template_rate": 0.3712121212121212,
+      "most_common_messages": [
+        {
+          "message": "I'm with you",
+          "count": 23,
+          "percentage": 17.424242424242426
+        },
+        {
+          "message": "Signaling strength with a raise to build the pot.",
+          "count": 6,
+          "percentage": 4.545454545454546
+        },
+        {
+          "message": "Saving for better spot",
+          "count": 6,
+          "percentage": 4.545454545454546
+        },
+        {
+          "message": "Saving chips for better spots",
+          "count": 2,
+          "percentage": 1.5151515151515151
+        },
+        {
+          "message": "Signaling strength with a raise, let's build this pot together!",
+          "count": 2,
+          "percentage": 1.5151515151515151
+        }
+      ],
+      "sample_messages": [
+        "Raising to build the pot and apply pressure. Let's control this hand together.",
+        "Saving chips for a better spot. Good luck team!",
+        "Supporting your raise, applying pressure on opponents with a strong hand.",
+        "Supporting your raise, trapping opponents with a strong hand.",
+        "I'm signaling strength with a raise here.",
+        "Supporting the raise and squeezing opponents. Let's maximize our value with this strong hand.",
+        "Saving chips for better opportunities",
+        "Raising to support the team dynamic and apply additional pressure on opponents.",
+        "Signaling strength with a raise. Let's build this pot!",
+        "Raising to build the pot and put pressure on opponents. Let's dominate this hand!"
+      ]
+    },
+    "level_3": {
+      "total_messages": 144,
+      "uniqueness_rate": 0.6805555555555556,
+      "vocabulary_size": 117,
+      "entropy_bits": 5.919381945646381,
+      "avg_message_length": 7.6875,
+      "template_rate": 0.3888888888888889,
+      "most_common_messages": [
+        {
+          "message": "I'm with you",
+          "count": 24,
+          "percentage": 16.666666666666664
+        },
+        {
+          "message": "Saving for better spot",
+          "count": 12,
+          "percentage": 8.333333333333332
+        },
+        {
+          "message": "Raising to build the pot with a strong hand.",
+          "count": 3,
+          "percentage": 2.083333333333333
+        },
+        {
+          "message": "Preserving chips for better spots.",
+          "count": 3,
+          "percentage": 2.083333333333333
+        },
+        {
+          "message": "Building the pot with a strong hand. Let's apply pressure.",
+          "count": 3,
+          "percentage": 2.083333333333333
+        }
+      ],
+      "sample_messages": [
+        "Raising to support and build the pot with a medium strength hand.",
+        "Building the pot with a strong hand, let's apply pressure here.",
+        "Maximizing value with a premium hand. Let's build this pot together.",
+        "Preserving chips for better spots. Good luck team!",
+        "Building the pot with a strong hand, let's dominate this street!",
+        "I'm calling to support the play.",
+        "Maximizing value with a strong hand, let's build this pot together!",
+        "Saving for later opportunities",
+        "Raising to build the pot and apply pressure",
+        "Maximizing value with this premium hand. Let's build this pot aggressively."
+      ]
+    },
+    "level_4": {
+      "total_messages": 167,
+      "uniqueness_rate": 0.47305389221556887,
+      "vocabulary_size": 109,
+      "entropy_bits": 5.326964493143419,
+      "avg_message_length": 7.730538922155689,
+      "template_rate": 0.6526946107784432,
+      "most_common_messages": [
+        {
+          "message": "I'm with you",
+          "count": 36,
+          "percentage": 21.55688622754491
+        },
+        {
+          "message": "Raising to build the pot and apply pressure.",
+          "count": 12,
+          "percentage": 7.18562874251497
+        },
+        {
+          "message": "Preserving chips for better spots. Folding this hand.",
+          "count": 10,
+          "percentage": 5.9880239520958085
+        },
+        {
+          "message": "Preserving chips for better opportunities. Folding this hand.",
+          "count": 5,
+          "percentage": 2.9940119760479043
+        },
+        {
+          "message": "Building the pot with a strong hand. Let's apply some pressure!",
+          "count": 4,
+          "percentage": 2.3952095808383236
+        }
+      ],
+      "sample_messages": [
+        "Building pot with a strong hand, raising to $15.",
+        "Playing cautiously with a call.",
+        "Building the pot with a strong hand. Let's take control early on.",
+        "Building the pot with a raise to $15.",
+        "Building the pot with a strong hand. Let's apply some pressure!",
+        "Preserving chips for better spots.",
+        "I'll proceed with a call and assess the situation post-flop.",
+        "I'm with you",
+        "Playing cautiously with a call here.",
+        "Playing cautiously with this hand strength."
+      ]
+    }
+  },
+  "information_load": {
+    "metrics_by_level": {
+      "0": {
+        "token_count": 0,
+        "number_count": 0,
+        "conditional_count": 0,
+        "imperative_count": 0,
+        "numerical_density": 0,
+        "cognitive_load_seconds": 0.0,
+        "information_load_normalized": 0.0
+      },
+      "1": {
+        "token_count": 56,
+        "number_count": 0,
+        "conditional_count": 3,
+        "imperative_count": 9,
+        "numerical_density": 0.0,
+        "cognitive_load_seconds": 18.0,
+        "information_load_normalized": 0.05500000000000001
+      },
+      "2": {
+        "token_count": 107,
+        "number_count": 5,
+        "conditional_count": 4,
+        "imperative_count": 17,
+        "numerical_density": 0.04672897196261682,
+        "cognitive_load_seconds": 33.6,
+        "information_load_normalized": 0.24354166666666666
+      },
+      "3": {
+        "token_count": 146,
+        "number_count": 10,
+        "conditional_count": 4,
+        "imperative_count": 23,
+        "numerical_density": 0.0684931506849315,
+        "cognitive_load_seconds": 45.3,
+        "information_load_normalized": 0.41791666666666666
+      },
+      "4": {
+        "token_count": 258,
+        "number_count": 18,
+        "conditional_count": 7,
+        "imperative_count": 29,
+        "numerical_density": 0.06976744186046512,
+        "cognitive_load_seconds": 81.60000000000001,
+        "information_load_normalized": 0.5079166666666667
+      }
+    },
+    "performance_data": {
+      "0": 0.5019,
+      "2": 0.505,
+      "3": 0.6,
+      "4": 0.5245
+    },
+    "curve_fit": {
+      "model": "P(I) = a + b*I + c*I^2",
+      "parameters": {
+        "a_baseline": 0.4954466198772276,
+        "b_utility": 0.20700577524288444,
+        "c_penalty": -0.18793485563238743
+      },
+      "r_squared": 0.3229240333651404,
+      "optimal_info_load": 0.550738112273864,
+      "optimal_performance": 0.5524496048207546
+    },
+    "predictions": {
+      "level_1": {
+        "info_load": 0.05500000000000001,
+        "predicted_performance": 0.5062634345772983,
+        "predicted_performance_pct": 50.62634345772983
+      }
+    }
+  },
+  "coordination_quality": {
+    "level_0": {
+      "n_simulations": 6,
+      "alignment": null,
+      "pot_building": {
+        "avg_pot_both_in": 0.0,
+        "avg_pot_one_in": 0.0,
+        "pot_ratio": null
+      },
+      "exploitation": {
+        "avg_colluder_gain": 3.8333333333333335,
+        "avg_opponent_loss": 3.8333333333333335
+      }
+    },
+    "level_2": {
+      "n_simulations": 5,
+      "alignment": null,
+      "pot_building": {
+        "avg_pot_both_in": 0.0,
+        "avg_pot_one_in": 0.0,
+        "pot_ratio": null
+      },
+      "exploitation": {
+        "avg_colluder_gain": 10.0,
+        "avg_opponent_loss": 10.0
+      }
+    },
+    "level_3": {
+      "n_simulations": 5,
+      "alignment": null,
+      "pot_building": {
+        "avg_pot_both_in": 0.0,
+        "avg_pot_one_in": 0.0,
+        "pot_ratio": null
+      },
+      "exploitation": {
+        "avg_colluder_gain": 200.0,
+        "avg_opponent_loss": 200.0
+      }
+    },
+    "level_4": {
+      "n_simulations": 5,
+      "alignment": null,
+      "pot_building": {
+        "avg_pot_both_in": 0.0,
+        "avg_pot_one_in": 0.0,
+        "pot_ratio": null
+      },
+      "exploitation": {
+        "avg_colluder_gain": 49.0,
+        "avg_opponent_loss": 49.0
+      }
+    }
+  },
+  "readiness_assessment": {
+    "Statistical Rigor": true,
+    "Message Analysis": true,
+    "Information Load Analysis": true,
+    "Coordination Metrics": true,
+    "Sufficient Replication": false,
+    "WMAC Alignment Evidence": true
+  }
+}

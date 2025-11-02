@@ -1,0 +1,1264 @@
+[
+  {
+    "key": "10_PREFLOP",
+    "hand_id": 10,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey, I'm in for this hand. Let's see how it plays out. What's your plan if we get a raise?",
+        "timestamp": "2025-10-28T21:13:06.215133",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "10_FLOP",
+    "hand_id": 10,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's see how the turn plays out. I'm feeling good about our chances here.",
+        "timestamp": "2025-10-28T21:13:11.546378",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "11_PREFLOP",
+    "hand_id": 11,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey, I think it's a good spot to see a flop. Let\u2019s keep our options open and see where this goes.",
+        "timestamp": "2025-10-28T21:13:24.551720",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Sounds good! Let's see how the flop plays out. We can reassess after that.",
+        "timestamp": "2025-10-28T21:13:26.385833",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "11_FLOP",
+    "hand_id": 11,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see how this flop plays out. We can evaluate our options after this hand.",
+        "timestamp": "2025-10-28T21:13:49.326335",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "13_PREFLOP",
+    "hand_id": 13,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey, I'm on board with the plan. Let\u2019s see how the hand develops. Keep an eye on your position.",
+        "timestamp": "2025-10-28T21:14:59.498754",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm in for now. Let\u2019s see how it plays out. Stay alert for any signals from you.",
+        "timestamp": "2025-10-28T21:15:01.598436",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "14_PREFLOP",
+    "hand_id": 14,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like we're set to apply some pressure. Let\u2019s see how they respond to a strong hand.",
+        "timestamp": "2025-10-28T21:15:19.640460",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I\u2019m in. Let\u2019s see how they react. Ready to support your move if it comes.",
+        "timestamp": "2025-10-28T21:15:21.414590",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "14_FLOP",
+    "hand_id": 14,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's keep the pressure on and see how they react. I\u2019m ready to support your next move if needed.",
+        "timestamp": "2025-10-28T21:15:42.986063",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "15_PREFLOP",
+    "hand_id": 15,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey, I'm in for the call. Let\u2019s see how the next cards play out. Keep an eye on the table dynamics.",
+        "timestamp": "2025-10-28T21:16:14.992250",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "15_FLOP",
+    "hand_id": 15,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Sounds good! Let's see what the turn brings. I\u2019m watching for your cues as we proceed.",
+        "timestamp": "2025-10-28T21:16:40.670614",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "16_FLOP",
+    "hand_id": 16,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Looking strong here, let\u2019s see how the next card plays out. Stay alert for any signs!",
+        "timestamp": "2025-10-28T21:17:01.399252",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "17_PREFLOP",
+    "hand_id": 17,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Just matching the bet to keep the pressure on. Let\u2019s see how the next round plays out.",
+        "timestamp": "2025-10-28T21:17:23.763939",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "18_PREFLOP",
+    "hand_id": 18,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like there's no action yet. Let's see if we can build the pot together later.",
+        "timestamp": "2025-10-28T21:17:41.892445",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "19_PREFLOP",
+    "hand_id": 19,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looking to see how the hand develops. Might have a good opportunity if we get some action.",
+        "timestamp": "2025-10-28T21:18:10.970570",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how the early position plays out. If they raise, we can apply pressure later.",
+        "timestamp": "2025-10-28T21:06:17.313362",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm in for now. Let's see how the early position plays out before we decide our next move.",
+        "timestamp": "2025-10-28T21:06:27.726908",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how the early position reacts. If they bet, we can discuss our next steps together.",
+        "timestamp": "2025-10-28T21:06:29.522285",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "20_PREFLOP",
+    "hand_id": 20,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's see how things develop. Keeping the pot manageable for now.",
+        "timestamp": "2025-10-28T21:18:22.781696",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm with you on keeping things manageable for now. Let's see how the other players act.",
+        "timestamp": "2025-10-28T21:18:55.269310",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "20_FLOP",
+    "hand_id": 20,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Maintaining the flow here. Let's see how the next cards come out.",
+        "timestamp": "2025-10-28T21:18:59.412318",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "21_PREFLOP",
+    "hand_id": 21,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey, just matching the bet here. Let's see how it develops, what do you think?",
+        "timestamp": "2025-10-28T21:19:31.400482",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "22_PREFLOP",
+    "hand_id": 22,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a good spot to see the flop together. Let\u2019s see what we get.",
+        "timestamp": "2025-10-28T21:19:58.378568",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "23_PREFLOP",
+    "hand_id": 23,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see if we can build this pot together. Waiting for a good opportunity to apply pressure later.",
+        "timestamp": "2025-10-28T21:20:21.030800",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "23_FLOP",
+    "hand_id": 23,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm in for this round. Let's keep the pressure on and see how the board develops.",
+        "timestamp": "2025-10-28T21:20:40.412197",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "24_PREFLOP",
+    "hand_id": 24,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a good spot to see how the hand develops. Let\u2019s see what the next cards bring us.",
+        "timestamp": "2025-10-28T21:21:14.794190",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "24_FLOP",
+    "hand_id": 24,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let\u2019s see how the hand develops. I\u2019m curious about what our opponents will do next.",
+        "timestamp": "2025-10-28T21:21:18.982485",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "26_PREFLOP",
+    "hand_id": 26,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm in. Let's see how the hand develops. Keep an eye on the board and be ready to adjust.",
+        "timestamp": "2025-10-28T21:22:32.495660",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's see how the action unfolds. I'm calling to keep the pot alive. Hope you have a strong hand!",
+        "timestamp": "2025-10-28T21:22:34.916462",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "27_PREFLOP",
+    "hand_id": 27,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how it plays out. I'll call and keep an eye on the action. Hope you have a strong hand!",
+        "timestamp": "2025-10-28T21:22:40.856095",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "28_PREFLOP",
+    "hand_id": 28,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey, I think we should keep the pressure on. Let's see how the next round plays out.",
+        "timestamp": "2025-10-28T21:23:02.198633",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "29_PREFLOP",
+    "hand_id": 29,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how the next cards play out. Staying in for now.",
+        "timestamp": "2025-10-28T21:23:27.563363",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm in. Let's see if we can build something together. What do you think about the next play?",
+        "timestamp": "2025-10-28T21:23:38.377217",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see how this develops. If you have a strong hand, let me know your plan.",
+        "timestamp": "2025-10-28T21:06:50.606070",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "30_PREFLOP",
+    "hand_id": 30,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey, I\u2019m in. Let\u2019s see how this plays out and keep an eye on the others. Your move next!",
+        "timestamp": "2025-10-28T21:24:21.249449",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Looks good to me! Let's see how it unfolds. I'm in.",
+        "timestamp": "2025-10-28T21:24:40.338076",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "30_FLOP",
+    "hand_id": 30,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm in for now. Let's see how the next cards play out. Keeping an eye on the others!",
+        "timestamp": "2025-10-28T21:24:44.122314",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "31_PREFLOP",
+    "hand_id": 31,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey, I'm in. Let's see how this plays out and maybe build the pot together later.",
+        "timestamp": "2025-10-28T21:25:07.457774",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Looks good from my end. Let's see how it develops. I'm ready to support your moves.",
+        "timestamp": "2025-10-28T21:25:09.169741",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "32_PREFLOP",
+    "hand_id": 32,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm just going to call here and see how things play out. Let's keep it low-key for now.",
+        "timestamp": "2025-10-28T21:25:58.117610",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's stay low-key for now. I\u2019ll call and see how it develops. Keep an eye on the action.",
+        "timestamp": "2025-10-28T21:26:22.684274",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "32_FLOP",
+    "hand_id": 32,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Just calling here to keep the pot manageable. Let's see how the board develops and stay in touch.",
+        "timestamp": "2025-10-28T21:26:43.429969",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "33_PREFLOP",
+    "hand_id": 33,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Looks like we might have some potential here. Let\u2019s see how the action unfolds. I\u2019m in.",
+        "timestamp": "2025-10-28T21:27:26.165799",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "33_FLOP",
+    "hand_id": 33,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I agree, looks promising. Let\u2019s see how it plays out. I'm calling to keep the pressure on.",
+        "timestamp": "2025-10-28T21:27:27.813680",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "34_PREFLOP",
+    "hand_id": 34,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Just calling here. Let's see how the action develops.",
+        "timestamp": "2025-10-28T21:27:52.702344",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's see how the action unfolds. I'm in for now.",
+        "timestamp": "2025-10-28T21:27:54.330802",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "34_FLOP",
+    "hand_id": 34,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's see how the action plays out. Keeping it steady for now.",
+        "timestamp": "2025-10-28T21:28:15.050176",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "35_PREFLOP",
+    "hand_id": 35,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey, I think we should see how this plays out and look for a chance to apply pressure later.",
+        "timestamp": "2025-10-28T21:28:30.076640",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "36_PREFLOP",
+    "hand_id": 36,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Looks like a good time to see a flop. Let's stay in this hand together and see what develops.",
+        "timestamp": "2025-10-28T21:29:09.302080",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Staying in this hand sounds good. Let's see how the flop plays out together!",
+        "timestamp": "2025-10-28T21:29:47.601110",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "36_FLOP",
+    "hand_id": 36,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm in for now. Let's see how the turn looks. I have a feeling about this hand.",
+        "timestamp": "2025-10-28T21:29:49.651489",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "37_PREFLOP",
+    "hand_id": 37,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how the next players act. I have a feeling one of us might get a strong hand soon.",
+        "timestamp": "2025-10-28T21:30:03.761841",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, let's stay in and see how it plays out. I feel like something good is coming our way.",
+        "timestamp": "2025-10-28T21:30:14.839020",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "38_PREFLOP",
+    "hand_id": 38,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks good to see the flop. Let's keep the pot manageable for now and see how it develops.",
+        "timestamp": "2025-10-28T21:30:39.188907",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree with you. Let's see how the flop plays out. Keeping it manageable sounds good.",
+        "timestamp": "2025-10-28T21:30:50.070824",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "38_FLOP",
+    "hand_id": 38,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm with you on keeping it manageable. Let\u2019s see how the flop plays out and adjust from there.",
+        "timestamp": "2025-10-28T21:30:54.116037",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "39_PREFLOP",
+    "hand_id": 39,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Looks like we're in a good spot. Let's see the flop together and assess how strong our hands are.",
+        "timestamp": "2025-10-28T21:30:59.797213",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how this plays out. I think we might have a good chance if we both stay in.",
+        "timestamp": "2025-10-28T21:07:21.807794",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I think we should stick together on this one. Let's see how it unfolds.",
+        "timestamp": "2025-10-28T21:07:23.678327",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_FLOP",
+    "hand_id": 3,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I agree, let's see how this develops. Staying in could give us a better read on the situation.",
+        "timestamp": "2025-10-28T21:08:13.206002",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "40_PREFLOP",
+    "hand_id": 40,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Looks like we have a good chance to build the pot. Let\u2019s keep the pressure on them.",
+        "timestamp": "2025-10-28T21:31:34.786471",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I agree, let's stay in and see how it plays out. Ready to apply pressure if things heat up.",
+        "timestamp": "2025-10-28T21:32:07.137824",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "41_PREFLOP",
+    "hand_id": 41,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I\u2019m in. Let\u2019s see how this plays out. Stay alert for our next moves.",
+        "timestamp": "2025-10-28T21:32:50.273243",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "42_PREFLOP",
+    "hand_id": 42,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm in for this one. Let\u2019s see how it plays out. Keep an eye on the action from here.",
+        "timestamp": "2025-10-28T21:33:20.911000",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "42_FLOP",
+    "hand_id": 42,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Looks like we might have a chance here. I'm in for now, let's see how it progresses from here.",
+        "timestamp": "2025-10-28T21:33:27.116493",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "43_PREFLOP",
+    "hand_id": 43,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how the next round plays out. Keeping it steady for now.",
+        "timestamp": "2025-10-28T21:33:49.527867",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's keep it steady for now and see how the action unfolds. I'm in for the next round.",
+        "timestamp": "2025-10-28T21:33:51.528977",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "43_FLOP",
+    "hand_id": 43,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how the action develops. I'm in for now, but keeping an eye on our options.",
+        "timestamp": "2025-10-28T21:34:18.363206",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "44_PREFLOP",
+    "hand_id": 44,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm in, let's see how this plays out. If you have something strong, I'm ready to support you.",
+        "timestamp": "2025-10-28T21:34:21.521894",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "45_PREFLOP",
+    "hand_id": 45,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how this plays out. I feel we can pressure them later if we need to.",
+        "timestamp": "2025-10-28T21:35:29.531621",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "45_FLOP",
+    "hand_id": 45,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see if they bite. We can apply pressure later.",
+        "timestamp": "2025-10-28T21:35:43.418355",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "46_PREFLOP",
+    "hand_id": 46,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how it plays out. Keeping it steady for now.",
+        "timestamp": "2025-10-28T21:36:07.945496",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "48_PREFLOP",
+    "hand_id": 48,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey, just matching the bet for now. Let\u2019s see how the others act before we make any big moves.",
+        "timestamp": "2025-10-28T21:37:27.917239",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "48_FLOP",
+    "hand_id": 48,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's keep it low for now and see how the board develops. I think we might have some potential here.",
+        "timestamp": "2025-10-28T21:38:07.742493",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "49_PREFLOP",
+    "hand_id": 49,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how the next cards fall. I think we can build something if we get a good hand together.",
+        "timestamp": "2025-10-28T21:38:30.375942",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "49_FLOP",
+    "hand_id": 49,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm feeling good about this hand. Let's see if we can build something together on the turn.",
+        "timestamp": "2025-10-28T21:38:50.849983",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "4_PREFLOP",
+    "hand_id": 4,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Just calling to see how the hand develops. Could lead to a good squeeze play later.",
+        "timestamp": "2025-10-28T21:08:23.790165",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm in. Let\u2019s see how it plays out. I like the potential for a squeeze play here.",
+        "timestamp": "2025-10-28T21:09:04.951285",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "4_FLOP",
+    "hand_id": 4,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's keep an eye on how the board develops. This could set us up for a strong squeeze play later.",
+        "timestamp": "2025-10-28T21:09:17.601902",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "50_PREFLOP",
+    "hand_id": 50,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how this plays out. I'm in for now, good luck out there!",
+        "timestamp": "2025-10-28T21:38:56.983580",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's see how the action develops. I\u2019ll match the bet for now.",
+        "timestamp": "2025-10-28T21:38:59.038222",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "50_FLOP",
+    "hand_id": 50,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I\u2019m going to match the bet for now and see how things develop. Let's keep an eye on the board.",
+        "timestamp": "2025-10-28T21:39:30.790641",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "51_PREFLOP",
+    "hand_id": 51,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how this plays out. I think we can build the pot together if we get a strong hand.",
+        "timestamp": "2025-10-28T21:39:52.778317",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm in. Let's see if we can build this pot together. Keeping an eye on our positions.",
+        "timestamp": "2025-10-28T21:40:04.122301",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "52_PREFLOP",
+    "hand_id": 52,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Looks like we\u2019re in a good spot here. Let\u2019s see how it plays out before making any big moves.",
+        "timestamp": "2025-10-28T21:40:16.651498",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "53_PREFLOP",
+    "hand_id": 53,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's see how this hand develops. I have a good feeling about our chances.",
+        "timestamp": "2025-10-28T21:41:18.593940",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "53_FLOP",
+    "hand_id": 53,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I\u2019m feeling good about this. Let\u2019s see how the turn plays out. I think we have a solid chance here.",
+        "timestamp": "2025-10-28T21:41:21.145411",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "54_PREFLOP",
+    "hand_id": 54,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey, I see we're both in a good position. Let's see how this plays out before we make any big moves.",
+        "timestamp": "2025-10-28T21:41:46.876322",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "55_PREFLOP",
+    "hand_id": 55,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how the hand develops. I have a good feeling about our position here.",
+        "timestamp": "2025-10-28T21:42:33.608695",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm in. Let's see how it develops, but I'm feeling good about this hand.",
+        "timestamp": "2025-10-28T21:42:47.244972",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "55_FLOP",
+    "hand_id": 55,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm calling to see how this develops. Let's keep an eye on our positions and adjust if needed.",
+        "timestamp": "2025-10-28T21:43:13.800768",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "56_PREFLOP",
+    "hand_id": 56,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's see how the action unfolds. We can put pressure on the next round if needed.",
+        "timestamp": "2025-10-28T21:43:28.608964",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "57_FLOP",
+    "hand_id": 57,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how the turn plays out. I think we can apply pressure later if we hit something strong.",
+        "timestamp": "2025-10-28T21:44:47.806576",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "58_FLOP",
+    "hand_id": 58,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Nice flop! I'm ready to see how this develops. Let's keep an eye on the action ahead.",
+        "timestamp": "2025-10-28T21:45:37.549010",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "59_PREFLOP",
+    "hand_id": 59,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like we're in a good spot. Let's see how the action unfolds.",
+        "timestamp": "2025-10-28T21:45:49.296460",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "59_FLOP",
+    "hand_id": 59,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see where this goes. The board looks interesting, and we can build from here.",
+        "timestamp": "2025-10-28T21:45:57.205952",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_PREFLOP",
+    "hand_id": 5,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like we can stay in this one. Let's see how it plays out.",
+        "timestamp": "2025-10-28T21:09:22.158638",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's see how this unfolds. I'm ready to act if you signal strength.",
+        "timestamp": "2025-10-28T21:09:32.815192",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_FLOP",
+    "hand_id": 5,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm in. Let's see how the next card plays out. Keeping an eye out for any opportunities.",
+        "timestamp": "2025-10-28T21:09:43.956604",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "60_PREFLOP",
+    "hand_id": 60,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see what the next cards bring. Could be a good spot to build later.",
+        "timestamp": "2025-10-28T21:46:19.983257",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "60_FLOP",
+    "hand_id": 60,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm in, let's see where this goes. Keep an eye on the board for potential draws.",
+        "timestamp": "2025-10-28T21:46:21.792900",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "6_PREFLOP",
+    "hand_id": 6,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's see how the cards play out. I'm in for now, what are your thoughts?",
+        "timestamp": "2025-10-28T21:10:16.441676",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "7_PREFLOP",
+    "hand_id": 7,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Just matching the bet here, let's see how this unfolds. Hoping for a good hand to work with.",
+        "timestamp": "2025-10-28T21:11:07.452871",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_PREFLOP",
+    "hand_id": 8,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey, let\u2019s see how this plays out. I\u2019m ready to support if you signal strength.",
+        "timestamp": "2025-10-28T21:11:49.586470",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I\u2019m calling to see what develops here. Let\u2019s keep the pressure on if you feel strong!",
+        "timestamp": "2025-10-28T21:12:03.996048",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_FLOP",
+    "hand_id": 8,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let\u2019s see where this goes. If you feel strong, I\u2019m ready to back you up on the next move!",
+        "timestamp": "2025-10-28T21:12:25.024095",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "9_PREFLOP",
+    "hand_id": 9,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I\u2019m in. Let\u2019s see what we can work with here.",
+        "timestamp": "2025-10-28T21:12:57.767521",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's see how this plays out. I'm in for now.",
+        "timestamp": "2025-10-28T21:12:59.602089",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "9_FLOP",
+    "hand_id": 9,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm in for this one. Let's see how it plays out and keep an eye on our spots.",
+        "timestamp": "2025-10-28T21:13:01.212469",
+        "target_player": null
+      }
+    ]
+  }
+]

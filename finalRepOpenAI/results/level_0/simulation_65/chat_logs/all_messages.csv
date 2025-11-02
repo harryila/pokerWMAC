@@ -1,0 +1,119 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-10-28T23:12:32.412210,1,FLOP,1,,public,Let's see how the turn plays out; we can still apply pressure later.,68,True
+2025-10-28T23:12:40.375305,2,PREFLOP,0,,public,Looks like we're set for a strong play. Let's see how the others respond.,73,True
+2025-10-28T23:12:42.504905,2,PREFLOP,1,,public,I'm in. Let's see how they react. We can build something here if we time it right.,82,True
+2025-10-28T23:12:44.488098,2,FLOP,0,,public,Let's keep the pressure on and see how the others respond. We have a strong position here.,90,True
+2025-10-28T23:12:50.524513,3,PREFLOP,0,,public,Let's see how this plays out. I think we can apply some pressure if we hit something strong.,92,True
+2025-10-28T23:13:01.887572,4,PREFLOP,0,,public,"Hey, let's see how the action unfolds. I’m in for this round. What are you thinking?",84,True
+2025-10-28T23:13:04.974902,4,PREFLOP,1,,public,I’m on board. Let’s see how it plays out first.,47,False
+2025-10-28T23:13:12.464497,4,FLOP,0,,public,Let's see how it develops. I think we should keep our options open for the next round.,86,True
+2025-10-28T23:13:14.427007,5,PREFLOP,1,,public,Looks like a good time to see the flop together. Let’s keep our options open and see what develops!,99,True
+2025-10-28T23:13:20.374002,5,PREFLOP,0,,public,"I agree, let's see the flop and evaluate from there. Keeping it flexible is key!",80,True
+2025-10-28T23:13:24.372973,5,FLOP,1,,public,Let's keep the momentum going and see what the turn brings. This board has potential!,85,True
+2025-10-28T23:13:29.826549,6,PREFLOP,0,,public,"Let's see how the hand develops. If you have a strong hand, let’s build the pot together.",89,True
+2025-10-28T23:13:31.954818,6,PREFLOP,1,,public,I’m in. Let’s see how it plays out. Keep an eye on any signals.,63,False
+2025-10-28T23:13:39.760788,7,PREFLOP,0,,public,I’ll call to see how the action unfolds. Let’s keep an eye on how the opponents react.,86,True
+2025-10-28T23:13:41.733524,7,PREFLOP,1,,public,Let's see how the action unfolds. I’m on board with your call. Keeping an eye on the opponents.,95,True
+2025-10-28T23:13:49.320515,8,PREFLOP,0,,public,Let's stay in the hand and see how it develops. We can apply pressure later if needed.,86,True
+2025-10-28T23:14:00.248984,8,FLOP,0,,public,"Let's see how this develops. If you have a strong hand, we can squeeze later.",77,True
+2025-10-28T23:14:02.749995,9,PREFLOP,1,,public,Let's see how it plays out. Stay alert for any opportunities to pressure later on.,82,True
+2025-10-28T23:14:11.825968,9,FLOP,1,,public,I think we should stay in this one and see how it develops. Let’s keep our options open.,88,True
+2025-10-28T23:14:20.999325,10,PREFLOP,1,,public,Let's keep the pressure on and see how they respond. I'll play it safe for now.,79,True
+2025-10-28T23:14:23.082554,10,FLOP,0,,public,I'm matching the bet and staying in. Let's keep the pressure on when it's our turn.,83,True
+2025-10-28T23:14:29.079801,11,PREFLOP,0,,public,"I'm in, let's see how the hand develops. Keep an eye on the action from our opponents.",86,True
+2025-10-28T23:14:31.146345,11,PREFLOP,1,,public,"Looks good so far, let's see how the next cards come out. I think we can build something here.",94,True
+2025-10-28T23:14:35.939882,11,FLOP,1,,public,Let's see how the action plays out. I think our position can help us build a stronger hand later.,97,True
+2025-10-28T23:14:39.904195,12,PREFLOP,0,,public,"Hey, looks like we're both in a good spot. Let's see how this plays out before making any big moves.",100,True
+2025-10-28T23:14:42.429403,12,PREFLOP,1,,public,Let's keep it low for now and see how the hand develops. Good chance to gauge the others' reactions.,100,True
+2025-10-28T23:14:57.850347,13,PREFLOP,0,,public,Let's see how this plays out. Curious about the hand strength at the table.,75,True
+2025-10-28T23:15:09.418938,14,PREFLOP,0,,public,Let's see how the others act before we make our move. Keeping our options open for now.,87,True
+2025-10-28T23:15:11.274709,14,PREFLOP,1,,public,I'm in. Let's see how the others respond and keep our options open for a potential squeeze later.,97,True
+2025-10-28T23:15:13.030677,14,FLOP,0,,public,Let's see how they act before we decide our next move. Keeping it flexible for now.,83,True
+2025-10-28T23:15:20.592037,15,PREFLOP,1,,public,I’m in. Let’s see how the table plays out before making any big moves.,70,False
+2025-10-28T23:15:29.382359,16,PREFLOP,0,,public,Let's see how this plays out. I'm in for now. What are you thinking about your hand?,84,True
+2025-10-28T23:15:32.260445,16,PREFLOP,1,,public,I'm in for now. Let's see how the action unfolds before we make any big moves.,78,True
+2025-10-28T23:15:40.765233,17,PREFLOP,1,,public,Let's see how this plays out. I’m ready to support if you want to build the pot.,80,True
+2025-10-28T23:15:56.553980,18,PREFLOP,0,,public,I’m in. Let’s see how this plays out. Keep an eye on the action.,64,True
+2025-10-28T23:16:01.248889,18,FLOP,0,,public,Looks like we're in a good spot. Let’s see how the turn plays out. I’m in.,74,True
+2025-10-28T23:16:09.067544,19,PREFLOP,1,,public,Looks like a good spot to see the flop and keep pressure on the others. Let’s see what develops.,96,True
+2025-10-28T23:16:18.189335,20,PREFLOP,1,,public,Looks like we’re in a good spot. Ready for some action next round?,66,True
+2025-10-28T23:16:26.061486,20,FLOP,0,,public,"I agree, we should see how this plays out. Let’s keep our options open for the next round.",90,True
+2025-10-28T23:16:28.260958,21,PREFLOP,1,,public,Let's see how the next action plays out before we make any big moves. Keeping it low for now.,93,True
+2025-10-28T23:16:38.101322,21,FLOP,1,,public,Let's keep it steady and see how the turn plays out. No need to rush into anything big yet.,91,True
+2025-10-28T23:16:43.740687,22,PREFLOP,0,,public,I’m in. Let’s see how this plays out together.,46,True
+2025-10-28T23:16:45.448022,22,PREFLOP,1,,public,Let’s see how the action develops. I’m in for now.,50,True
+2025-10-28T23:16:47.943251,22,FLOP,0,,public,Looks good so far. Let's keep an eye on the next few cards and play it smart.,77,True
+2025-10-28T23:16:54.226357,23,PREFLOP,0,,public,I’m in the hand. Let’s see how this plays out and keep an eye on what others do.,80,False
+2025-10-28T23:16:56.661365,23,PREFLOP,1,,public,Let's see how the action unfolds. I'll stay in for now and keep an eye on the table dynamics.,93,True
+2025-10-28T23:17:00.721351,23,FLOP,1,,public,Let's stay in and see how the next card comes. I'm curious about what others will do too.,89,True
+2025-10-28T23:17:07.757861,24,PREFLOP,0,,public,"Hey, just a heads up, I’m calling here. Let’s see what develops next.",69,True
+2025-10-28T23:17:09.855243,24,PREFLOP,1,,public,Sounds good! I’ll match your call and see how things unfold. Let’s keep an eye on the action.,93,True
+2025-10-28T23:17:16.963394,24,FLOP,0,,public,Let's see how the turn plays out. Keeping our options open for now!,67,True
+2025-10-28T23:17:38.867295,26,PREFLOP,1,,public,Looks like a good spot to see a flop. Let's keep it friendly and build the pot if we connect well.,98,True
+2025-10-28T23:17:40.882952,26,FLOP,0,,public,I'm in to see the turn! Let's see if we can connect better on the next card.,76,True
+2025-10-28T23:17:46.000757,27,PREFLOP,0,,public,Let's see how the flop plays out. Keeping the pressure on later might help us out.,82,True
+2025-10-28T23:17:47.743629,27,PREFLOP,1,,public,I agree with keeping the pressure on. Let’s see how it plays out and build the pot for later.,93,True
+2025-10-28T23:17:51.900725,27,FLOP,1,,public,"Let's see how the flop plays out. If it looks promising, we can apply pressure later.",85,True
+2025-10-28T23:17:57.679939,28,PREFLOP,1,,public,Looks like we have a chance to build the pot here. Let's see how it plays out.,78,True
+2025-10-28T23:18:05.152726,28,FLOP,0,,public,"I agree, let's see how this develops. I think we can take advantage of the board later.",87,True
+2025-10-28T23:18:06.597816,29,PREFLOP,1,,public,I’m in. Let’s see how the hand develops.,40,False
+2025-10-28T23:18:11.365376,29,PREFLOP,0,,public,Looks like we have a chance to see how this hand plays out. Let's stay in and see the flop together.,100,True
+2025-10-28T23:18:20.556852,30,PREFLOP,0,,public,Let's see how it plays out. Keeping the pot manageable for now.,63,True
+2025-10-28T23:18:22.494069,30,PREFLOP,1,,public,I'm with you on this. Let's see how it plays out and keep an eye on the pot size.,81,True
+2025-10-28T23:18:33.015800,31,PREFLOP,1,,public,I'm calling to see how the action unfolds. Let's keep our options open for the next street.,91,True
+2025-10-28T23:18:36.489677,31,FLOP,1,,public,Let's see how they react before we make any big moves. Staying flexible for now.,80,True
+2025-10-28T23:18:41.003180,32,PREFLOP,0,,public,Let's see how the early position plays out. I think we can apply pressure if they raise.,88,True
+2025-10-28T23:18:52.560421,33,PREFLOP,1,,public,"Hey, I think we should keep this hand going. Let's see what develops next.",74,True
+2025-10-28T23:18:59.504331,33,PREFLOP,0,,public,"I agree, let's see how this unfolds. Keeping the pot manageable for now!",72,True
+2025-10-28T23:19:03.972185,33,FLOP,1,,public,Let's see how the turn plays out. We can reassess then.,55,True
+2025-10-28T23:19:12.043210,34,PREFLOP,1,,public,I've got a decent hand here. Let's see how they respond. We can put pressure if needed later.,93,True
+2025-10-28T23:19:13.864888,34,FLOP,0,,public,Let's see how the next cards fall. We can apply pressure later if we need to.,77,True
+2025-10-28T23:19:18.520008,35,PREFLOP,0,,public,Let's see how this plays out. I'm in for the ride. Hope you have something strong!,82,True
+2025-10-28T23:19:20.366642,35,PREFLOP,1,,public,I like the way things are shaping up. Let's see if we can build this pot together!,82,True
+2025-10-28T23:19:24.209896,35,FLOP,1,,public,"I agree, the board is looking interesting. Let's see how it develops and keep our options open!",95,True
+2025-10-28T23:19:30.041304,36,PREFLOP,1,,public,I’m in. Let’s see how this plays out. Hope you’re feeling strong over there!,76,True
+2025-10-28T23:19:36.825137,36,FLOP,0,,public,I’m with you. Let’s see how the turn plays out. Looks like we're in a decent spot here.,87,True
+2025-10-28T23:19:47.864849,37,PREFLOP,0,,public,Ready to see the flop. Let's keep an eye out for each other's signals as we progress.,85,True
+2025-10-28T23:19:58.544008,38,PREFLOP,0,,public,Let’s see how this hand develops. Makes sense to stay in and evaluate further.,78,False
+2025-10-28T23:20:00.661491,38,PREFLOP,1,,public,I'm in. Let's see how it plays out. You got anything strong?,60,True
+2025-10-28T23:20:02.198481,38,FLOP,0,,public,"I'm in as well, let's see how this plays out. Maybe we can squeeze them later.",78,True
+2025-10-28T23:20:10.286176,39,PREFLOP,1,,public,Let's see how this hand develops. Any ideas on how we should approach the next round?,85,True
+2025-10-28T23:20:21.760822,40,PREFLOP,1,,public,"Hey, I think we should see how the hand develops. Let's keep things flexible for now.",85,True
+2025-10-28T23:20:30.154776,40,FLOP,0,,public,I agree with your thoughts. Let's see how this hand develops and keep our options open.,87,True
+2025-10-28T23:20:37.726247,41,PREFLOP,0,,public,Looks like we're in a good spot. Let’s see how the hand develops and keep our options open.,91,True
+2025-10-28T23:20:50.746748,42,PREFLOP,0,,public,"Hey, I think we should see how this plays out. Let’s keep our options open for later.",85,True
+2025-10-28T23:20:53.202734,42,PREFLOP,1,,public,I agree with your approach. Let's see how this develops and keep our options open.,82,True
+2025-10-28T23:21:00.159914,43,PREFLOP,0,,public,Let's see what happens next. I'm in for now.,44,True
+2025-10-28T23:21:02.104357,43,PREFLOP,1,,public,I'm with you on this one. Let’s see how it develops and keep an eye on the others.,82,False
+2025-10-28T23:21:05.994311,43,FLOP,1,,public,"I'm in for now, let's keep playing this hand and see how the others react.",74,True
+2025-10-28T23:21:09.829510,44,PREFLOP,0,,public,Let's see how the early positions act before we decide our next move.,69,True
+2025-10-28T23:21:21.155820,44,FLOP,0,,public,Let's see how the early positions act before we decide our next move.,69,True
+2025-10-28T23:21:23.815168,45,PREFLOP,1,,public,Let's see how the action unfolds before making a move. Keeping the pot manageable for now.,90,True
+2025-10-28T23:21:39.956761,46,PREFLOP,0,,public,"Let's see how this develops. Keeping it low for now, but ready for any signals from you.",88,True
+2025-10-28T23:21:42.155231,46,PREFLOP,1,,public,"I'm in for now, let's see how this plays out. Stay alert for the next move.",75,True
+2025-10-28T23:21:50.949114,47,PREFLOP,0,,public,"Hey, let's see how this plays out. I'm in for now. What do you think about our next move?",89,True
+2025-10-28T23:21:53.262628,47,PREFLOP,1,,public,I'm on board with seeing how the action develops. Let’s keep an eye on what our opponents do.,93,True
+2025-10-28T23:22:13.620349,48,FLOP,0,,public,Let's see how the next card plays out. Keeping an eye on the board texture and possible draws.,94,True
+2025-10-28T23:22:15.248943,49,PREFLOP,1,,public,Let's stay in this hand and see how it develops. We can apply pressure later if needed.,87,True
+2025-10-28T23:22:22.080013,49,PREFLOP,0,,public,"I agree, let's see how the hand develops. Keeping the pressure for later sounds good.",85,True
+2025-10-28T23:22:25.663276,49,FLOP,1,,public,Let's see how the board develops. Staying in for now can help us gauge our options for later.,93,True
+2025-10-28T23:22:32.421109,50,PREFLOP,0,,public,"Hey, I'm in. Let's see how it plays out and keep the pressure on if we get a strong hand.",89,True
+2025-10-28T23:22:34.662050,50,PREFLOP,1,,public,Looks like we're in a good position. Let's keep the pressure on when we get stronger hands.,91,True
+2025-10-28T23:22:35.900752,50,FLOP,0,,public,Let’s see how it plays out on this flop. Keeping options open for now.,70,False
+2025-10-28T23:22:42.252077,51,PREFLOP,0,,public,Let's see how the action unfolds. Keeping our options open for a squeeze later.,79,True
+2025-10-28T23:22:44.916639,51,PREFLOP,1,,public,I'm in for now. Let's see how the action goes. Ready to squeeze if the right opportunity comes up!,98,True
+2025-10-28T23:22:56.990970,52,PREFLOP,1,,public,I'm in. Let's see how the next cards play out. Keeping an eye on our positions.,79,True
+2025-10-28T23:23:04.623662,52,FLOP,0,,public,Let's see how the turn plays out. I'm confident in our hands and positioning.,77,True
+2025-10-28T23:23:11.521202,53,PREFLOP,0,,public,"Hey, I’m in for the call. Let’s see how this plays out and keep an eye on the table dynamics.",93,False
+2025-10-28T23:23:23.522629,54,PREFLOP,1,,public,Looks like we're in a good spot here. Let's keep the pressure on and see how the others react.,94,True
+2025-10-28T23:23:36.673457,55,FLOP,1,,public,Nice board texture. I'll call to keep the pressure on. Let’s see how they react.,80,True
+2025-10-28T23:23:40.413435,56,PREFLOP,0,,public,Let's see how the others act before we make a move. Keeping the pot manageable for now.,87,True
+2025-10-28T23:23:49.644885,56,FLOP,0,,public,"I agree, let's see how it unfolds. Playing it safe for now seems wise.",70,True
+2025-10-28T23:23:51.502704,57,PREFLOP,1,,public,Looks like we can play this one safe. Let's see how the action unfolds and keep our options open.,97,True
+2025-10-28T23:23:57.480906,57,PREFLOP,0,,public,Let's stay in this hand for now and see how it plays out. We can adjust based on what happens next.,99,True
+2025-10-28T23:24:01.301849,57,FLOP,1,,public,Let's stay in this hand and see how the next card plays out. We can reassess after that.,88,True
+2025-10-28T23:24:06.834411,58,PREFLOP,0,,public,"Hey, just calling here. Let's see how it plays out. Let me know if you have a strong hand.",90,True
+2025-10-28T23:24:10.277361,58,FLOP,0,,public,I'm calling to see how the board develops. Let me know your thoughts on the next move!,86,True
+2025-10-28T23:24:15.602960,59,PREFLOP,0,,public,"Hey, let's see how the next cards play out. Keeping it low for now.",67,True
+2025-10-28T23:24:21.114018,59,FLOP,1,,public,I agree with the plan. Let's see how the next cards come out before making any big moves.,89,True
+2025-10-28T23:24:25.078907,60,PREFLOP,0,,public,Let's see how this plays out. I'm calling to keep the pressure on. What's your read on the table?,97,True

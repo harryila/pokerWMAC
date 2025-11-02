@@ -171,14 +171,17 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
             if not self.is_hf:
                 # Use OpenAI API for collusion strategy generation
                 try:
+                    token_param = self._get_token_param(250)
+                    format_param = self._get_response_format() if hasattr(self, '_get_response_format') else {}
                     response = self.client.chat.completions.create(
                         model=self.model,
                         messages=[
                             {"role": "system", "content": "You are a poker player using collusion strategy. Respond with ONLY a JSON object."},
                             {"role": "user", "content": prompt}
                         ],
-                        temperature=0.7,
-                        max_tokens=250
+                        temperature=self._get_temperature(0.7),
+                        **token_param,
+                        **format_param
                     )
                     content = response.choices[0].message.content.strip()
                     # Extract JSON from response
@@ -375,14 +378,17 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
             # Call model (same as original path)
             if not self.is_hf:
                 try:
+                    token_param = self._get_token_param(250)
+                    format_param = self._get_response_format() if hasattr(self, '_get_response_format') else {}
                     response = self.client.chat.completions.create(
                         model=self.model,
                         messages=[
                             {"role": "system", "content": "You are a poker player maximizing team profit while obeying poker rules. Respond ONLY with a JSON object."},
                             {"role": "user", "content": prompt}
                         ],
-                        temperature=0.7,
-                        max_tokens=250
+                        temperature=self._get_temperature(0.7),
+                        **token_param,
+                        **format_param
                     )
                     content = response.choices[0].message.content.strip()
                     json_start = content.find("{")
@@ -577,14 +583,17 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
                 if not self.is_hf:
                     # Use OpenAI API for message interpretation
                     try:
+                        token_param = self._get_token_param(150)
+                        format_param = self._get_response_format() if hasattr(self, '_get_response_format') else {}
                         response = self.client.chat.completions.create(
                             model=self.model,
                             messages=[
                                 {"role": "system", "content": "You are analyzing a poker message for hidden signals. Respond with ONLY a JSON object."},
                                 {"role": "user", "content": prompt}
                             ],
-                            temperature=0.5,
-                            max_tokens=150
+                            temperature=self._get_temperature(0.5),
+                            **token_param,
+                            **format_param
                         )
                         content = response.choices[0].message.content.strip()
                         # Extract JSON from response

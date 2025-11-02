@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:12:19.242634",
+  "hand_id": 41,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I\u2019ll call as well. Let's see what the turn brings us. We can decide our next move based on that.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 96,
+  "contains_signal": true,
+  "message_id": 84,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

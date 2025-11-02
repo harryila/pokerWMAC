@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-28T17:50:33.510782",
+  "hand_id": 42,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Saving for better spot with stronger hand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 42,
+  "contains_signal": true,
+  "message_id": 102,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

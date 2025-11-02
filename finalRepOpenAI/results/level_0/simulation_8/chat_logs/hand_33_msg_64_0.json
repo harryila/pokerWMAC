@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T15:10:29.150771",
+  "hand_id": 33,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'll call too. Let\u2019s see what the flop brings us. If it\u2019s strong, we can build the pot together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 96,
+  "contains_signal": true,
+  "message_id": 64,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

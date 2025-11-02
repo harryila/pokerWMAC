@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:15:32.753274",
+  "hand_id": 37,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I\u2019m on board. Let\u2019s see how this unfolds and keep our options open for later streets.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 85,
+  "contains_signal": true,
+  "message_id": 71,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      },
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

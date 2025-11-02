@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-10-28T21:16:27.943654",
+  "hand_id": 15,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "Hey, I'm in for the call. Let\u2019s see how the next cards play out. Keep an eye on the table dynamics.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 1,
+    "private_messages": 0,
+    "avg_message_length": 99.0,
+    "unique_speakers": 1,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 20,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 4,
+        "suit": 4,
+        "str_rank": "6",
+        "str_suit": "d",
+        "display": "6d"
+      },
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      },
+      {
+        "rank": 2,
+        "suit": 8,
+        "str_rank": "4",
+        "str_suit": "c",
+        "display": "4c"
+      }
+    ]
+  }
+}

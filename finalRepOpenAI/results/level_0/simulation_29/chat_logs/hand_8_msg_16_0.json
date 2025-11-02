@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T18:00:29.764466",
+  "hand_id": 8,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let\u2019s see how the next card plays out. We can build this pot if we hit something strong!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 88,
+  "contains_signal": true,
+  "message_id": 16,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      },
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

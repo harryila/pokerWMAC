@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T23:17:40.882952",
+  "hand_id": 26,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I'm in to see the turn! Let's see if we can connect better on the next card.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 76,
+  "contains_signal": true,
+  "message_id": 51,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 4,
+        "str_rank": "A",
+        "str_suit": "d",
+        "display": "Ad"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

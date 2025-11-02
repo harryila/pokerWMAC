@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T22:43:02.123861",
+  "hand_id": 22,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how they respond to our position. I feel good about this hand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 72,
+  "contains_signal": true,
+  "message_id": 42,
+  "game_context": {
+    "pot_size": 15,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

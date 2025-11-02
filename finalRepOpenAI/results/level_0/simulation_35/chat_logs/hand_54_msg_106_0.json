@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T18:24:14.836553",
+  "hand_id": 54,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how this develops. Keeping it steady for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 55,
+  "contains_signal": true,
+  "message_id": 106,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 1,
+        "str_rank": "9",
+        "str_suit": "s",
+        "display": "9s"
+      },
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

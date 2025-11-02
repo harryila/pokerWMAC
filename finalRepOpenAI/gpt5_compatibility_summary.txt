@@ -1,0 +1,47 @@
+# GPT-5 Compatibility Implementation Summary
+
+## What We Fixed
+
+### 1. Token Parameter Issue
+- **Problem:** GPT-5 uses `max_completion_tokens` instead of `max_tokens`
+- **Additional Issue:** GPT-5-mini returns empty strings with low token limits
+  - Empty responses occur with < 200 tokens for simple prompts
+  - Complex poker prompts with card symbols need 400+ tokens
+- **Solution:** Created `_get_token_param()` helper in `llm_agent.py`
+  - Detects GPT-5 models and uses correct parameter
+  - Sets minimum to 400 tokens for reliable responses
+  - Applied to all 19 API calls across 6 files
+
+### 2. Temperature Issue  
+- **Problem:** GPT-5 only supports `temperature=1.0` (not 0.7, 0.5, 0.8)
+- **Solution:** Created `_get_temperature()` helper in `llm_agent.py`
+  - Forces `temperature=1.0` for GPT-5 models
+  - Uses desired temperature for other models
+  - Applied to all 24+ API calls across 6 files
+
+### 3. Model Detection
+- **Helper:** `_is_gpt5()` detects if model string contains 'gpt-5'
+
+## Files Updated
+1. game_environment/llm_agent.py (added helpers)
+2. game_environment/communicating_llm_agent.py (4 API calls)
+3. game_environment/advanced_collusion_agent.py (3 API calls)
+4. game_environment/collusion_llm_agent.py (4 API calls)
+5. game_environment/advanced.py (3 API calls)
+6. game_environment/communicating.py (4 API calls)
+
+## GPT-5 Models Available
+- gpt-5 ($1.25/$10 per million tokens)
+- gpt-5-mini ($0.25/$2 per million tokens) ← Currently testing
+- gpt-5-nano ($0.05/$0.40 per million tokens)
+
+## Current Status
+✅ All compatibility fixes implemented
+🔄 Testing with gpt-5-mini (Level 3, 60 hands) - currently running in background
+⏳ Waiting for simulation to complete
+
+## Next Steps
+Once simulation completes, we can:
+1. Compare GPT-5 performance to GPT-3.5/GPT-4 results
+2. Update RESEARCH_OVERVIEW.md with GPT-5 findings
+3. Decide whether to run full ablation study with GPT-5

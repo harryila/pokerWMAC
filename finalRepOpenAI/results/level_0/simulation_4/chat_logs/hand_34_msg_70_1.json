@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T14:55:12.800114",
+  "hand_id": 34,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's see how the turn shapes up. I think we should play it safe for now and see how they react.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 96,
+  "contains_signal": true,
+  "message_id": 70,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      },
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

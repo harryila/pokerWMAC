@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T21:18:59.412318",
+  "hand_id": 20,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Maintaining the flow here. Let's see how the next cards come out.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 65,
+  "contains_signal": true,
+  "message_id": 39,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 8,
+        "str_rank": "J",
+        "str_suit": "c",
+        "display": "Jc"
+      },
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

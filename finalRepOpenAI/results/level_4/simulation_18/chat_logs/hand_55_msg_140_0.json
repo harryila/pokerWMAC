@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:44:55.711525",
+  "hand_id": 55,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see the flop together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 28,
+  "contains_signal": true,
+  "message_id": 140,
+  "game_context": {
+    "pot_size": 15,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      },
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

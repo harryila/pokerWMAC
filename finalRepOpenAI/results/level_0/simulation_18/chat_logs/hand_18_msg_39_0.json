@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:32:26.950876",
+  "hand_id": 18,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how this develops. I'm feeling good about our position here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 70,
+  "contains_signal": true,
+  "message_id": 39,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      },
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

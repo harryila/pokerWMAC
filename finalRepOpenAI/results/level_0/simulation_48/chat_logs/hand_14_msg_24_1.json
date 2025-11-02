@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-28T20:35:09.667345",
+  "hand_id": 14,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I think we should see the flop together. Let's keep the pot manageable for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 79,
+  "contains_signal": true,
+  "message_id": 24,
+  "game_context": {
+    "pot_size": 15,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

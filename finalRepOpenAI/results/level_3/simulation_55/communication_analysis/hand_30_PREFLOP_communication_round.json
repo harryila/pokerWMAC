@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-28T21:40:51.187041",
+  "hand_id": 30,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "I'm with you",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I'm with you",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 12.0,
+    "unique_speakers": 1,
+    "potential_signals": 0,
+    "message_frequency": 2.0
+  },
+  "game_state_summary": {
+    "pot_size": 95,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      }
+    ]
+  }
+}

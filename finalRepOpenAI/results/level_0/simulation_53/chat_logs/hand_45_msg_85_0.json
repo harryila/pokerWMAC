@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T21:35:43.418355",
+  "hand_id": 45,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see if they bite. We can apply pressure later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 52,
+  "contains_signal": true,
+  "message_id": 85,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

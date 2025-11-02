@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T15:27:28.287095",
+  "hand_id": 53,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I'm staying in to see how this develops. Let\u2019s keep it steady for now and see what the turn brings.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 99,
+  "contains_signal": false,
+  "message_id": 111,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      },
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,80 @@
+## API Rate Limit Analysis
+
+### Findings
+
+**GPT-4o-mini simulations (simulations 1-3):**
+✅ NO rate limit errors
+- Level 2: Clean run
+- Level 3: Clean run  
+- Level 4: Clean run
+
+**GPT-3.5-turbo simulations (simulations 6-8):**
+⚠️ RATE LIMIT ERRORS DETECTED
+- Level 2: Multiple 429 errors (tokens per minute limit)
+- Level 3: Multiple 429 errors (tokens per minute limit)
+- Level 4: Multiple 429 errors (tokens per minute limit)
+
+### Error Details
+
+**Type:** Rate limit reached for gpt-3.5-turbo
+**Limit:** 200,000 tokens per minute (TPM)
+**Organization:** org-B1M331N1TXHNaAgU6luvM8g7
+**Behavior:** Retry after 37-699ms (exponential backoff)
+
+### Impact Assessment
+
+**Did simulations complete?**
+✅ YES - All simulations finished (60 hands each)
+- Simulation 6 (Level 2): Status = "completed"
+- Simulation 7 (Level 3): Status = "completed"  
+- Simulation 8 (Level 4): Status = "completed"
+
+**How were errors handled?**
+- OpenAI library automatically retried with backoff
+- Errors were logged but didn't crash simulation
+- Game continued after retry delays
+
+**Impact on results?**
+⚠️ POTENTIAL IMPACT:
+1. **Timing:** Retries added delays (could cause timeout issues)
+2. **Coherence:** Rate limit errors might have caused:
+   - Duplicate/failed API calls
+   - Inconsistent responses
+   - Degraded coordination quality
+3. **Reliability:** Results may be less reliable than clean runs
+
+### Comparison
+
+**GPT-3.5-turbo (with rate limits):**
+- Level 2: 46.2%
+- Level 3: 77.8%
+- Level 4: 50.0%
+
+**Original GPT-3.5-turbo (50 hands, likely clean):**
+- Level 2: 59.45%
+- Level 3: 80.7%
+- Level 4: 70.45%
+
+**Differences:**
+- Level 2: -13.25% (could be rate limit impact)
+- Level 3: -2.9% (minimal impact - consistent!)
+- Level 4: -20.45% (significant difference)
+
+### Recommendations
+
+1. **Use GPT-4o-mini results** for model comparison (clean runs)
+2. **Use original 50-hand results** for GPT-3.5-turbo baseline (no rate limits)
+3. **Document rate limit issues** if using 60-hand results
+4. **Consider alternatives:**
+   - Space out API calls more
+   - Use different API key with higher limits
+   - Reduce augmentation prompt size to lower token usage
+
+### Data Quality
+
+**Best quality:**
+- GPT-4o-mini (60 hands) - clean runs ✅
+- Original GPT-3.5-turbo (50 hands) - clean runs ✅
+
+**Potentially compromised:**
+- GPT-3.5-turbo (60 hands) - rate limits affected results ⚠️

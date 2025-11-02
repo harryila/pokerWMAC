@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T21:38:50.849983",
+  "hand_id": 49,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I'm feeling good about this hand. Let's see if we can build something together on the turn.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 91,
+  "contains_signal": true,
+  "message_id": 90,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

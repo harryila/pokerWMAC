@@ -1,0 +1,969 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 11
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Looks like there's no raise yet. Let's see how this plays out before making any big moves."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "Let's keep our options open for now. No need to rush things."
+[Player 1 FOLD]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Hey, I think we should see how the action unfolds. Let's keep our options open for now."
+[Player 0 CALL]
+Player 1: "I'm on board with seeing how it plays out. Let's keep it low for now and see what develops next."
+[Player 1 FOLD]
+
+--- FLOP ---
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Hey, let's see how this develops. I have a decent feeling about the hand. What do you think?"
+[Player 0 CALL]
+Player 1: "I agree, let's see how it develops. I'm in with you on this one."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "Let's see how this plays out. I trust your instincts, and I'm ready to support you if needed."
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 4
+========================================
+
+--- PREFLOP ---
+[Player 0 CALL]
+Player 1: "I think we should see how it plays out. Let's keep the pot manageable for now."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "Let's see how this plays out. Keeping it low for now could give us better insight into their hands."
+[Player 0 FOLD]
+
+========================================
+HAND 5
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey, just matching the bet here. Let's see how it unfolds. Good luck!"
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I'm with you on this one, let's see how it develops. Keeping an eye out for any opportunities."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+[Player 1 FOLD]
+
+========================================
+HAND 6
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I'm in for this hand. Let's see how it develops."
+[Player 0 CALL]
+Player 1: "Hey, I'm in for this hand. Let's see how it goes. Looking forward to your move!"
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "Let's see how the turn plays out. I think we can still build from here if we hit something strong."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 7
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Looks like we're in a good spot. Let’s see how the opponents react before we make any big moves."
+[Player 0 CALL]
+Player 1: "I'm in. Let's see how the table plays out. Looking forward to your move, teammate."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 8
+========================================
+
+--- PREFLOP ---
+[Player 0 CALL]
+Player 1: "Hey, I'm in the hand and ready to see the flop. Let’s keep an eye on how the others act."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+[Player 0 FOLD]
+
+========================================
+HAND 9
+========================================
+
+--- PREFLOP ---
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Let's see how the action develops. Hopefully, we can build the pot if we get a strong hand."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "Let's see how this hand develops. If we hit something strong, we can apply some pressure later."
+[Player 1 FOLD]
+
+========================================
+HAND 10
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Let's see how the hand develops. I'll match the bet for now and keep an eye out for your signal."
+[Player 0 CALL]
+Player 1: "I’m in for now, let’s see how this plays out. Keep me posted if you sense a good opportunity."
+[Player 1 FOLD]
+
+--- FLOP ---
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 11
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "I’m going to call this one and see how it plays out. Let’s keep an eye on what the others do."
+[Player 0 CALL]
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "I'm with you on this one. Let's see how it unfolds. Keeping an eye on the others too."
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 12
+========================================
+
+--- PREFLOP ---
+[Player 0 CALL]
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+[Player 0 FOLD]
+
+========================================
+HAND 13
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey, I’m in. Let’s see how this plays out. I’ll support your strength if you decide to raise."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Let's see how it plays out. I'm in for now, and I’ll support if you decide to raise later."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "Let's see how the turn plays out. I'm supporting you if you decide to take action later."
+[Player 1 FOLD]
+
+========================================
+HAND 14
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+[Player 0 CALL]
+Player 1: "Let's see how the action unfolds; I'm ready to follow up if you signal strength."
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "I'm going to call this one. Let's see how it plays out and build our strategy from here."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 15
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Hey, just calling here to see how the hand develops. Let’s keep an eye on what the others do."
+[Player 0 CALL]
+Player 1: "I’m just calling here to see how it plays out. Let’s gauge how the others respond."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 16
+========================================
+
+--- PREFLOP ---
+[Player 0 CALL]
+Player 1: "I’m in. Let’s see how this plays out. Hope you have something strong!"
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "Looks like we’re still in it! I’m on board with you. Let’s see how this develops."
+[Player 0 FOLD]
+
+========================================
+HAND 17
+========================================
+
+--- PREFLOP ---
+Player 1: "Let's see how the action unfolds. I think it's worth staying in for now and assessing the situation."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Staying in to see how the action develops. Let's keep an eye on what others do."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+[Player 1 FOLD]
+
+========================================
+HAND 18
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Let's see how this plays out. Keeping the pressure on might be beneficial later."
+[Player 0 CALL]
+Player 1: "I'm in. Let's see how this develops. If we get a strong signal, we can put pressure on later."
+[Player 1 FOLD]
+
+--- FLOP ---
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 19
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Hey, I've got a decent hand here. Let's see how the others act before we decide on any moves."
+[Player 0 CALL]
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "Looks like we both have a good opportunity here. I'm in to see how the action unfolds."
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 20
+========================================
+
+--- PREFLOP ---
+Player 0: "Hey, let's see how this plays out. I’ll call and keep an eye on your move next."
+[Player 0 CALL]
+Player 1: "I’ll call this round and see how it plays out. Let’s keep the pressure on them next time."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "I’ll call this round too. Let’s keep the pressure on them when we get a chance."
+[Player 0 FOLD]
+
+========================================
+HAND 21
+========================================
+
+--- PREFLOP ---
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I'm in. Let's see how it plays out. Keep an eye on the early bets."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "Let's see how the next card plays out. Keeping an eye on the board."
+[Player 1 FOLD]
+
+========================================
+HAND 22
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+[Player 0 CALL]
+Player 1: "I'll match the current bet and keep the pressure on. Let's see how it plays out."
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "I'm in. Let's see how this develops and keep the pressure on the table."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 23
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Hey, let's see how the action unfolds before making any big moves. Keep an eye on the early players."
+[Player 0 CALL]
+Player 1: "Let's see how the early players act before we make any decisions. Staying in for now."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "Staying in for now seems wise. Let's see how the early players respond before making any moves."
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 24
+========================================
+
+--- PREFLOP ---
+[Player 0 CALL]
+Player 1: "Let's see how it plays out. I have a feeling we might get a good spot soon."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "I'm calling to see how it plays out. Let me know if you pick up any strength on your end."
+[Player 0 FOLD]
+
+========================================
+HAND 25
+========================================
+
+--- PREFLOP ---
+Player 1: "Let's see how it plays out. I think we can apply pressure later if needed."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+[Player 1 FOLD]
+
+========================================
+HAND 26
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Hey, let's see how it plays out. I have a decent feeling about this hand. What are you thinking?"
+[Player 0 CALL]
+Player 1: "I’m on board with seeing how this plays out. Let's keep our options open for now."
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "I think it's worth sticking around to see how this develops. Let's see what the next card brings us."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 27
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Hey, let's see how this plays out. I think we can assess our options after this round."
+[Player 0 CALL]
+Player 1: "I'm in. Let's see how this plays out, and we can adjust based on what the others do."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "Looks like we're in a good spot. Let's see how the turn plays out before we make any big moves."
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 28
+========================================
+
+--- PREFLOP ---
+Player 0: "Hey, I'm in. Let’s see if we can build the pot together if you've got something strong."
+[Player 0 CALL]
+Player 1: "I’m in. Let’s see how this plays out. If you’ve got a strong hand, I’m ready to support you."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "Let's see the next card together and keep building the pot. I feel good about this hand."
+[Player 0 FOLD]
+
+========================================
+HAND 29
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm in. Let's see how the next cards play out. Looking forward to working together on this hand."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "Let's see how the board develops. Keeping things steady for now."
+[Player 1 FOLD]
+
+========================================
+HAND 30
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Looks like the pot is building nicely. I'm in for now. Let's see how this plays out."
+[Player 0 CALL]
+Player 1: "I like how the pot is building. I'll match the bet and see what happens next."
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "Let's see how this develops. I feel like we might have a good opportunity here."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 31
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Let's see how the next cards play out. Keeping the pressure on might work in our favor later."
+[Player 0 CALL]
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "I agree, let's see how it plays out. Keeping our options open for later rounds."
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 32
+========================================
+
+--- PREFLOP ---
+Player 0: "Let's see the flop together and evaluate from there. I trust your read on the situation."
+[Player 0 CALL]
+Player 1: "I agree, let's see the flop and take it from there. I feel confident about our chances together."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "Let's see how the turn plays out. I think we can evaluate our options better after this."
+[Player 0 FOLD]
+
+========================================
+HAND 33
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm in. Let's see how the others react before we decide our next steps."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+[Player 1 FOLD]
+
+========================================
+HAND 34
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Looking forward to seeing how this plays out. Let’s keep an eye out for any strong hands."
+[Player 0 CALL]
+[Player 1 FOLD]
+
+--- FLOP ---
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 35
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Just calling here to see how the table plays out. Let’s keep our options open for the next round."
+[Player 0 CALL]
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 36
+========================================
+
+--- PREFLOP ---
+[Player 0 CALL]
+Player 1: "Let's see how the action unfolds. Keeping our options open for now."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "I’m calling to keep the pot going. Let’s see how this develops. Stay alert for any strong signals."
+[Player 0 FOLD]
+
+========================================
+HAND 37
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey, I’m calling to see how it plays out. Let’s keep the pressure on if you have a strong hand."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I’m calling too. Let's see how it plays out and be ready to apply pressure if we get a strong hand."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+[Player 1 FOLD]
+
+========================================
+HAND 38
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+[Player 0 CALL]
+Player 1: "I'm in. Let's see how this develops. Ready to support you if you make a move!"
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "Looks good so far! Let's see how the next card plays out. I'm ready to make a move if you are."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 39
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+[Player 0 CALL]
+Player 1: "Let's see how the early position plays out. I’m ready to support if you decide to raise."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "I’m with you on this. Let’s see how the action unfolds before we decide on anything bigger."
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 40
+========================================
+
+--- PREFLOP ---
+Player 0: "Let's see how this plays out. Any thoughts on your hand strength?"
+[Player 0 CALL]
+Player 1: "I'm in for now. Let's see how this develops. What's your read on the table?"
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "Let's stay in this hand and see how it develops. I'm feeling good about our chances here."
+[Player 0 FOLD]
+
+========================================
+HAND 41
+========================================
+
+--- PREFLOP ---
+Player 1: "Let's see how this plays out. I think we can apply pressure later."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I’m on board with seeing how this develops. Let's keep our options open for later."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "Let’s see how this develops before we decide on our next move. Keeping it low-key for now."
+[Player 1 FOLD]
+
+========================================
+HAND 42
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+[Player 0 CALL]
+Player 1: "I've got a decent hand here. Let’s see how the others act before we make any big moves."
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "I think we should see how it plays out. I'm feeling good about my hand. Let’s keep the pressure on."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 43
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Let's see how the action unfolds. If you have a strong hand, I'll be ready to support you."
+[Player 0 CALL]
+Player 1: "I’m on board with the plan. Let's see how the table reacts and take it from there."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 44
+========================================
+
+--- PREFLOP ---
+Player 0: "Let's see how the early position unfolds. I think we can apply some pressure soon."
+[Player 0 CALL]
+Player 1: "I think we should see how this unfolds. Let’s keep the pressure ready for when it’s our turn to act."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "Let’s see how things develop here; I’m ready to support if we need to apply pressure soon."
+[Player 0 FOLD]
+
+========================================
+HAND 45
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey, let's stay in this one and see how it develops. I'm feeling good about our position."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Sounds good! Let's see how the next cards play out. We can adjust our strategy based on what we see."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "Let's see how the next cards play out. I’m feeling optimistic about our chances here."
+[Player 1 FOLD]
+
+========================================
+HAND 46
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+[Player 0 CALL]
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "Looks like a decent board for us. Let's see how it plays out. I'm feeling good about this."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 47
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Hey, let's see how the action unfolds. I’m ready to support any strong moves from you."
+[Player 0 CALL]
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 48
+========================================
+
+--- PREFLOP ---
+[Player 0 CALL]
+Player 1: "Let's see how this plays out. I'm ready to support a raise if you signal strength."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "I’ll match the bet and see how this develops. Let’s keep an eye on their reactions."
+[Player 0 FOLD]
+
+========================================
+HAND 49
+========================================
+
+--- PREFLOP ---
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Looks like we might have a good opportunity here, let's see how it plays out."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "Let's keep the pressure on and see how things develop. We might get a good spot here."
+[Player 1 FOLD]
+
+========================================
+HAND 50
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Let's see how this plays out. I’ll back you up if you decide to raise later."
+[Player 0 CALL]
+Player 1: "I’ll call this round and see how it plays out. Let’s keep our options open for the next hand."
+[Player 1 FOLD]
+
+--- FLOP ---
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 51
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Let's see how this plays out. I think we have a good chance to apply pressure soon."
+[Player 0 CALL]
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "Looks like we might be able to take control of the pot soon. Let's keep the pressure up!"
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 52
+========================================
+
+--- PREFLOP ---
+[Player 0 CALL]
+Player 1: "Hey, I think we should see how the next cards play out. Let’s keep our options open for now."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+[Player 0 FOLD]
+
+========================================
+HAND 53
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey, I think we should keep it low for now and see how the next players act. Let's stay flexible."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I agree with your plan. Let's see how the table reacts before making any big moves."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+Player 1: "Let's see how the others react before we commit more chips. Staying flexible is key here."
+[Player 1 FOLD]
+
+========================================
+HAND 54
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Hey, I think we should see a flop. Let’s keep it low and see how it plays out."
+[Player 0 CALL]
+Player 1: "I agree with you. Let's see what the flop brings us. Keeping it low for now seems wise."
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "Let's see how this flop develops. We can reassess after this round."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 55
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+[Player 0 CALL]
+Player 1: "I'm in. Let's see how this develops."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+Player 1: "Let’s see what the turn brings. We might have a chance to build the pot if we hit something strong."
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 56
+========================================
+
+--- PREFLOP ---
+Player 0: "Let's see how the action unfolds before we make any big moves. Keeping it light for now."
+[Player 0 CALL]
+Player 1: "I like how things are looking, let's see if we can build the pot a bit more later on."
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "Let’s keep it steady for now and see how the board develops. Building a strong position is key."
+[Player 0 FOLD]
+
+========================================
+HAND 57
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey, I’m seeing how the table plays. Let’s keep the pressure on. What’s your read on the others?"
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 CALL]
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 FOLD]
+[Player 1 FOLD]
+
+========================================
+HAND 58
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL]
+[Player 0 CALL]
+Player 1: "Let's see how the next cards play out. We can build a bigger pot down the line if needed."
+[Player 1 FOLD]
+
+--- FLOP ---
+Player 0: "I'm on board with seeing how this develops. Let's keep our options open for the next round."
+[Player 0 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 59
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL]
+Player 0: "Hey, let's keep it low for now. I'll match the bet and see where it goes. How's your hand looking?"
+[Player 0 CALL]
+Player 1: "I’ll match the bet and see how it plays out. Let’s keep an eye on how the others react."
+[Player 1 CALL]
+[Player 2 FOLD]
+
+--- FLOP ---
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 60
+========================================
+
+--- PREFLOP ---
+Player 0: "I think we should stay in and see what develops. Let's keep the pressure on if we get a strong hand."
+[Player 0 CALL]
+[Player 1 CALL]
+[Player 2 CALL]
+[Player 3 FOLD]
+
+--- FLOP ---
+[Player 2 FOLD]
+Player 0: "Let's see how this develops. I'm on board with keeping the pressure on. Any strong hands yet?"
+[Player 0 FOLD]

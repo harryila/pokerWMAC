@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:56:47.020559",
+  "hand_id": 44,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm in for now. Let's see how the board develops. Keeping it low-key to build some potential.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 93,
+  "contains_signal": true,
+  "message_id": 97,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 2,
+        "suit": 8,
+        "str_rank": "4",
+        "str_suit": "c",
+        "display": "4c"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

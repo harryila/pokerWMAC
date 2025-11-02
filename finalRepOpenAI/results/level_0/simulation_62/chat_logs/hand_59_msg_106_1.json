@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T23:11:50.737822",
+  "hand_id": 59,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I agree with keeping the pot alive. Let's see what the next cards bring us.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 75,
+  "contains_signal": true,
+  "message_id": 106,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

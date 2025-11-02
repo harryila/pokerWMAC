@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:11:16.616567",
+  "hand_id": 36,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how this hand develops. Staying in to assess our options further.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 75,
+  "contains_signal": true,
+  "message_id": 72,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      },
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

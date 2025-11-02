@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:36:41.190417",
+  "hand_id": 44,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's keep the pressure on. I think we can build this pot with a strong showing later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 86,
+  "contains_signal": true,
+  "message_id": 92,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      },
+      {
+        "rank": 3,
+        "suit": 2,
+        "str_rank": "5",
+        "str_suit": "h",
+        "display": "5h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T23:58:56.037576",
+  "hand_id": 40,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I\u2019m in too. Let\u2019s see how the early position plays out. We can apply pressure if they show strength.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 100,
+  "contains_signal": true,
+  "message_id": 73,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

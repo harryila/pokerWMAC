@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T14:59:23.950894",
+  "hand_id": 50,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Looks like we have a good chance here. I'm in for now and ready to see what you have next!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 90,
+  "contains_signal": true,
+  "message_id": 102,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 8,
+        "str_rank": "K",
+        "str_suit": "c",
+        "display": "Kc"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T15:37:27.693232",
+  "hand_id": 43,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's stay in and see how the next cards come out. We might have a good opportunity here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 89,
+  "contains_signal": true,
+  "message_id": 89,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 4,
+        "str_rank": "A",
+        "str_suit": "d",
+        "display": "Ad"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

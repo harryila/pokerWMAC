@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T15:51:25.946304",
+  "hand_id": 57,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's see how the early position plays out. If we get a signal, I can support with a raise later.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 97,
+  "contains_signal": true,
+  "message_id": 106,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

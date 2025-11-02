@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:17:12.143444",
+  "hand_id": 47,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Looks good so far. Staying in to see how it develops. Let\u2019s keep an eye on what comes next!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 91,
+  "contains_signal": false,
+  "message_id": 94,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      },
+      {
+        "rank": 4,
+        "suit": 4,
+        "str_rank": "6",
+        "str_suit": "d",
+        "display": "6d"
+      },
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

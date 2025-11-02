@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:52:24.369746",
+  "hand_id": 17,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Looking good to keep things rolling. Let's see how they respond.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 64,
+  "contains_signal": true,
+  "message_id": 38,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

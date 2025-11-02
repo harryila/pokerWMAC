@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T18:07:00.200601",
+  "hand_id": 47,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I agree, let's see how this plays out. Keeping the pressure on can work in our favor.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 85,
+  "contains_signal": true,
+  "message_id": 100,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 1,
+        "str_rank": "9",
+        "str_suit": "s",
+        "display": "9s"
+      },
+      {
+        "rank": 9,
+        "suit": 8,
+        "str_rank": "J",
+        "str_suit": "c",
+        "display": "Jc"
+      },
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

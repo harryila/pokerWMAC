@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T18:00:27.751366",
+  "hand_id": 8,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I'm in! Let's keep the momentum going. If we hit something good, we can build this pot even more.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 97,
+  "contains_signal": true,
+  "message_id": 15,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

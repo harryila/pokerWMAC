@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:32:36.788685",
+  "hand_id": 20,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's keep the pressure on and see how the next cards play out. I've got a feeling about this one.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 98,
+  "contains_signal": true,
+  "message_id": 43,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

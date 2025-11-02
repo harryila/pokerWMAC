@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-28T22:00:58.221287",
+  "hand_id": 23,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I'm in. Let's see what the next cards bring us. Stay sharp!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 59,
+  "contains_signal": true,
+  "message_id": 31,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

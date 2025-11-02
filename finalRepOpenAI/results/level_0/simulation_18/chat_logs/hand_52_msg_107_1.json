@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T15:39:10.373742",
+  "hand_id": 52,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I think we should stay in for now and see how it develops. We can apply pressure later if needed.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 97,
+  "contains_signal": true,
+  "message_id": 107,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

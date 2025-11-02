@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T17:42:50.486212",
+  "hand_id": 20,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm in as well. Let's keep the pressure on if we get a strong hand later on.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 76,
+  "contains_signal": true,
+  "message_id": 41,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

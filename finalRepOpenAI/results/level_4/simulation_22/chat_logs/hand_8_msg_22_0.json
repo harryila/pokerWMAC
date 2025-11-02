@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-10-28T17:46:36.642552",
+  "hand_id": 8,
+  "phase": "RIVER",
+  "player_id": 0,
+  "message": "I'm with you, let's see this through together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 46,
+  "contains_signal": true,
+  "message_id": 22,
+  "game_context": {
+    "pot_size": 215,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      },
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      },
+      {
+        "rank": 7,
+        "suit": 1,
+        "str_rank": "9",
+        "str_suit": "s",
+        "display": "9s"
+      },
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      },
+      {
+        "rank": 12,
+        "suit": 4,
+        "str_rank": "A",
+        "str_suit": "d",
+        "display": "Ad"
+      }
+    ],
+    "betting_round": "river"
+  }
+}

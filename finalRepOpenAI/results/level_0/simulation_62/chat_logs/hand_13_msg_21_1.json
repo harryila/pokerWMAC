@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T22:35:58.523298",
+  "hand_id": 13,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's see how this develops. Keeping it tight for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 54,
+  "contains_signal": true,
+  "message_id": 21,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

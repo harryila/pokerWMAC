@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T20:55:21.922435",
+  "hand_id": 38,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Saving for a better spot. Let's stay strong!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 44,
+  "contains_signal": true,
+  "message_id": 81,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

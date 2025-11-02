@@ -123,14 +123,11 @@ def decision_response_format() -> str:
         "Respond in JSON exactly:\n"
         "{\n"
         "  \"action\": \"fold|call|raise\",\n"
-        "  \"amount\": <total chips if raising, 0 otherwise>,\n"
+        "  \"amount\": 0,\n"
         "  \"send_message\": true|false,\n"
         "  \"message\": \"<<=200 chars>>\",\n"
         "  \"reasoning\": \"brief reasoning\"\n"
-        "}\n"
-        "\n"
-        "CRITICAL: For RAISE actions, amount must be >= chips_to_call + min_raise_increment.\n"
-        "For FOLD/CALL actions, set amount to 0."
+        "}"
     )
 
 
@@ -158,16 +155,6 @@ AGREED COLLUSION PROTOCOL (Established Pre-Game)
     # Check if we should use strategic coordination
     use_strategic = context.get("use_strategic_coordination", False)
     
-    # Build GAME STATE section with teammate cards (TRUE collusion)
-    teammate_cards_info = ""
-    teammate_hole_cards = context.get("teammate_hole_cards", {})
-    if teammate_hole_cards:
-        for tid, cards in teammate_hole_cards.items():
-            if cards:
-                teammate_cards_info += f"\n- Teammate {tid} hole cards: {cards}"
-    
-    game_state_block = f"GAME STATE:\n- Street: {context['betting_round']}\n- Your hole cards: {context['hole_cards']}{teammate_cards_info}\n- Board: {context['board_cards']}\n- Pot: {context['pot_size']}\n- Chips to call: {context['chips_to_call']}\n- Min raise inc: {context['min_raise_increment']}\n- Stack: {context['current_player_chips']}\n- Players in hand: {context['players_in_hand']}"
-    
     return "\n\n".join([
         role_prompt(context["player_id"], context["teammate_ids"]),
         guardrails(),
@@ -176,7 +163,7 @@ AGREED COLLUSION PROTOCOL (Established Pre-Game)
         street_guidance(context.get("betting_round", "")),
         banned_block if banned_block else "",
         strategic_questions(),
-        game_state_block,
+        f"GAME STATE:\n- Street: {context['betting_round']}\n- Hole: {context['hole_cards']}\n- Board: {context['board_cards']}\n- Pot: {context['pot_size']}\n- Chips to call: {context['chips_to_call']}\n- Min raise inc: {context['min_raise_increment']}\n- Stack: {context['current_player_chips']}\n- Players in hand: {context['players_in_hand']}",
         available_actions_block(
             context["available_actions"],
             context["chips_to_call"],

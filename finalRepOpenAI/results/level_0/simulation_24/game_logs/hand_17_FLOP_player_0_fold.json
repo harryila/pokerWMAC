@@ -1,0 +1,179 @@
+{
+  "timestamp": "2025-10-28T17:52:24.370607",
+  "hand_id": 17,
+  "phase": "FLOP",
+  "player_id": 0,
+  "action_type": "FOLD",
+  "amount": null,
+  "reason": "Calling allows us to maintain the pot size and gather more information while supporting our team's strategy.",
+  "action_number": 100,
+  "game_state": {
+    "hand_id": 17,
+    "current_player": 0,
+    "phase": "flop",
+    "pot_amount": 20,
+    "chips_to_call": 0,
+    "min_raise": 5,
+    "community_cards": [
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      }
+    ],
+    "players": {
+      "0": {
+        "chips": 495,
+        "state": "IN",
+        "position": "CO",
+        "hand_cards": [
+          {
+            "rank": 0,
+            "suit": 2,
+            "str_rank": "2",
+            "str_suit": "h",
+            "display": "2h"
+          },
+          {
+            "rank": 3,
+            "suit": 8,
+            "str_rank": "5",
+            "str_suit": "c",
+            "display": "5c"
+          }
+        ],
+        "is_current_player": true,
+        "is_button": false,
+        "is_small_blind": true,
+        "is_big_blind": false
+      },
+      "1": {
+        "chips": 495,
+        "state": "OUT",
+        "position": "SB",
+        "hand_cards": [
+          {
+            "rank": 6,
+            "suit": 2,
+            "str_rank": "8",
+            "str_suit": "h",
+            "display": "8h"
+          },
+          {
+            "rank": 7,
+            "suit": 8,
+            "str_rank": "9",
+            "str_suit": "c",
+            "display": "9c"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": true
+      },
+      "2": {
+        "chips": 495,
+        "state": "IN",
+        "position": "BB",
+        "hand_cards": [
+          {
+            "rank": 8,
+            "suit": 1,
+            "str_rank": "T",
+            "str_suit": "s",
+            "display": "Ts"
+          },
+          {
+            "rank": 6,
+            "suit": 4,
+            "str_rank": "8",
+            "str_suit": "d",
+            "display": "8d"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "3": {
+        "chips": 495,
+        "state": "IN",
+        "position": "UTG",
+        "hand_cards": [
+          {
+            "rank": 8,
+            "suit": 2,
+            "str_rank": "T",
+            "str_suit": "h",
+            "display": "Th"
+          },
+          {
+            "rank": 4,
+            "suit": 1,
+            "str_rank": "6",
+            "str_suit": "s",
+            "display": "6s"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": true,
+        "is_small_blind": false,
+        "is_big_blind": false
+      }
+    },
+    "betting_history": [
+      {
+        "phase": "preflop",
+        "actions": [
+          {
+            "player_id": 2,
+            "action_type": "CALL",
+            "amount": 0,
+            "position": "BB"
+          },
+          {
+            "player_id": 3,
+            "action_type": "CALL",
+            "amount": 0,
+            "position": "UTG"
+          },
+          {
+            "player_id": 0,
+            "action_type": "CALL",
+            "amount": 0,
+            "position": "CO"
+          },
+          {
+            "player_id": 1,
+            "action_type": "FOLD",
+            "amount": null,
+            "position": "SB"
+          }
+        ]
+      }
+    ],
+    "button_position": 3,
+    "small_blind_position": 0,
+    "big_blind_position": 1,
+    "num_players": 4,
+    "num_active_players": 3
+  }
+}

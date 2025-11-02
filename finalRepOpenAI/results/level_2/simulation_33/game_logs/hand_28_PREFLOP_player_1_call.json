@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-10-28T18:10:29.307031",
+  "hand_id": 28,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "action_type": "CALL",
+  "amount": 0,
+  "reason": "With a medium hand strength, it's best to support my teammate by calling and staying in the pot.",
+  "action_number": 136,
+  "game_state": {
+    "hand_id": 28,
+    "current_player": 1,
+    "phase": "preflop",
+    "pot_amount": 7,
+    "chips_to_call": 5,
+    "min_raise": 5,
+    "community_cards": [],
+    "players": {
+      "0": {
+        "chips": 571,
+        "state": "IN",
+        "position": "UTG",
+        "hand_cards": [
+          {
+            "rank": 2,
+            "suit": 4,
+            "str_rank": "4",
+            "str_suit": "d",
+            "display": "4d"
+          },
+          {
+            "rank": 7,
+            "suit": 4,
+            "str_rank": "9",
+            "str_suit": "d",
+            "display": "9d"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": true
+      },
+      "1": {
+        "chips": 486,
+        "state": "TO_CALL",
+        "position": "CO",
+        "hand_cards": [
+          {
+            "rank": 5,
+            "suit": 1,
+            "str_rank": "7",
+            "str_suit": "s",
+            "display": "7s"
+          },
+          {
+            "rank": 9,
+            "suit": 8,
+            "str_rank": "J",
+            "str_suit": "c",
+            "display": "Jc"
+          }
+        ],
+        "is_current_player": true,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "2": {
+        "chips": 500,
+        "state": "TO_CALL",
+        "position": "SB",
+        "hand_cards": [
+          {
+            "rank": 7,
+            "suit": 2,
+            "str_rank": "9",
+            "str_suit": "h",
+            "display": "9h"
+          },
+          {
+            "rank": 3,
+            "suit": 1,
+            "str_rank": "5",
+            "str_suit": "s",
+            "display": "5s"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": true,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "3": {
+        "chips": 436,
+        "state": "TO_CALL",
+        "position": "BB",
+        "hand_cards": [
+          {
+            "rank": 1,
+            "suit": 2,
+            "str_rank": "3",
+            "str_suit": "h",
+            "display": "3h"
+          },
+          {
+            "rank": 7,
+            "suit": 1,
+            "str_rank": "9",
+            "str_suit": "s",
+            "display": "9s"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": true,
+        "is_big_blind": false
+      }
+    },
+    "betting_history": [],
+    "button_position": 2,
+    "small_blind_position": 3,
+    "big_blind_position": 0,
+    "num_players": 4,
+    "num_active_players": 4
+  }
+}

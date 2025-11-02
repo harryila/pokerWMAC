@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T23:32:03.583548",
+  "hand_id": 35,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let\u2019s see how the next card hits. I feel good about this. Keep an eye on the others.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 84,
+  "contains_signal": false,
+  "message_id": 72,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

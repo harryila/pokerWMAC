@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T17:13:29.254989",
+  "hand_id": 26,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's see how the next cards play out. I have a feeling the table might tighten up soon.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 88,
+  "contains_signal": true,
+  "message_id": 48,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

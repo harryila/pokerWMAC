@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-28T17:13:27.546209",
+  "hand_id": 25,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Looks good so far! Let's see how the others react. I'm optimistic about our hand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 81,
+  "contains_signal": true,
+  "message_id": 47,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 1,
+        "str_rank": "8",
+        "str_suit": "s",
+        "display": "8s"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

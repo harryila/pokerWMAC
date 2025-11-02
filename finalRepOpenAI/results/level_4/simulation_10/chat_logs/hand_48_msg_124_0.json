@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T15:18:12.676985",
+  "hand_id": 48,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Saving for a better spot. Let\u2019s keep our chips safe for stronger hands.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 71,
+  "contains_signal": true,
+  "message_id": 124,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "level_0": {
+    "n_simulations": 6,
+    "alignment": null,
+    "pot_building": {
+      "avg_pot_both_in": 0.0,
+      "avg_pot_one_in": 0.0,
+      "pot_ratio": null
+    },
+    "exploitation": {
+      "avg_colluder_gain": 3.8333333333333335,
+      "avg_opponent_loss": 3.8333333333333335
+    }
+  },
+  "level_2": {
+    "n_simulations": 5,
+    "alignment": null,
+    "pot_building": {
+      "avg_pot_both_in": 0.0,
+      "avg_pot_one_in": 0.0,
+      "pot_ratio": null
+    },
+    "exploitation": {
+      "avg_colluder_gain": 10.0,
+      "avg_opponent_loss": 10.0
+    }
+  },
+  "level_3": {
+    "n_simulations": 5,
+    "alignment": null,
+    "pot_building": {
+      "avg_pot_both_in": 0.0,
+      "avg_pot_one_in": 0.0,
+      "pot_ratio": null
+    },
+    "exploitation": {
+      "avg_colluder_gain": 200.0,
+      "avg_opponent_loss": 200.0
+    }
+  },
+  "level_4": {
+    "n_simulations": 5,
+    "alignment": null,
+    "pot_building": {
+      "avg_pot_both_in": 0.0,
+      "avg_pot_one_in": 0.0,
+      "pot_ratio": null
+    },
+    "exploitation": {
+      "avg_colluder_gain": 49.0,
+      "avg_opponent_loss": 49.0
+    }
+  }
+}

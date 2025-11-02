@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T17:43:00.828098",
+  "hand_id": 21,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the next card comes. No need to rush into any big bets just yet.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 78,
+  "contains_signal": true,
+  "message_id": 44,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      },
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

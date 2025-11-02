@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T17:33:22.192035",
+  "hand_id": 25,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Hey, I'm in. Let\u2019s see how it plays out. If you feel strong, let\u2019s build the pot together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 90,
+  "contains_signal": true,
+  "message_id": 52,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-28T23:28:46.941056",
+  "hand_id": 20,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I like the idea of building the pot. Let's see what develops and keep an eye on the board!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 90,
+  "contains_signal": true,
+  "message_id": 41,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

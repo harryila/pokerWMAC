@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T15:30:31.824440",
+  "hand_id": 8,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the next card plays out. I think we can build on this momentum.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 77,
+  "contains_signal": true,
+  "message_id": 17,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      },
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-28T20:22:01.664156",
+  "hand_id": 56,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's see how the board develops. I think we're in a good spot to evaluate our options further.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 95,
+  "contains_signal": true,
+  "message_id": 79,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      },
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      },
+      {
+        "rank": 4,
+        "suit": 4,
+        "str_rank": "6",
+        "str_suit": "d",
+        "display": "6d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

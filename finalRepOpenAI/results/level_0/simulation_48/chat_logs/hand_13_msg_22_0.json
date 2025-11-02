@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-28T20:34:46.305606",
+  "hand_id": 13,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's see how they respond before we make any big moves. I think it's a good time to feel them out.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 99,
+  "contains_signal": true,
+  "message_id": 22,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

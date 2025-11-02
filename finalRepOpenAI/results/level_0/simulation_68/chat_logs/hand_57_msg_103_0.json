@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-29T00:03:04.586756",
+  "hand_id": 57,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I see a good opportunity here. Let's keep the pot growing and see how it develops.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 82,
+  "contains_signal": true,
+  "message_id": 103,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

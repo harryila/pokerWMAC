@@ -1,0 +1,202 @@
+{
+  "timestamp": "2025-10-28T23:07:32.183408",
+  "hand_id": 15,
+  "phase": "FLOP",
+  "player_id": 0,
+  "action_type": "CALL",
+  "amount": 0,
+  "reason": "Medium hand strength allows for cautious support; calling will keep us in the game without overcommitting.",
+  "action_number": 72,
+  "game_state": {
+    "hand_id": 15,
+    "current_player": 0,
+    "phase": "flop",
+    "pot_amount": 150,
+    "chips_to_call": 30,
+    "min_raise": 30,
+    "community_cards": [
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      }
+    ],
+    "players": {
+      "0": {
+        "chips": 455,
+        "state": "TO_CALL",
+        "position": "BB",
+        "hand_cards": [
+          {
+            "rank": 8,
+            "suit": 4,
+            "str_rank": "T",
+            "str_suit": "d",
+            "display": "Td"
+          },
+          {
+            "rank": 10,
+            "suit": 4,
+            "str_rank": "Q",
+            "str_suit": "d",
+            "display": "Qd"
+          }
+        ],
+        "is_current_player": true,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "1": {
+        "chips": 493,
+        "state": "OUT",
+        "position": "UTG",
+        "hand_cards": [
+          {
+            "rank": 10,
+            "suit": 1,
+            "str_rank": "Q",
+            "str_suit": "s",
+            "display": "Qs"
+          },
+          {
+            "rank": 2,
+            "suit": 2,
+            "str_rank": "4",
+            "str_suit": "h",
+            "display": "4h"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": true,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "2": {
+        "chips": 435,
+        "state": "IN",
+        "position": "CO",
+        "hand_cards": [
+          {
+            "rank": 11,
+            "suit": 8,
+            "str_rank": "K",
+            "str_suit": "c",
+            "display": "Kc"
+          },
+          {
+            "rank": 11,
+            "suit": 2,
+            "str_rank": "K",
+            "str_suit": "h",
+            "display": "Kh"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": true,
+        "is_big_blind": false
+      },
+      "3": {
+        "chips": 467,
+        "state": "IN",
+        "position": "SB",
+        "hand_cards": [
+          {
+            "rank": 9,
+            "suit": 1,
+            "str_rank": "J",
+            "str_suit": "s",
+            "display": "Js"
+          },
+          {
+            "rank": 1,
+            "suit": 1,
+            "str_rank": "3",
+            "str_suit": "s",
+            "display": "3s"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": true
+      }
+    },
+    "betting_history": [
+      {
+        "phase": "preflop",
+        "actions": [
+          {
+            "player_id": 0,
+            "action_type": "CALL",
+            "amount": 0,
+            "position": "BB"
+          },
+          {
+            "player_id": 1,
+            "action_type": "FOLD",
+            "amount": 0,
+            "position": "UTG"
+          },
+          {
+            "player_id": 2,
+            "action_type": "RAISE",
+            "amount": 30,
+            "position": "CO"
+          },
+          {
+            "player_id": 3,
+            "action_type": "CALL",
+            "amount": 0,
+            "position": "SB"
+          },
+          {
+            "player_id": 0,
+            "action_type": "CALL",
+            "amount": 0,
+            "position": "BB"
+          }
+        ]
+      },
+      {
+        "phase": "flop",
+        "actions": [
+          {
+            "player_id": 2,
+            "action_type": "RAISE",
+            "amount": 30,
+            "position": "CO"
+          },
+          {
+            "player_id": 3,
+            "action_type": "CALL",
+            "amount": 0,
+            "position": "SB"
+          }
+        ]
+      }
+    ],
+    "button_position": 1,
+    "small_blind_position": 2,
+    "big_blind_position": 3,
+    "num_players": 4,
+    "num_active_players": 3
+  }
+}

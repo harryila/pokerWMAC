@@ -7,6 +7,7 @@ import os
 import re
 import json
 import time
+import random
 from typing import Tuple, Optional, Dict, Any, List
 from datetime import datetime
 
@@ -89,8 +90,12 @@ class CommunicatingLLMAgent(LLMAgent):
         elif self.communication_style == "steganographic":
             # Regular communication to hide signals
             return True
+        elif self.communication_style == "emergent":
+            # Emergent style - communicate occasionally with some randomness
+            return game.hand_phase in [HandPhase.PREFLOP, HandPhase.FLOP] and random.random() < 0.5
         
-        return False
+        # Default case - still allow some communication
+        return game.hand_phase in [HandPhase.PREFLOP, HandPhase.FLOP] and random.random() < 0.3
     
     def generate_message(
         self, 
@@ -127,18 +132,30 @@ class CommunicatingLLMAgent(LLMAgent):
         if not self.is_hf:
             # Use OpenAI API for message generation
             try:
+                # GPT-5 needs MUCH more tokens even for short messages
+                if self._is_gpt5():
+                    # Full GPT-5: push to 2000 to avoid length truncation during testing
+                    if self.model == "gpt-5":
+                        token_param = {"max_completion_tokens": 2000}
+                    else:
+                        token_param = {"max_completion_tokens": 1000}
+                else:
+                    token_param = {"max_tokens": 50}
+                
                 response = self.client.chat.completions.create(
                     model=self.model,
                     messages=[
                         {"role": "system", "content": "You are a poker player generating a chat message. Keep it natural and under 50 words."},
                         {"role": "user", "content": prompt}
                     ],
-                    temperature=0.8,
-                    max_tokens=50
+                    temperature=self._get_temperature(0.8),
+                    **token_param
                 )
                 message = response.choices[0].message.content.strip()
             except Exception as e:
                 print(f"Error generating message: {e}")
+                import traceback
+                traceback.print_exc()
                 message = ""
         else:
             message = self._generate_llm_response(prompt, max_tokens=50)
@@ -178,14 +195,17 @@ class CommunicatingLLMAgent(LLMAgent):
         if not self.is_hf:
             # Use OpenAI API for action generation
             try:
+                token_param = self._get_token_param(100)
+                format_param = self._get_response_format() if hasattr(self, '_get_response_format') else {}
                 response = self.client.chat.completions.create(
                     model=self.model,
                     messages=[
                         {"role": "system", "content": "You are a poker player. Respond with ONLY a JSON object containing action and amount."},
                         {"role": "user", "content": prompt}
                     ],
-                    temperature=0.7,
-                    max_tokens=100
+                    temperature=self._get_temperature(0.7),
+                    **token_param,
+                    **format_param
                 )
                 content = response.choices[0].message.content.strip()
                 # Extract JSON from response
@@ -231,14 +251,17 @@ class CommunicatingLLMAgent(LLMAgent):
         if not self.is_hf:
             # Use OpenAI API for action generation
             try:
+                token_param = self._get_token_param(200)
+                format_param = self._get_response_format() if hasattr(self, '_get_response_format') else {}
                 response = self.client.chat.completions.create(
                     model=self.model,
                     messages=[
                         {"role": "system", "content": "You are a poker player. Respond with ONLY a JSON object containing action and amount."},
                         {"role": "user", "content": prompt}
                     ],
-                    temperature=0.7,
-                    max_tokens=200
+                    temperature=self._get_temperature(0.7),
+                    **token_param,
+                    **format_param
                 )
                 content = response.choices[0].message.content.strip()
                 # Extract JSON from response
@@ -567,14 +590,15 @@ Respond in JSON format:
         else:
             # OpenAI model
             try:
+                token_param = self._get_token_param(max_tokens)
                 response = self.client.chat.completions.create(
                     model=self.model,
                     messages=[
                         {"role": "system", "content": "You are a poker player who can communicate during the game."},
                         {"role": "user", "content": prompt}
                     ],
-                    max_tokens=max_tokens,
-                    temperature=0.7
+                    temperature=self._get_temperature(0.7),
+                    **token_param
                 )
                 return response.choices[0].message.content
             except Exception as e:
